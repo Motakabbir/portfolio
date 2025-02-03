@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="400" viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1440" height="400" fill="url(#paint0_linear)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1">
+    <path d="M0 40h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 80h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 120h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 160h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 200h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 240h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 280h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 320h1440" stroke="white" stroke-width="0.5"/>
+    <path d="M0 360h1440" stroke="white" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Hexagon pattern -->
+  <g opacity="0.15">
+    <path d="M100 200l60 -35v-70l-60 -35 -60 35v70z" stroke="white" stroke-width="1"/>
+    <path d="M400 200l60 -35v-70l-60 -35 -60 35v70z" stroke="white" stroke-width="1"/>
+    <path d="M700 200l60 -35v-70l-60 -35 -60 35v70z" stroke="white" stroke-width="1"/>
+    <path d="M1000 200l60 -35v-70l-60 -35 -60 35v70z" stroke="white" stroke-width="1"/>
+    <path d="M1300 200l60 -35v-70l-60 -35 -60 35v70z" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Animated dots -->
+  <g opacity="0.2">
+    <circle cx="200" cy="100" r="4" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="300" r="4" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="150" r="4" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1400" cy="250" r="4" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Wave pattern -->
+  <path d="M0 350q360 -50 720 0q360 50 720 0" stroke="white" stroke-width="1" opacity="0.1">
+    <animate attributeName="d" 
+             dur="10s" 
+             repeatCount="indefinite"
+             values="
+               M0 350q360 -50 720 0q360 50 720 0;
+               M0 350q360 50 720 0q360 -50 720 0;
+               M0 350q360 -50 720 0q360 50 720 0
+             "/>
+  </path>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1440" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

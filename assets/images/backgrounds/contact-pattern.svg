@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="800" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Grid Pattern -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
+    
+    <!-- Gradient Background -->
+    <rect width="1440" height="800" fill="url(#gradient)"/>
+    <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1440" y2="800" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#4f46e5"/>
+            <stop offset="100%" stop-color="#7c3aed"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Decorative Elements -->
+    <circle cx="400" cy="400" r="160" fill="rgba(255,255,255,0.1)"/>
+    <circle cx="1000" cy="400" r="200" fill="rgba(255,255,255,0.1)"/>
+    
+    <!-- Floating Shapes -->
+    <g transform="rotate(-30 700 400)">
+        <rect x="400" y="100" width="160" height="160" rx="20" fill="rgba(255,255,255,0.05)"/>
+        <rect x="450" y="150" width="60" height="60" rx="10" fill="rgba(255,255,255,0.08)"/>
+    </g>
+</svg>

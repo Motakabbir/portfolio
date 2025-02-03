@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="400" viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1440" height="400" fill="url(#paint0_linear)"/>
+  
+  <!-- Abstract shapes -->
+  <g opacity="0.1">
+    <!-- Article shapes -->
+    <rect x="100" y="50" width="200" height="20" rx="4" fill="white"/>
+    <rect x="100" y="80" width="150" height="20" rx="4" fill="white"/>
+    <rect x="400" y="150" width="180" height="20" rx="4" fill="white"/>
+    <rect x="400" y="180" width="140" height="20" rx="4" fill="white"/>
+    <rect x="700" y="250" width="160" height="20" rx="4" fill="white"/>
+    <rect x="700" y="280" width="120" height="20" rx="4" fill="white"/>
+    <rect x="1000" y="100" width="190" height="20" rx="4" fill="white"/>
+    <rect x="1000" y="130" width="140" height="20" rx="4" fill="white"/>
+  </g>
+  
+  <!-- Connecting lines -->
+  <g opacity="0.1" stroke="white" stroke-width="1">
+    <path d="M0 100 Q 720 150, 1440 100" stroke-dasharray="4 4">
+      <animate attributeName="d" 
+               dur="20s" 
+               repeatCount="indefinite"
+               values="
+                 M0 100 Q 720 150, 1440 100;
+                 M0 100 Q 720 50, 1440 100;
+                 M0 100 Q 720 150, 1440 100
+               "/>
+    </path>
+    <path d="M0 200 Q 720 250, 1440 200" stroke-dasharray="4 4">
+      <animate attributeName="d" 
+               dur="15s" 
+               repeatCount="indefinite"
+               values="
+                 M0 200 Q 720 250, 1440 200;
+                 M0 200 Q 720 150, 1440 200;
+                 M0 200 Q 720 250, 1440 200
+               "/>
+    </path>
+    <path d="M0 300 Q 720 350, 1440 300" stroke-dasharray="4 4">
+      <animate attributeName="d" 
+               dur="25s" 
+               repeatCount="indefinite"
+               values="
+                 M0 300 Q 720 350, 1440 300;
+                 M0 300 Q 720 250, 1440 300;
+                 M0 300 Q 720 350, 1440 300
+               "/>
+    </path>
+  </g>
+  
+  <!-- Floating dots -->
+  <g opacity="0.2">
+    <circle cx="200" cy="150" r="3" fill="white">
+      <animate attributeName="cy" dur="4s" values="150;130;150" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="250" r="3" fill="white">
+      <animate attributeName="cy" dur="6s" values="250;270;250" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="200" r="3" fill="white">
+      <animate attributeName="cy" dur="5s" values="200;180;200" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1300" cy="100" r="3" fill="white">
+      <animate attributeName="cy" dur="7s" values="100;120;100" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1440" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

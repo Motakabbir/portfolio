@@ -1,0 +1,878 @@
+{
+  "personal": {
+    "name": "Md. Motakabbir Morshed",
+    "title": "Senior Software Engineer",
+    "bio": "Senior Software Engineer with 9.5 years of experience in PHP and Vue.js. Expert in developing solutions for e-governance, university automation, e-commerce, and ISP ERP. Proven ability to design, implement, and optimize scalable software while leading cross-functional teams and mentoring junior developers.",
+    "image": "/images/profile.jpg",
+    "location": "Dhaka, Bangladesh",
+    "address": "40/2 Sultanjong, Hasemkhan Road, Rayer Bazar, Hazaribagh, Dhaka",
+    "phone": [
+      "+880 1771882876",
+      "+880 1971882876",
+      "+880 1956602631"
+    ],
+    "social": {
+      "linkedin": "https://linkedin.com/in/motakabbir-morshed",
+      "github": "https://github.com/Motakabbir",
+      "email": ["dolardx@gmail.com", "dolar_0016@yahoo.com"],
+      "behance": "https://behance.net/dolar_0016533f",
+      "discord": "https://discord.gg/dolar0016",
+      "facebook": "https://facebook.com/morshed.dolar",
+      "instagram": "https://instagram.com/dolarmotakabbir",
+      "medium": "https://medium.com/@dolardx",
+      "pinterest": "https://pinterest.com/dolardx",
+      "quora": "https://quora.com/profile/Motakabbir-Morshed",
+      "reddit": "https://reddit.com/user/Purple_Diamond_2269",
+      "stackoverflow": "https://stackoverflow.com/users/motakabbir-morshed-dolar",
+      "twitter": "https://x.com/Motakabbir16279",
+      "youtube": "https://youtube.com/@morshed0",
+      "codepen": "https://codepen.io/Motakabbir-Morshed",
+      "upwork": "https://www.upwork.com/freelancers/~YOUR_UPWORK_ID",
+      "fiverr": "https://www.fiverr.com/YOUR_FIVERR_USERNAME"
+    },
+    "dateOfBirth": "1990-09-30",
+    "nationality": "Bangladeshi",
+    "languages": [
+      {
+        "name": "Bengali",
+        "proficiency": {
+          "reading": "High",
+          "writing": "High",
+          "speaking": "High"
+        }
+      },
+      {
+        "name": "English",
+        "proficiency": {
+          "reading": "High",
+          "writing": "Medium",
+          "speaking": "Medium"
+        }
+      }
+    ]
+  },
+  "backgrounds": {
+    "hero": {
+      "image": "/images/backgrounds/ai-neural.jpg",
+      "alt": "Neural network visualization with blue glowing connections"
+    },
+    "about": {
+      "image": "/images/backgrounds/code-abstract.jpg",
+      "alt": "Abstract code visualization with modern tech elements"
+    },
+    "services": {
+      "image": "/images/backgrounds/tech-circuit.jpg",
+      "alt": "Digital circuit board pattern with glowing connections"
+    },
+    "blog": {
+      "image": "/images/backgrounds/ai-robotics.jpg",
+      "alt": "Modern AI and robotics concept visualization"
+    },
+    "contact": {
+      "image": "/images/backgrounds/data-flow.jpg",
+      "alt": "Digital data flow visualization"
+    }
+  },
+  "banner": {
+    "greeting": "Hello, I'm",
+    "name": "MD Motakabbir Morshed",
+    "title": "Senior Software Engineer",
+    "description": "Passionate about crafting scalable web applications with 9.5 years of experience in PHP, Laravel, and Vue.js",
+    "buttons": [
+      {
+        "text": "View Projects",
+        "link": "/projects",
+        "primary": true
+      },
+      {
+        "text": "Download CV",
+        "link": "/files/cv.pdf",
+        "primary": false
+      }
+    ],
+    "backgroundImage": "/images/backgrounds/ai-tech.jpg",
+    "backgroundOverlay": "from-blue-900/95 to-indigo-900/90",
+    "particles": {
+      "color": "#4F46E5",
+      "lineColor": "#818CF8",
+      "density": 50
+    },
+    "profileImage": "/images/profile.jpg"
+  },
+  "contact": {
+    "email": {
+      "primary": "motakabbir.morshed@gmail.com",
+      "secondary": "motakabbir.morshed@yahoo.com"
+    },
+    "phone": {
+      "primary": "+880 1712-345678",
+      "secondary": "+880 1812-345678"
+    },
+    "address": {
+      "street": "Thengamara",
+      "area": "Gokul",
+      "city": "Bogura",
+      "country": "Bangladesh",
+      "postalCode": "5800"
+    },
+    "socialMedia": {
+      "github": "https://github.com/Motakabbir",
+      "linkedin": "https://www.linkedin.com/in/motakabbir-morshed/",
+      "twitter": "https://twitter.com/motakabbir",
+      "facebook": "https://facebook.com/motakabbir.morshed",
+      "instagram": "https://instagram.com/motakabbir.morshed"
+    },
+    "availability": {
+      "status": "Available for freelance",
+      "workHours": "Sun-Thu, 9:00 AM - 6:00 PM (GMT+6)",
+      "response": "Usually responds within 24 hours"
+    },
+    "preferredContact": [
+      {
+        "method": "Email",
+        "value": "motakabbir.morshed@gmail.com",
+        "icon": "📧"
+      },
+      {
+        "method": "LinkedIn",
+        "value": "linkedin.com/in/motakabbir-morshed",
+        "icon": "💼"
+      },
+      {
+        "method": "WhatsApp",
+        "value": "+880 1712-345678",
+        "icon": "📱"
+      }
+    ]
+  },
+  "techStack": {
+    "languages": [
+      { "name": "C#", "badge": "https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=csharp&logoColor=white" },
+      { "name": "CSS3", "badge": "https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white" },
+      { "name": "HTML5", "badge": "https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white" },
+      { "name": "JavaScript", "badge": "https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E" },
+      { "name": "TypeScript", "badge": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" },
+      { "name": "PHP", "badge": "https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white" },
+      { "name": "Python", "badge": "https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" },
+      { "name": "Java", "badge": "https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" },
+      { "name": "Kotlin", "badge": "https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white" }
+    ],
+    "frameworks": [
+      { "name": "Laravel", "badge": "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white" },
+      { "name": "Vue.js", "badge": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" },
+      { "name": "Nuxt.js", "badge": "https://img.shields.io/badge/Nuxt-002E3B?style=flat-square&logo=nuxt.js&logoColor=#00DC82" },
+      { "name": "React", "badge": "https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" },
+      { "name": "Next.js", "badge": "https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white" },
+      { "name": "Angular", "badge": "https://img.shields.io/badge/angular-%23DD0031.svg?style=flat-square&logo=angular&logoColor=white" },
+      { "name": "Node.js", "badge": "https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" },
+      { "name": "Express.js", "badge": "https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB" },
+      { "name": "NestJS", "badge": "https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white" },
+      { "name": ".NET", "badge": "https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white" },
+      { "name": "Django", "badge": "https://img.shields.io/badge/django-%23092E20.svg?style=flat-square&logo=django&logoColor=white" },
+      { "name": "Flask", "badge": "https://img.shields.io/badge/flask-%23000.svg?style=flat-square&logo=flask&logoColor=white" },
+      { "name": "Symfony", "badge": "https://img.shields.io/badge/symfony-%23000000.svg?style=flat-square&logo=symfony&logoColor=white" }
+    ],
+    "databases": [
+      { "name": "MySQL", "badge": "https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white" },
+      { "name": "PostgreSQL", "badge": "https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white" },
+      { "name": "MongoDB", "badge": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white" },
+      { "name": "Redis", "badge": "https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white" },
+      { "name": "MariaDB", "badge": "https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" },
+      { "name": "SQLite", "badge": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white" }
+    ],
+    "cloud": [
+      { "name": "AWS", "badge": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white" },
+      { "name": "Azure", "badge": "https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white" },
+      { "name": "Google Cloud", "badge": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white" },
+      { "name": "Cloudflare", "badge": "https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white" }
+    ],
+    "devops": [
+      { "name": "Docker", "badge": "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white" },
+      { "name": "Kubernetes", "badge": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white" },
+      { "name": "Jenkins", "badge": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white" },
+      { "name": "GitHub Actions", "badge": "https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white" },
+      { "name": "GitLab CI", "badge": "https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white" }
+    ],
+    "tools": [
+      { "name": "Git", "badge": "https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" },
+      { "name": "GitHub", "badge": "https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white" },
+      { "name": "GitLab", "badge": "https://img.shields.io/badge/gitlab-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white" },
+      { "name": "Jira", "badge": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white" },
+      { "name": "Postman", "badge": "https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" },
+      { "name": "Swagger", "badge": "https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white" }
+    ],
+    "design": [
+      { "name": "Adobe Photoshop", "badge": "https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white" },
+      { "name": "Adobe Illustrator", "badge": "https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat-square&logo=adobe%20illustrator&logoColor=white" },
+      { "name": "Adobe XD", "badge": "https://img.shields.io/badge/Adobe%20XD-470137?style=flat-square&logo=Adobe%20XD&logoColor=#FF61F6" },
+      { "name": "Figma", "badge": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white" },
+      { "name": "Sketch", "badge": "https://img.shields.io/badge/Sketch-FFB387?style=flat-square&logo=sketch&logoColor=black" }
+    ]
+  },
+  "blogCategories": [
+    {
+      "name": "Artificial Intelligence",
+      "slug": "ai",
+      "color": "bg-indigo-500",
+      "icon": "🤖",
+      "background": "/images/blog/categories/ai-bg.jpg"
+    },
+    {
+      "name": "Web Development",
+      "slug": "web-dev",
+      "color": "bg-blue-500",
+      "icon": "🌐",
+      "background": "/images/blog/categories/webdev-bg.jpg"
+    },
+    {
+      "name": "Cloud Computing",
+      "slug": "cloud",
+      "color": "bg-sky-500",
+      "icon": "☁️",
+      "background": "/images/blog/categories/cloud-bg.jpg"
+    },
+    {
+      "name": "DevOps",
+      "slug": "devops",
+      "color": "bg-green-500",
+      "icon": "🔄",
+      "background": "/images/blog/categories/devops-bg.jpg"
+    },
+    {
+      "name": "Cybersecurity",
+      "slug": "security",
+      "color": "bg-red-500",
+      "icon": "🔒",
+      "background": "/images/blog/categories/security-bg.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Application Development",
+      "icon": "🚀",
+      "description": "Building scalable and modern web applications using Laravel, Vue.js, and other cutting-edge technologies.",
+      "features": [
+        "Custom web application development",
+        "Single Page Applications (SPA)",
+        "Progressive Web Apps (PWA)",
+        "RESTful API development",
+        "Database design and optimization",
+        "Performance optimization"
+      ],
+      "technologies": ["Laravel", "Vue.js", "MySQL", "Redis", "REST API"]
+    },
+    {
+      "id": "2",
+      "title": "E-commerce Solutions",
+      "icon": "🛍️",
+      "description": "Creating robust e-commerce platforms with secure payment integration, inventory management, and analytics.",
+      "features": [
+        "Custom e-commerce platform development",
+        "Payment gateway integration",
+        "Inventory management system",
+        "Order processing and tracking",
+        "Customer management",
+        "Analytics and reporting"
+      ],
+      "technologies": ["Laravel", "Vue.js", "MySQL", "Stripe", "PayPal"]
+    },
+    {
+      "id": "3",
+      "title": "ERP Development",
+      "icon": "🏢",
+      "description": "Developing comprehensive Enterprise Resource Planning solutions for businesses of all sizes.",
+      "features": [
+        "Custom ERP system development",
+        "Business process automation",
+        "Resource management",
+        "Financial management",
+        "HR management",
+        "Reporting and analytics"
+      ],
+      "technologies": ["Laravel", "Vue.js", "PostgreSQL", "Redis", "Docker"]
+    },
+    {
+      "id": "4",
+      "title": "API Development & Integration",
+      "icon": "🔌",
+      "description": "Building and integrating APIs to connect different systems and services seamlessly.",
+      "features": [
+        "RESTful API development",
+        "Third-party API integration",
+        "API documentation",
+        "Authentication & authorization",
+        "Rate limiting and caching",
+        "API versioning"
+      ],
+      "technologies": ["Laravel", "Node.js", "MongoDB", "Redis", "JWT"]
+    },
+    {
+      "id": "5",
+      "title": "Database Design & Optimization",
+      "icon": "💾",
+      "description": "Creating efficient database structures and optimizing performance for large-scale applications.",
+      "features": [
+        "Database architecture design",
+        "Performance optimization",
+        "Data migration",
+        "Query optimization",
+        "Database security",
+        "Backup and recovery"
+      ],
+      "technologies": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "ElasticSearch"]
+    },
+    {
+      "id": "6",
+      "title": "Technical Consultation",
+      "icon": "💡",
+      "description": "Providing expert technical advice and solutions for your software development needs.",
+      "features": [
+        "Architecture planning",
+        "Technology stack selection",
+        "Code review and optimization",
+        "Performance audit",
+        "Security assessment",
+        "Best practices implementation"
+      ],
+      "technologies": ["System Design", "Code Review", "Performance Optimization", "Security"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend Development",
+      "items": ["PHP", "Laravel", "MySQL", "API Development", "Database Design"]
+    },
+    {
+      "category": "Frontend Development",
+      "items": ["Vue.js", "Nuxt.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["Linux Server", "Mikrotik", "Radius Configuration", "Server Maintenance"]
+    },
+    {
+      "category": "Integration",
+      "items": ["Payment Gateways", "SMS API", "Single Sign-On (SAML)", "Pusher"]
+    },
+    {
+      "category": "Solutions",
+      "items": ["E-governance", "University Automation", "E-commerce", "ISP ERP", "Complaint Management"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Orange Business Development Ltd",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2022-11",
+      "endDate": "Present",
+      "highlights": [
+        "Database design and optimization",
+        "Software development with Laravel and Vue.js",
+        "Linux server configuration and maintenance",
+        "Payment gateway integration (DBBL, SSL, FOSTER, Bkash, Paypal)",
+        "SMS API integration (GP, Robi, Banglalink, SSL, Alphanet)",
+        "Single Sign-On (SAML configuration)",
+        "Pusher integration"
+      ]
+    },
+    {
+      "title": "Lead Developer",
+      "company": "Nextech Limited",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2020-06",
+      "endDate": "2022-10",
+      "highlights": [
+        "Database design and optimization",
+        "Software development with PHP and Laravel",
+        "Project management",
+        "Mikrotik and Radius configuration",
+        "Linux server maintenance",
+        "Payment gateway integration"
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Nextech Limited",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2017-01",
+      "endDate": "2021-05",
+      "highlights": [
+        "Database design and optimization",
+        "Development with PHP and Laravel",
+        "Linux server and Radius configuration",
+        "SMS API and Single Sign-On"
+      ]
+    },
+    {
+      "title": "Web Programmer",
+      "company": "Nextech Limited",
+      "location": "Dhaka, Bangladesh",
+      "startDate": "2015-04",
+      "endDate": "2016-12",
+      "highlights": [
+        "Database optimization and software development",
+        "Payment gateway and SMS API integration"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Electronics and Telecommunication Engineering",
+      "institution": "University of Liberal Arts Bangladesh",
+      "location": "Dhaka, Bangladesh",
+      "graduationYear": "2013",
+      "gpa": "3.41",
+      "scale": "4.00",
+      "achievements": ["Dean's Scholarship Award"]
+    },
+    {
+      "degree": "HSC in Science",
+      "institution": "SOS Hermann Gneiner College",
+      "location": "Bogra, Bangladesh",
+      "graduationYear": "2008",
+      "gpa": "3.6",
+      "scale": "5.00"
+    },
+    {
+      "degree": "SSC in Science",
+      "institution": "SOS Hermann Gneiner College",
+      "location": "Bogra, Bangladesh",
+      "graduationYear": "2006",
+      "gpa": "4.75",
+      "scale": "5.00"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Web App Development - .NET",
+      "issuer": "BITM",
+      "year": "2016"
+    },
+    {
+      "name": "Web Design",
+      "issuer": "Creative IT Institute",
+      "year": "2015"
+    },
+    {
+      "name": "PHP & SQL",
+      "issuer": "Creative IT Institute",
+      "year": "2015"
+    },
+    {
+      "name": "Web Development Certification",
+      "issuer": "Bangladesh Computer Council",
+      "year": "2016-2017"
+    }
+  ],
+  "additionalInfo": {
+    "maritalStatus": "Married",
+    "religion": "Islam",
+    "bloodGroup": "O+",
+    "permanentAddress": "Thengamara, Gokul, Bogura"
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "University Automation System",
+      "slug": "university-automation-system",
+      "description": "Comprehensive university management system with modules for student management, course registration, result processing, and administrative tasks.",
+      "longDescription": "A complete university management solution that streamlines academic and administrative processes. This system helps universities digitize their operations, from student admission to graduation, making administrative tasks more efficient and error-free.",
+      "image": "/images/projects/university.jpg",
+      "gallery": [
+        "/images/projects/university/dashboard.jpg",
+        "/images/projects/university/student-portal.jpg",
+        "/images/projects/university/result-processing.jpg",
+        "/images/projects/university/admin-panel.jpg"
+      ],
+      "technologies": ["Laravel", "Vue.js", "MySQL", "REST API"],
+      "category": "E-governance",
+      "client": "Multiple Universities in Bangladesh",
+      "duration": "18 months",
+      "completionDate": "2024-01",
+      "projectUrl": "https://university-demo.example.com",
+      "highlights": [
+        "Automated student registration and course management",
+        "Integrated payment gateway for fee collection",
+        "Real-time result processing and publication",
+        "Digital certificate generation"
+      ],
+      "challenges": [
+        "Handling large-scale concurrent users during result publication",
+        "Implementing complex grading rules for different departments",
+        "Ensuring data security and privacy",
+        "Integration with legacy systems"
+      ],
+      "solutions": [
+        "Implemented Redis caching for better performance",
+        "Created a flexible rule engine for grading",
+        "Used encryption for sensitive data",
+        "Built custom APIs for legacy system integration"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Smart Healthcare System",
+      "slug": "smart-healthcare-system",
+      "description": "An advanced healthcare management system for hospitals and clinics, featuring patient records, appointment scheduling, and telemedicine support.",
+      "longDescription": "A modern healthcare platform designed to streamline hospital operations and improve patient care. The system enables digital patient records, doctor scheduling, remote consultations, and automated billing for enhanced efficiency.",
+      "image": "/images/projects/healthcare.jpg",
+      "technologies": ["React", "Node.js", "MongoDB", "GraphQL"],
+      "category": "Healthcare",
+      "client": "Multiple Hospitals Worldwide",
+      "duration": "24 months",
+      "completionDate": "2023-10",
+      "projectUrl": "https://healthcare-demo.example.com"
+    },
+    {
+      "id": "3",
+      "title": "E-Commerce Marketplace",
+      "slug": "ecommerce-marketplace",
+      "description": "A scalable online marketplace for businesses and consumers to buy and sell products.",
+      "longDescription": "A full-fledged multi-vendor e-commerce platform with real-time inventory tracking, secure payment integration, and an intuitive shopping experience.",
+      "image": "/images/projects/ecommerce.jpg",
+      "technologies": ["Shopify", "Next.js", "MongoDB", "Stripe API"],
+      "category": "E-Commerce",
+      "client": "Various Retail Businesses",
+      "duration": "12 months",
+      "completionDate": "2023-08",
+      "projectUrl": "https://ecommerce-demo.example.com"
+    },
+    {
+      "id": "4",
+      "title": "AI Chatbot for Customer Support",
+      "slug": "ai-chatbot-customer-support",
+      "description": "An AI-powered chatbot for automating customer inquiries and support requests.",
+      "longDescription": "An advanced AI chatbot that understands natural language queries, provides automated responses, and seamlessly hands over conversations to human agents when needed.",
+      "image": "/images/projects/chatbot.jpg",
+      "technologies": ["Python", "TensorFlow", "Dialogflow", "FastAPI"],
+      "category": "Artificial Intelligence",
+      "client": "Customer Service Departments",
+      "duration": "10 months",
+      "completionDate": "2023-12",
+      "projectUrl": "https://chatbot-demo.example.com"
+    },
+    {
+      "id": "5",
+      "title": "Real Estate Property Management",
+      "slug": "real-estate-management",
+      "description": "A digital platform for property listings, tenant management, and rental payments.",
+      "longDescription": "An all-in-one real estate management solution that simplifies property listing, lease agreements, and rent collection for landlords and property managers.",
+      "image": "/images/projects/realestate.jpg",
+      "technologies": ["PHP", "React", "PostgreSQL", "AWS"],
+      "category": "Real Estate",
+      "client": "Property Management Firms",
+      "duration": "15 months",
+      "completionDate": "2023-06",
+      "projectUrl": "https://realestate-demo.example.com"
+    },
+    {
+      "id": "6",
+      "title": "Online Learning Platform",
+      "slug": "online-learning-platform",
+      "description": "A cloud-based learning management system (LMS) for educational institutions and corporate training.",
+      "longDescription": "An innovative e-learning platform featuring interactive video courses, quizzes, and certification programs to enhance the learning experience.",
+      "image": "/images/projects/elearning.jpg",
+      "technologies": ["Django", "Vue.js", "GraphQL", "AWS S3"],
+      "category": "Education",
+      "client": "EdTech Startups",
+      "duration": "20 months",
+      "completionDate": "2024-02",
+      "projectUrl": "https://elearning-demo.example.com"
+    },
+    {
+      "id": "7",
+      "title": "Smart Inventory Management System",
+      "slug": "smart-inventory-management",
+      "description": "A real-time inventory tracking system for warehouses and retail businesses.",
+      "longDescription": "An advanced inventory management system that automates stock tracking, order management, and demand forecasting for retail and warehouse operations.",
+      "image": "/images/projects/inventory.jpg",
+      "technologies": ["Node.js", "React", "PostgreSQL", "GraphQL"],
+      "category": "Logistics",
+      "client": "Retail & Wholesale Businesses",
+      "duration": "14 months",
+      "completionDate": "2023-09",
+      "projectUrl": "https://inventory-demo.example.com"
+    },
+    {
+      "id": "8",
+      "title": "Financial Budgeting App",
+      "slug": "financial-budgeting-app",
+      "description": "A mobile application for personal finance management and budgeting.",
+      "longDescription": "A user-friendly budgeting app that helps users track expenses, set financial goals, and gain insights into their spending habits.",
+      "image": "/images/projects/finance.jpg",
+      "technologies": ["Flutter", "Firebase", "Node.js", "Plaid API"],
+      "category": "Finance",
+      "client": "FinTech Startups",
+      "duration": "8 months",
+      "completionDate": "2023-07",
+      "projectUrl": "https://finance-demo.example.com"
+    },
+    {
+      "id": "9",
+      "title": "Food Delivery Platform",
+      "slug": "food-delivery-platform",
+      "description": "A food delivery service connecting restaurants with customers through an intuitive app.",
+      "longDescription": "A modern food delivery platform that offers real-time order tracking, restaurant management, and secure online payments.",
+      "image": "/images/projects/fooddelivery.jpg",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Stripe API"],
+      "category": "Food & Beverage",
+      "client": "Restaurant Chains",
+      "duration": "16 months",
+      "completionDate": "2023-11",
+      "projectUrl": "https://fooddelivery-demo.example.com"
+    },
+    {
+      "id": "10",
+      "title": "Blockchain Voting System",
+      "slug": "blockchain-voting-system",
+      "description": "A secure and transparent voting system leveraging blockchain technology.",
+      "longDescription": "A blockchain-powered voting platform that ensures election integrity, prevents fraud, and enhances voter confidence.",
+      "image": "/images/projects/voting.jpg",
+      "technologies": ["Ethereum", "Solidity", "React", "IPFS"],
+      "category": "Blockchain",
+      "client": "Government & NGOs",
+      "duration": "18 months",
+      "completionDate": "2024-03",
+      "projectUrl": "https://voting-demo.example.com"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "1",
+      "slug": "ai-software-architecture",
+      "title": "AI-Driven Architectural Patterns in Modern Systems",
+      "excerpt": "How machine learning is reshaping system design and decision-making processes",
+      "content": "The integration of AI into software architecture enables...",
+      "date": "2024-02-18",
+      "readTime": "8 min read",
+      "author": {
+        "name": "MD Motakabbir Morshed",
+        "avatar": "/images/profile.jpg",
+        "role": "Senior Software Engineer",
+        "bio": "Senior Software Engineer with 9.5 years of experience in web development"
+      },
+      "coverImage": "/images/blog/posts/ai-architecture.jpg",
+      "category": {
+        "name": "Software Architecture",
+        "slug": "architecture",
+        "color": "bg-blue-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/arch-header.jpg",
+        "section": {
+          "patterns": "/images/blog/sections/arch-patterns.jpg",
+          "optimization": "/images/blog/sections/ai-optimization.jpg"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "slug": "quantum-algorithms",
+      "title": "Quantum Computing Meets Classical Algorithms",
+      "excerpt": "Breaking down the synergy between quantum principles and traditional computing",
+      "content": "Quantum computing's unique approach to problem-solving...",
+      "date": "2024-03-05",
+      "readTime": "10 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/quantum-core.jpg",
+      "category": {
+        "name": "Quantum Computing",
+        "slug": "quantum",
+        "color": "bg-purple-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/quantum-header.jpg",
+        "section": {
+          "superposition": "/images/blog/sections/qubit-states.jpg",
+          "entanglement": "/images/blog/sections/quantum-entanglement.jpg"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "slug": "devops-aiops",
+      "title": "AI-Ops: Revolutionizing DevOps Practices",
+      "excerpt": "Machine learning applications in CI/CD pipelines and infrastructure management",
+      "content": "The fusion of AI with DevOps operations creates...",
+      "date": "2024-04-12",
+      "readTime": "7 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/ai-devops.jpg",
+      "category": {
+        "name": "DevOps",
+        "slug": "devops",
+        "color": "bg-green-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/devops-header.jpg",
+        "section": {
+          "automation": "/images/blog/sections/ci-cd.jpg",
+          "monitoring": "/images/blog/sections/ai-monitoring.jpg"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "slug": "blockchain-ai",
+      "title": "Decentralized AI: Blockchain Meets Machine Learning",
+      "excerpt": "Exploring trustless AI systems using distributed ledger technology",
+      "content": "The combination of blockchain's immutability with...",
+      "date": "2024-05-20",
+      "readTime": "9 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/blockchain-ai.jpg",
+      "category": {
+        "name": "Blockchain",
+        "slug": "blockchain",
+        "color": "bg-yellow-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/blockchain-header.jpg",
+        "section": {
+          "smart-contracts": "/images/blog/sections/smart-contract.jpg",
+          "dapps": "/images/blog/sections/decentralized-apps.jpg"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "slug": "iot-edge-ai",
+      "title": "Edge AI in IoT Networks",
+      "excerpt": "Implementing machine learning models on constrained devices",
+      "content": "The rise of edge computing brings AI capabilities...",
+      "date": "2024-06-08",
+      "readTime": "6 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/iot-edge.jpg",
+      "category": {
+        "name": "IoT",
+        "slug": "iot",
+        "color": "bg-teal-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/iot-header.jpg",
+        "section": {
+          "sensors": "/images/blog/sections/iot-sensors.jpg",
+          "edge-devices": "/images/blog/sections/edge-computing.jpg"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "slug": "computer-vision-advancements",
+      "title": "Next-Gen Computer Vision Systems",
+      "excerpt": "Deep learning breakthroughs in image recognition and processing",
+      "content": "Modern computer vision systems now achieve...",
+      "date": "2024-07-14",
+      "readTime": "8 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/cv-systems.jpg",
+      "category": {
+        "name": "Computer Vision",
+        "slug": "vision",
+        "color": "bg-pink-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/vision-header.jpg",
+        "section": {
+          "object-detection": "/images/blog/sections/obj-detection.jpg",
+          "segmentation": "/images/blog/sections/image-segmentation.jpg"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "slug": "nlp-transformers",
+      "title": "Transformer Models in Natural Language Processing",
+      "excerpt": "Evolution of attention mechanisms in language models",
+      "content": "The transformer architecture has revolutionized...",
+      "date": "2024-08-22",
+      "readTime": "9 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/nlp-core.jpg",
+      "category": {
+        "name": "NLP",
+        "slug": "nlp",
+        "color": "bg-indigo-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/nlp-header.jpg",
+        "section": {
+          "attention": "/images/blog/sections/attention-mech.jpg",
+          "embeddings": "/images/blog/sections/word-vectors.jpg"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "slug": "robotic-process-automation",
+      "title": "AI in Industrial Robotics",
+      "excerpt": "Machine learning applications in manufacturing automation",
+      "content": "Modern robotic systems leverage deep reinforcement learning...",
+      "date": "2024-09-05",
+      "readTime": "7 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/industrial-ai.jpg",
+      "category": {
+        "name": "Robotics",
+        "slug": "robotics",
+        "color": "bg-cyan-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/robotics-header.jpg",
+        "section": {
+          "manipulation": "/images/blog/sections/robot-arm.jpg",
+          "slam": "/images/blog/sections/navigation-mapping.jpg"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "slug": "cloud-ai-integration",
+      "title": "Scalable AI Solutions in Cloud Environments",
+      "excerpt": "Building enterprise-grade ML systems using cloud infrastructure",
+      "content": "Cloud platforms provide essential tools for...",
+      "date": "2024-10-17",
+      "readTime": "8 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/cloud-ai.jpg",
+      "category": {
+        "name": "Cloud Computing",
+        "slug": "cloud",
+        "color": "bg-orange-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/cloud-header.jpg",
+        "section": {
+          "kubernetes": "/images/blog/sections/k8s-ml.jpg",
+          "serverless": "/images/blog/sections/lambda-ai.jpg"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "slug": "ethical-ai",
+      "title": "Ethical Considerations in AI Development",
+      "excerpt": "Addressing bias and fairness in machine learning systems",
+      "content": "As AI systems become more pervasive...",
+      "date": "2024-11-25",
+      "readTime": "6 min read",
+      "author": {  },
+      "coverImage": "/images/blog/posts/ai-ethics.jpg",
+      "category": {
+        "name": "AI Ethics",
+        "slug": "ethics",
+        "color": "bg-gray-600"
+      },
+      "backgroundImages": {
+        "header": "/images/blog/headers/ethics-header.jpg",
+        "section": {
+          "bias": "/images/blog/sections/algorithm-bias.jpg",
+          "governance": "/images/blog/sections/ai-regulation.jpg"
+        }
+      }
+    }
+  ]
+}

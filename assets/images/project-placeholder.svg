@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#4F46E5"/>
+    
+    <!-- Grid pattern -->
+    <path d="M0 80H800M0 160H800M0 240H800M0 320H800" stroke="white" stroke-opacity="0.1"/>
+    <path d="M160 0V400M320 0V400M480 0V400M640 0V400" stroke="white" stroke-opacity="0.1"/>
+    
+    <!-- Center icon -->
+    <rect x="360" y="160" width="80" height="80" rx="8" fill="white" fill-opacity="0.2"/>
+    <path d="M380 200L420 200M400 180L400 220" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Text -->
+    <text x="400" y="280" text-anchor="middle" font-family="system-ui" font-size="24" fill="white">
+        Project Image
+    </text>
+</svg>

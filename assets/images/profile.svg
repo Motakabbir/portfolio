@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="400" height="400" rx="200" fill="#4F46E5"/>
+    
+    <!-- Abstract pattern -->
+    <circle cx="200" cy="200" r="160" fill="#6366F1" fill-opacity="0.5"/>
+    <circle cx="200" cy="200" r="120" fill="#818CF8" fill-opacity="0.5"/>
+    
+    <!-- Stylized person silhouette -->
+    <path d="M200 240C244.183 240 280 204.183 280 160C280 115.817 244.183 80 200 80C155.817 80 120 115.817 120 160C120 204.183 155.817 240 200 240Z" fill="white"/>
+    <path d="M200 260C133.333 260 80 313.333 80 380H320C320 313.333 266.667 260 200 260Z" fill="white"/>
+</svg>

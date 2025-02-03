@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="200" fill="#E5E7EB"/>
+  
+  <!-- Profile Icon -->
+  <path d="M200 220C244.183 220 280 184.183 280 140C280 95.8172 244.183 60 200 60C155.817 60 120 95.8172 120 140C120 184.183 155.817 220 200 220Z" fill="#9CA3AF"/>
+  <path d="M200 240C133.726 240 80 293.726 80 360V400H320V360C320 293.726 266.274 240 200 240Z" fill="#9CA3AF"/>
+</svg>

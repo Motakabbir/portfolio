@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="400" viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1440" height="400" fill="url(#paint0_linear)"/>
+  
+  <!-- Connection nodes -->
+  <g opacity="0.15">
+    <!-- Node group 1 -->
+    <circle cx="200" cy="100" r="8" fill="white"/>
+    <circle cx="300" cy="150" r="6" fill="white"/>
+    <circle cx="150" cy="200" r="4" fill="white"/>
+    <path d="M200 100L300 150" stroke="white" stroke-width="1"/>
+    <path d="M200 100L150 200" stroke="white" stroke-width="1"/>
+    <path d="M300 150L150 200" stroke="white" stroke-width="1"/>
+    
+    <!-- Node group 2 -->
+    <circle cx="800" cy="150" r="8" fill="white"/>
+    <circle cx="900" cy="100" r="6" fill="white"/>
+    <circle cx="850" cy="250" r="4" fill="white"/>
+    <path d="M800 150L900 100" stroke="white" stroke-width="1"/>
+    <path d="M800 150L850 250" stroke="white" stroke-width="1"/>
+    <path d="M900 100L850 250" stroke="white" stroke-width="1"/>
+    
+    <!-- Node group 3 -->
+    <circle cx="1200" cy="200" r="8" fill="white"/>
+    <circle cx="1300" cy="150" r="6" fill="white"/>
+    <circle cx="1250" cy="300" r="4" fill="white"/>
+    <path d="M1200 200L1300 150" stroke="white" stroke-width="1"/>
+    <path d="M1200 200L1250 300" stroke="white" stroke-width="1"/>
+    <path d="M1300 150L1250 300" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Animated pulse rings -->
+  <g opacity="0.1">
+    <circle cx="200" cy="100" r="20" stroke="white" stroke-width="1">
+      <animate attributeName="r" values="20;40;20" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0;0.1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="150" r="20" stroke="white" stroke-width="1">
+      <animate attributeName="r" values="20;40;20" dur="4s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0;0.1" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="200" r="20" stroke="white" stroke-width="1">
+      <animate attributeName="r" values="20;40;20" dur="4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0;0.1" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Floating particles -->
+  <g opacity="0.2">
+    <circle cx="400" cy="300" r="2" fill="white">
+      <animate attributeName="cy" values="300;280;300" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="100" r="2" fill="white">
+      <animate attributeName="cy" values="100;120;100" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="250" r="2" fill="white">
+      <animate attributeName="cy" values="250;230;250" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Email icon outlines -->
+  <g opacity="0.1">
+    <path d="M100 350h60l30-30h60" stroke="white" stroke-width="1"/>
+    <path d="M500 320h80l20-20h40" stroke="white" stroke-width="1"/>
+    <path d="M900 380h70l25-25h50" stroke="white" stroke-width="1"/>
+    <path d="M1300 340h50l15-15h30" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1440" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

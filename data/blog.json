@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "vue3-composition-api",
+      "title": "Building Modern Web Applications with Vue 3",
+      "excerpt": "Learn how to leverage the power of Vue 3 Composition API to build scalable applications.",
+      "content": "The Vue 3 Composition API represents a fundamental shift in how we structure our Vue applications. In this comprehensive guide, we'll explore how to leverage its power to build more maintainable and scalable applications.\n\nWe'll cover:\n- Understanding the Composition API\n- Converting Options API to Composition API\n- Best practices and patterns\n- Real-world examples\n- Performance optimization techniques",
+      "author": "Your Name",
+      "date": "2025-02-03",
+      "tags": ["Vue.js", "JavaScript", "Web Development"],
+      "readTime": "8 min"
+    },
+    {
+      "id": "mastering-tailwind",
+      "title": "Mastering Tailwind CSS",
+      "excerpt": "A comprehensive guide to building beautiful interfaces with Tailwind CSS.",
+      "content": "Tailwind CSS has revolutionized how we approach UI development. This guide will take you from basics to advanced concepts in using Tailwind CSS effectively.\n\nTopics covered:\n- Understanding utility-first CSS\n- Custom configuration\n- Responsive design\n- Dark mode\n- Performance optimization",
+      "author": "Your Name",
+      "date": "2025-01-28",
+      "tags": ["CSS", "Tailwind", "Web Design"],
+      "readTime": "10 min"
+    },
+    {
+      "id": "typescript-best-practices",
+      "title": "TypeScript Best Practices in 2025",
+      "excerpt": "Stay up-to-date with the latest TypeScript features and best practices for large-scale applications.",
+      "content": "TypeScript continues to evolve, bringing new features and patterns for building type-safe applications. Learn about the latest best practices and how to implement them in your projects.\n\nKey topics:\n- Advanced type systems\n- Pattern matching\n- Decorators\n- Module architecture\n- Testing strategies",
+      "author": "Your Name",
+      "date": "2025-01-15",
+      "tags": ["TypeScript", "JavaScript", "Programming"],
+      "readTime": "12 min"
+    },
+    {
+      "id": "web-performance",
+      "title": "Web Performance Optimization Techniques",
+      "excerpt": "Essential techniques for building lightning-fast web applications in 2025.",
+      "content": "Performance is crucial for modern web applications. This guide covers essential techniques for optimizing your web applications for speed and efficiency.\n\nWe'll explore:\n- Core Web Vitals\n- Lazy loading strategies\n- Bundle optimization\n- Image optimization\n- Caching strategies",
+      "author": "Your Name",
+      "date": "2025-01-10",
+      "tags": ["Performance", "Web Development", "Optimization"],
+      "readTime": "15 min"
+    }
+  ]
+}

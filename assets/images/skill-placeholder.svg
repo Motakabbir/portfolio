@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="200" height="200" rx="16" fill="#4F46E5"/>
+    
+    <!-- Abstract skill icon -->
+    <circle cx="100" cy="100" r="40" stroke="white" stroke-width="8" stroke-opacity="0.6"/>
+    <path d="M100 60V140M60 100H140" stroke="white" stroke-width="8" stroke-linecap="round" stroke-opacity="0.6"/>
+    
+    <!-- Corner decorations -->
+    <circle cx="40" cy="40" r="8" fill="white" fill-opacity="0.4"/>
+    <circle cx="160" cy="40" r="8" fill="white" fill-opacity="0.4"/>
+    <circle cx="40" cy="160" r="8" fill="white" fill-opacity="0.4"/>
+    <circle cx="160" cy="160" r="8" fill="white" fill-opacity="0.4"/>
+</svg>

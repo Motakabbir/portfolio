@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="200" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1440" height="200" fill="url(#paint0_linear)"/>
+  
+  <!-- Geometric patterns -->
+  <g opacity="0.1">
+    <path d="M0 100 L1440 100" stroke="white" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M0 50 L1440 50" stroke="white" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M0 150 L1440 150" stroke="white" stroke-width="0.5" stroke-dasharray="4 4"/>
+  </g>
+  
+  <!-- Chevron patterns -->
+  <g opacity="0.15">
+    <path d="M20 100 L40 80 L60 100 L80 80 L100 100" stroke="white" stroke-width="1"/>
+    <path d="M1340 100 L1360 80 L1380 100 L1400 80 L1420 100" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Animated dots -->
+  <g opacity="0.2">
+    <circle cx="200" cy="100" r="2" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="100" r="2" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="100" r="2" fill="white">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1440" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F3F4F6"/>
+  
+  <!-- Placeholder Design -->
+  <rect x="200" y="100" width="400" height="200" rx="8" fill="#E5E7EB"/>
+  <path d="M360 180 L400 220 L440 180" stroke="#9CA3AF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text -->
+  <text x="400" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#6B7280" text-anchor="middle">
+    Project Image
+  </text>
+</svg>
