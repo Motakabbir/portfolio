@@ -3,33 +3,101 @@
     "name": "Md. Motakabbir Morshed",
     "title": "Senior Software Engineer",
     "bio": "Senior Software Engineer with 9.5 years of experience in PHP and Vue.js. Expert in developing solutions for e-governance, university automation, e-commerce, and ISP ERP. Proven ability to design, implement, and optimize scalable software while leading cross-functional teams and mentoring junior developers.",
-    "image": "/images/profile.jpg",
+    "image": "/images/profile.jpeg",
     "location": "Dhaka, Bangladesh",
     "address": "40/2 Sultanjong, Hasemkhan Road, Rayer Bazar, Hazaribagh, Dhaka",
     "phone": [
       "+880 1771882876",
       "+880 1971882876",
       "+880 1956602631"
-    ],
-    "social": {
-      "linkedin": "https://linkedin.com/in/motakabbir-morshed",
-      "github": "https://github.com/Motakabbir",
-      "email": ["dolardx@gmail.com", "dolar_0016@yahoo.com"],
-      "behance": "https://behance.net/dolar_0016533f",
-      "discord": "https://discord.gg/dolar0016",
-      "facebook": "https://facebook.com/morshed.dolar",
-      "instagram": "https://instagram.com/dolarmotakabbir",
-      "medium": "https://medium.com/@dolardx",
-      "pinterest": "https://pinterest.com/dolardx",
-      "quora": "https://quora.com/profile/Motakabbir-Morshed",
-      "reddit": "https://reddit.com/user/Purple_Diamond_2269",
-      "stackoverflow": "https://stackoverflow.com/users/motakabbir-morshed-dolar",
-      "twitter": "https://x.com/Motakabbir16279",
-      "youtube": "https://youtube.com/@morshed0",
-      "codepen": "https://codepen.io/Motakabbir-Morshed",
-      "upwork": "https://www.upwork.com/freelancers/~YOUR_UPWORK_ID",
-      "fiverr": "https://www.fiverr.com/YOUR_FIVERR_USERNAME"
+    ],"social": [
+    { 
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/motakabbir-morshed",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0A66C2'><path d='M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5V9h3v10zM6.5 7.75A1.75 1.75 0 118.3 6a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-5.6c0-1.36-.5-2.25-1.75-2.25-1.25 0-1.75.89-1.75 2.25V19h-3V9h3v1.5h.05a3.5 3.5 0 013.2-1.75c3.45 0 4 2.25 4 5.25V19z'/></svg>"
     },
+    { 
+        "name": "GitHub",
+        "url": "https://github.com/Motakabbir",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#181717'><path d='M12 .5a11.5 11.5 0 00-3.65 22.42c.58.1.79-.25.79-.55v-1.92c-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.04 1.8 2.73 1.28 3.4 1 .1-.78.4-1.28.73-1.57-2.55-.3-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.2-3.1-.12-.3-.52-1.5.12-3.1 0 0 1-.32 3.3 1.2a11.3 11.3 0 016 0c2.3-1.52 3.3-1.2 3.3-1.2.64 1.6.24 2.8.12 3.1.75.8 1.2 1.84 1.2 3.1 0 4.42-2.7 5.4-5.25 5.7.42.36.8 1.08.8 2.18v3.23c0 .3.2.65.8.55A11.5 11.5 0 0012 .5z'/></svg>"
+    },
+    { 
+        "name": "Email",
+        "url": "mailto:dolardx@gmail.com",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#EA4335'><path d='M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/></svg>"
+    },
+    { 
+        "name": "Behance",
+        "url": "https://behance.net/dolar_0016533f",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1769FF'><path d='M22 7h-7v-2h7v2zm1.77 6.77a5.5 5.5 0 01-5.5 5.5H8v-5.5h9.27a5.5 5.5 0 015.5 5.5zm-5.5-3.27H8v-2h9.27a3.27 3.27 0 110 6.54H15v-1.73h2.77a1.5 1.5 0 100-3H8V7h11.27a5.5 5.5 0 110 11h-2.77v1.73h2.77a7.23 7.23 0 100-14.46zM2 11h4v2H2v-2zm0-4h4v2H2V7zm0 8h4v2H2v-2z'/></svg>"
+    },
+    { 
+        "name": "Discord",
+        "url": "https://discord.gg/dolar0016",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#5865F2'><path d='M19.54 4.93A19.5 19.5 0 0014.5 3c-.23.42-.45.86-.6 1.29a18.2 18.2 0 00-5.8 0A12.7 12.7 0 007.5 3a19.5 19.5 0 00-5 1.93C.5 9.17 0 13.5 0 17.92A19.5 19.5 0 005.5 22c.42-.55.8-1.15 1.1-1.8a12.7 12.7 0 01-1.9-.9l.7-1a16.7 16.7 0 0014.4 0l.7 1a12.7 12.7 0 01-1.9.9c.3.65.7 1.25 1.1 1.8a19.5 19.5 0 005.5-4.08c0-4.42-.5-8.75-2.96-12.99zM8 15.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm8 0a2.5 2.5 0 110-5 2.5 2.5 0 010 5z'/></svg>"
+    },
+    { 
+        "name": "Facebook",
+        "url": "https://facebook.com/morshed.dolar",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1877F2'><path d='M22 12a10 10 0 10-11.56 9.88V14.9H7.9V12h2.54V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v6.98A10 10 0 0022 12z'/></svg>"
+    },
+    { 
+        "name": "Instagram",
+        "url": "https://instagram.com/dolarmotakabbir",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#E4405F'><path d='M12 2.16c3.2 0 3.58 0 4.85.07a7.2 7.2 0 012.46.5 4.8 4.8 0 011.72 1.16 4.8 4.8 0 011.16 1.72 7.2 7.2 0 01.5 2.46c.07 1.27.07 1.65.07 4.85s0 3.58-.07 4.85a7.2 7.2 0 01-.5 2.46 4.8 4.8 0 01-1.16 1.72 4.8 4.8 0 01-1.72 1.16 7.2 7.2 0 01-2.46.5c-1.27.07-1.65.07-4.85.07s-3.58 0-4.85-.07a7.2 7.2 0 01-2.46-.5 4.8 4.8 0 01-1.72-1.16 4.8 4.8 0 01-1.16-1.72 7.2 7.2 0 01-.5-2.46c-.07-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85a7.2 7.2 0 01.5-2.46 4.8 4.8 0 011.16-1.72 4.8 4.8 0 011.72-1.16 7.2 7.2 0 012.46-.5c1.27-.07 1.65-.07 4.85-.07zm0-2.16c-3.3 0-3.7 0-5 .07a9.3 9.3 0 00-3.2.6 6.9 6.9 0 00-2.4 1.4 6.9 6.9 0 00-1.4 2.4 9.3 9.3 0 00-.6 3.2c-.07 1.3-.07 1.7-.07 5s0 3.7.07 5a9.3 9.3 0 00.6 3.2 6.9 6.9 0 001.4 2.4 6.9 6.9 0 002.4 1.4 9.3 9.3 0 003.2.6c1.3.07 1.7.07 5 .07s3.7 0 5-.07a9.3 9.3 0 003.2-.6 6.9 6.9 0 002.4-1.4 6.9 6.9 0 001.4-2.4 9.3 9.3 0 00.6-3.2c.07-1.3.07-1.7.07-5s0-3.7-.07-5a9.3 9.3 0 00-.6-3.2 6.9 6.9 0 00-1.4-2.4 6.9 6.9 0 00-2.4-1.4 9.3 9.3 0 00-3.2-.6c-1.3-.07-1.7-.07-5-.07zm0 5.34a4.66 4.66 0 100 9.32 4.66 4.66 0 000-9.32zm0 7.7a3.04 3.04 0 110-6.08 3.04 3.04 0 010 6.08zm5.54-8.2a1.1 1.1 0 100-2.2 1.1 1.1 0 000 2.2z'/></svg>"
+    },
+    { 
+        "name": "Medium",
+        "url": "https://medium.com/@dolardx",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M2.85 5.59a.75.75 0 00-.25-.65L.25 2.4v-.34h6.8l5.25 11.5 4.63-11.5H24v.34l-1.9 1.8a.45.45 0 00-.17.43v13.5a.45.45 0 00.17.43l1.85 1.8v.34h-9.2v-.34l1.9-1.8c.17-.17.17-.2.17-.43V7.5l-5.4 13.7h-.7L4.1 7.5v9.2a1 1 0 00.28.8l2.5 3v.34H0v-.34l2.5-3a1 1 0 00.28-.8V5.59z'/></svg>"
+    },
+    { 
+        "name": "Pinterest",
+        "url": "https://pinterest.com/dolardx",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#E60023'><path d='M12 0a12 12 0 00-3.8 23.4c-.1-.9-.2-2.3 0-3.3l1.4-5.8s-.4-.8-.4-2c0-1.9 1.1-3.3 2.5-3.3 1.2 0 1.8.9 1.8 2 0 1.2-.8 3-.1 4.6 0 0 .7 1.2 2.7 0 0-2.2.4-4 1.3-5.4-1.8-2-4.4-2.1-5.4-2.1-4.1 0-7 2.7-7 7.4 0 2.6 1 4.6 2.4 5.6-.3.8-.8 2.3-.3 4.6 0 0 1.4.5 4.4-1.7 0 0 2.9 4 7.3 0 4.4-4 4.4-10.3 0-14.3-4.4-4-10.6-4-15 0-4.4 4-4.4 10.3 0 14.3 2.2 2.2 5.1 3.3 8.1 3.3 1.5 0 3-.2 4.4-.6 2.8-1.2 4-4 4.4-5.4.4-1.6.6-3.3.6-5 0-6-4.4-10.8-10-10.8z'/></svg>"
+    },
+    { 
+        "name": "Quora",
+        "url": "https://quora.com/profile/Motakabbir-Morshed",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#B92B27'><path d='M12 0a12 12 0 100 24 12 12 0 000-24zm5.6 16.8c-.4.6-.9 1.1-1.5 1.5-1.1.7-2.4 1-3.8 1-1.4 0-2.7-.3-3.8-1-1.1-.7-1.9-1.7-2.4-2.9-.5-1.2-.7-2.5-.7-3.9 0-1.4.2-2.7.7-3.9.5-1.2 1.3-2.2 2.4-2.9 1.1-.7 2.4-1 3.8-1 1.4 0 2.7.3 3.8 1 1.1.7 1.9 1.7 2.4 2.9.5 1.2.7 2.5.7 3.9 0 1.4-.2 2.7-.7 3.9-.2.5-.4 1-.7 1.4zM12 6c-1.1 0-2 .3-2.8.8-.8.5-1.4 1.2-1.8 2-.4.8-.6 1.7-.6 2.7 0 1 .2 1.9.6 2.7.4.8 1 1.5 1.8 2 .8.5 1.7.8 2.8.8 1.1 0 2-.3 2.8-.8.8-.5 1.4-1.2 1.8-2 .4-.8.6-1.7.6-2.7 0-1-.2-1.9-.6-2.7-.4-.8-1-1.5-1.8-2-.8-.5-1.7-.8-2.8-.8z'/></svg>"
+    },
+    { 
+        "name": "Reddit",
+        "url": "https://reddit.com/user/Purple_Diamond_2269",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FF4500'><path d='M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.74c.69 0 1.25.56 1.25 1.25a1.25 1.25 0 01-1.25 1.25 1.25 1.25 0 01-1.25-1.25c0-.69.56-1.25 1.25-1.25zm-2.65 1.47c-1.03 0-1.86.84-1.86 1.86v.03c0 1.03.84 1.86 1.86 1.86 1.03 0 1.86-.84 1.86-1.86v-.03c0-1.03-.84-1.86-1.86-1.86zm4.78 5.92c-.55-.98-1.67-1.64-2.92-1.64l-.03.01c-1.4 0-2.6.83-3.16 2.02-.56-1.19-1.76-2.02-3.16-2.02l-.03-.01c-1.25 0-2.37.66-2.92 1.64-.55.98-.55 2.16 0 3.14.55.98 1.67 1.64 2.92 1.64l.03-.01c1.4 0 2.6-.83 3.16-2.02.56 1.19 1.76 2.02 3.16 2.02l.03.01c1.25 0 2.37-.66 2.92-1.64.55-.98.55-2.16 0-3.14zM12 16.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/></svg>"
+    },
+    { 
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/motakabbir-morshed-dolar",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#F48024'><path d='M18.98 20.98v-6.5h2v8.5H3v-8.5h2v6.5h13.98zM7.5 14.48l8.5 1.7.3-1.6-8.5-1.7-.3 1.6zm1-4l8 3.5.6-1.5-8-3.5-.6 1.5zm2-3.5l7 5.2 1-1.3-7-5.2-1 1.3zM15 4.98l-5.5 6.6 1.3 1.1 5.5-6.6-1.3-1.1zM7.5 18.98v-2h9v2h-9z'/></svg>"
+    },
+    { 
+        "name": "Twitter",
+        "url": "https://x.com/Motakabbir16279",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M22 5.8a8.5 8.5 0 01-2.4.7 4.2 4.2 0 001.8-2.3 8.5 8.5 0 01-2.7 1 4.2 4.2 0 00-7.2 3.8 12 12 0 01-8.7-4.4 4.2 4.2 0 001.3 5.6 4.2 4.2 0 01-1.9-.5v.1a4.2 4.2 0 003.4 4.1 4.2 4.2 0 01-1.9.1 4.2 4.2 0 003.9 2.9 8.5 8.5 0 01-5.2 1.8 12 12 0 006.5 1.9c7.8 0 12-6.5 12-12.1v-.6A8.5 8.5 0 0022 5.8z'/></svg>"
+    },
+    { 
+        "name": "YouTube",
+        "url": "https://youtube.com/@morshed0",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FF0000'><path d='M23.5 6.5a3 3 0 00-2.1-2.1C19.5 4 12 4 12 4s-7.5 0-9.4.4A3 3 0 00.5 6.5C0 8.4 0 12 0 12s0 3.6.5 5.5a3 3 0 002.1 2.1c1.9.4 9.4.4 9.4.4s7.5 0 9.4-.4a3 3 0 002.1-2.1C24 15.6 24 12 24 12s0-3.6-.5-5.5zM9.5 15.5V8.5l6.5 3.5-6.5 3.5z'/></svg>"
+    },
+    { 
+        "name": "CodePen",
+        "url": "https://codepen.io/Motakabbir-Morshed",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+    },
+    { 
+        "name": "Upwork",
+        "url": "https://www.upwork.com/freelancers/~YOUR_UPWORK_ID",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#6FDA44'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+    },
+    { 
+        "name": "Fiverr",
+        "url": "https://www.fiverr.com/YOUR_FIVERR_USERNAME",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1DBF73'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+    }
+],
+    
     "dateOfBirth": "1990-09-30",
     "nationality": "Bangladeshi",
     "languages": [
@@ -48,6 +116,28 @@
           "writing": "Medium",
           "speaking": "Medium"
         }
+      }
+    ],
+    "quickInfo": [
+      {
+        "type": "email",
+        "label": "Email",
+        "value": "dolardx@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "Phone",
+        "value": "+8801771882876"
+      },
+      {
+        "type": "languages",
+        "label": "Languages",
+        "value": "English, Bangla, Hindi"
+      },
+      {
+       "type": "experience",
+        "label": "Experience",
+        "value": "9+ Years"
       }
     ]
   },
@@ -362,88 +452,144 @@
   ],
   "experience": [
     {
-      "title": "Senior Software Engineer",
+      "id": 1,
+      "position": "Senior Software Engineer",
       "company": "Orange Business Development Ltd",
-      "location": "Dhaka, Bangladesh",
-      "startDate": "2022-11",
-      "endDate": "Present",
-      "highlights": [
-        "Database design and optimization",
-        "Software development with Laravel and Vue.js",
-        "Linux server configuration and maintenance",
-        "Payment gateway integration (DBBL, SSL, FOSTER, Bkash, Paypal)",
-        "SMS API integration (GP, Robi, Banglalink, SSL, Alphanet)",
-        "Single Sign-On (SAML configuration)",
-        "Pusher integration"
-      ]
+      "companyLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=OBDL",
+      "duration": "Nov 2022 - Present",
+      "responsibilities": [
+        "Database design and optimization to ensure fast and efficient data retrieval and storage.",
+        "Software development with Laravel and Vue.js to build dynamic, user-friendly applications.",
+        "Linux server configuration and maintenance for secure and efficient deployment of applications.",
+        "Payment gateway integration (DBBL, SSL, FOSTER, Bkash, Paypal) to ensure seamless transaction processing.",
+        "SMS API integration (GP, Robi, Banglalink, SSL, Alphanet) to enable communication and alerts for users.",
+        "Single Sign-On (SAML configuration) for secure and unified access to various systems.",
+        "Pusher integration for real-time communication and notification functionalities in the applications.",
+        "Collaborated with cross-functional teams to identify and resolve technical challenges.",
+        "Mentored junior developers, providing guidance on best practices and code reviews."
+      ],
+      "technologies": ["Laravel", "Vue.js", "Linux", "DBBL", "SSL", "FOSTER", "Bkash", "Paypal", "SAML", "Pusher"]
     },
     {
-      "title": "Lead Developer",
+      "id": 2,
+      "position": "Lead Developer",
       "company": "Nextech Limited",
-      "location": "Dhaka, Bangladesh",
-      "startDate": "2020-06",
-      "endDate": "2022-10",
-      "highlights": [
-        "Database design and optimization",
-        "Software development with PHP and Laravel",
-        "Project management",
-        "Mikrotik and Radius configuration",
-        "Linux server maintenance",
-        "Payment gateway integration"
-      ]
+      "companyLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=NT",
+      "duration": "Jun 2020 - Oct 2022",
+      "responsibilities": [
+        "Led and coordinated a team of developers to deliver high-quality projects on time.",
+        "Database design and optimization to enhance the overall system performance and user experience.",
+        "Software development with PHP and Laravel, ensuring clean, efficient, and scalable code.",
+        "Project management tasks including setting milestones, timelines, and resource allocation.",
+        "Mikrotik and Radius configuration for secure and optimized networking solutions.",
+        "Linux server maintenance and performance tuning to ensure maximum uptime.",
+        "Payment gateway integration for secure online payments across various platforms.",
+        "Developed and deployed multiple web applications, utilizing agile methodologies.",
+        "Handled project deployments, ensuring minimal downtime and smooth integration with existing systems.",
+        "Provided technical expertise to the team and conducted code reviews to maintain code quality."
+      ],
+      "technologies": ["PHP", "Laravel", "Mikrotik", "Radius", "Linux", "Payment Gateway", "Agile", "Project Management"]
     },
     {
-      "title": "Senior Software Engineer",
+      "id": 3,
+      "position": "Senior Software Engineer",
       "company": "Nextech Limited",
-      "location": "Dhaka, Bangladesh",
-      "startDate": "2017-01",
-      "endDate": "2021-05",
-      "highlights": [
-        "Database design and optimization",
-        "Development with PHP and Laravel",
-        "Linux server and Radius configuration",
-        "SMS API and Single Sign-On"
-      ]
+      "companyLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=NT",
+      "duration": "Jan 2017 - May 2021",
+      "responsibilities": [
+        "Database design and optimization, ensuring fast query performance and data integrity.",
+        "Development with PHP and Laravel for building robust backend services.",
+        "Linux server and Radius configuration for managing network access and security.",
+        "Implemented SMS API and Single Sign-On (SSO) to improve communication and authentication across the system.",
+        "Optimized codebase for better maintainability and scalability, ensuring long-term success of the projects.",
+        "Collaborated with the design and product teams to deliver user-centric solutions.",
+        "Ensured adherence to coding standards and best practices to maintain a high-quality codebase.",
+        "Provided support and troubleshooting for complex issues related to server and network configurations.",
+        "Regularly communicated with clients to gather requirements and provide technical solutions."
+      ],
+      "technologies": ["PHP", "Laravel", "Linux", "Radius", "SMS API", "SAML", "SSO"]
     },
     {
-      "title": "Web Programmer",
+      "id": 4,
+      "position": "Web Programmer",
       "company": "Nextech Limited",
-      "location": "Dhaka, Bangladesh",
-      "startDate": "2015-04",
-      "endDate": "2016-12",
-      "highlights": [
-        "Database optimization and software development",
-        "Payment gateway and SMS API integration"
-      ]
+      "companyLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=NT",
+      "duration": "Apr 2015 - Dec 2016",
+      "responsibilities": [
+        "Database optimization and software development for improving performance and user experience.",
+        "Integrated third-party APIs and payment gateways to enhance the functionalities of the web applications.",
+        "Worked closely with the design team to implement responsive and accessible UI/UX designs.",
+        "Developed and maintained custom plugins and extensions for content management systems.",
+        "Collaborated with clients to ensure their requirements were met with high-quality solutions.",
+        "Ensured cross-browser compatibility for a consistent user experience across devices and platforms.",
+        "Troubleshot and fixed bugs related to payment gateways and API integrations.",
+        "Created detailed documentation for ongoing projects to ensure future maintainability."
+      ],
+      "technologies": ["PHP", "MySQL", "Payment Gateway", "SMS API", "Content Management System", "Responsive Design"]
     }
   ],
-  "education": [
-    {
-      "degree": "BSc in Electronics and Telecommunication Engineering",
-      "institution": "University of Liberal Arts Bangladesh",
-      "location": "Dhaka, Bangladesh",
-      "graduationYear": "2013",
-      "gpa": "3.41",
-      "scale": "4.00",
-      "achievements": ["Dean's Scholarship Award"]
-    },
-    {
-      "degree": "HSC in Science",
-      "institution": "SOS Hermann Gneiner College",
-      "location": "Bogra, Bangladesh",
-      "graduationYear": "2008",
-      "gpa": "3.6",
-      "scale": "5.00"
-    },
-    {
-      "degree": "SSC in Science",
-      "institution": "SOS Hermann Gneiner College",
-      "location": "Bogra, Bangladesh",
-      "graduationYear": "2006",
-      "gpa": "4.75",
-      "scale": "5.00"
-    }
-  ],
+"education": [
+  {
+    "id": 1,
+    "degree": "BSc in Electronics and Telecommunication Engineering",
+    "institution": "University of Liberal Arts Bangladesh",
+    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=ULAB",
+    "duration": "2009 - 2013",
+    "grade": "GPA: 3.41/4.00",
+    "thesis": "Design and Implementation of an Efficient Communication System Using OFDM",
+    "achievements": [
+      "Dean's Scholarship Award",
+      "Member of the University Robotics Club",
+      "Winner of the Annual Inter-University Robotics Competition (2012)",
+      "Successfully implemented a Wireless Communication Project"
+    ],
+    "relevantCourses": [
+      "Electronics Circuits",
+      "Telecommunication Networks",
+      "Signals and Systems",
+      "Digital Signal Processing",
+      "Microprocessors"
+    ]
+  },
+  {
+    "id": 2,
+    "degree": "Higher Secondary Certificate (HSC) in Science",
+    "institution": "SOS Hermann Gneiner College",
+    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
+    "duration": "2006 - 2008",
+    "grade": "GPA: 3.6/5.00",
+    "achievements": [
+      "Awarded for Highest Marks in Physics and Mathematics",
+      "President of Science Club",
+      "Participated in National Science Fair"
+    ],
+    "relevantCourses": [
+      "Physics",
+      "Mathematics",
+      "Chemistry",
+      "Computer Science"
+    ]
+  },
+  {
+    "id": 3,
+    "degree": "Secondary School Certificate (SSC) in Science",
+    "institution": "SOS Hermann Gneiner College",
+    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
+    "duration": "2004 - 2006",
+    "grade": "GPA: 4.75/5.00",
+    "achievements": [
+      "Top scorer in Science Subjects",
+      "Winner of the Annual Mathematics Olympiad",
+      "Volunteered for multiple community service projects"
+    ],
+    "relevantCourses": [
+      "Physics",
+      "Mathematics",
+      "Chemistry",
+      "Biology"
+    ]
+  }
+],
   "certifications": [
     {
       "name": "Web App Development - .NET",
@@ -509,6 +655,43 @@
         "Implemented advanced encryption and security protocols",
         "Utilized AWS for cloud scalability and high availability",
         "Built a responsive and multilingual front-end using Nuxt.js"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "University Service Automation",
+      "slug": "university-service-automation",
+      "description": "A digital service automation platform for universities, streamlining student services, academic processes, and administrative tasks.",
+      "longDescription": "University Service Automation is a robust digital platform designed to modernize university operations by automating essential services such as student applications, course management, result processing, and faculty administration. This system enhances efficiency, minimizes errors, and provides a seamless experience for students, faculty, and administrators.",
+      "image": "/images/projects/university-service.jpg",
+      "gallery": [
+        "/images/projects/university-service/dashboard.jpg",
+        "/images/projects/university-service/student-portal.jpg",
+        "/images/projects/university-service/admin-panel.jpg"
+      ],
+      "technologies": ["Laravel", "Nuxt.js", "MySQL", "REST API"],
+      "category": "E-Governance",
+      "client": "Shahjalal University of Science and Technology (SUST), Bangladesh",
+      "duration": "20 months",
+      "completionDate": "2024-02",
+      "projectUrl": "https://eservice.sust.edu.bd/",
+      "highlights": [
+        "Comprehensive student portal for academic and service requests",
+        "Automated transcript and certificate generation",
+        "Seamless course registration and grading system",
+        "Integrated financial module for tuition payments and dues"
+      ],
+      "challenges": [
+        "Ensuring high availability during peak admission and result periods",
+        "Securing sensitive academic and financial data",
+        "Integrating with multiple existing university systems",
+        "Providing multilingual support for international students"
+      ],
+      "solutions": [
+        "Implemented load balancing and caching for performance optimization",
+        "Used advanced encryption protocols for data security",
+        "Developed REST APIs for seamless system integrations",
+        "Designed an intuitive and accessible user interface with Nuxt.js"
       ]
     }    
   ],
@@ -748,5 +931,10 @@
         }
       }
     }
-  ]
+  ],
+  "stats":{
+    "experience":"10",
+    "projects" : "250",
+    "clients" : "170"
+  }
 }

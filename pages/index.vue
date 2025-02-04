@@ -97,10 +97,9 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                   </svg>
                 </a>
-                <a href="#contact" 
-                   class="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition-colors">
+                <NuxtLink :to="'/contact/'" class="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition-colors">
                   Contact Me
-                </a>
+                </NuxtLink>  
               </div>
             </div>
 
@@ -116,7 +115,7 @@
                 </div>
 
                 <!-- Skills -->
-                <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[90%] bg-white rounded-xl shadow-lg p-4">
+                <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[90%] bg-white rounded-xl shadow-lg p-4 z-40">
                   <div class="flex justify-center gap-6">
                     <div v-for="skill in ['Frontend', 'Backend', 'DevOps', 'Mobile']" 
                          :key="skill"
@@ -136,7 +135,7 @@
           </div>
         </div>
       </section>
-<TechStack :techStack="portfolio.techStack" />
+      <TechStack :techStack="portfolio.techStack" />
       <!-- Projects Section -->
       <section id="projects" class="py-20 relative">
         <!-- Background Elements -->
@@ -176,7 +175,9 @@
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-2">
                     <h3 class="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
+                      <NuxtLink :to="'/projects/' + project.id" class="inline-flex items-center text-gray-800 hover:text-gray-900 transition-colors">
                       {{ project.title }}
+                      </NuxtLink>
                     </h3>
                     <span class="px-3 py-1 text-sm font-medium text-primary-600 bg-primary-50 rounded-full">
                       {{ project.type }}
@@ -200,7 +201,7 @@
                 <div class="flex items-center justify-between pt-4 border-t border-gray-100">
                   <div class="flex items-center text-sm text-gray-500">
                     <CalendarIcon class="w-4 h-4 mr-1"/>
-                    <span>{{ formatDate(project.date) }}</span>
+                    <span>{{ formatDate(project.completionDate) }}</span>
                   </div>
                   <div class="flex gap-3">
                     <a v-if="project.demo" 

@@ -6,7 +6,7 @@
           <!-- Logo -->
           <div class="flex-shrink-0 flex items-center">
             <NuxtLink to="/" class="text-xl font-bold text-primary">
-              
+              morshed
             </NuxtLink>
           </div>
 
