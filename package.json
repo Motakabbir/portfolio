@@ -9,11 +9,14 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/robots": "^5.2.2",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/forms": "^0.5.10",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "nuxt-compress": "^5.0.0"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.2.0"
+    "@heroicons/vue": "^2.2.0",
+    "nuxt-simple-sitemap": "^4.4.1"
   }
 }
