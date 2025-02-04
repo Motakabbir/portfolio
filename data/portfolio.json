@@ -472,47 +472,9 @@
     "bloodGroup": "O+",
     "permanentAddress": "Thengamara, Gokul, Bogura"
   },
-  "projects": [
+  "projects": [    
     {
       "id": "1",
-      "title": "University Automation System",
-      "slug": "university-automation-system",
-      "description": "Comprehensive university management system with modules for student management, course registration, result processing, and administrative tasks.",
-      "longDescription": "A complete university management solution that streamlines academic and administrative processes. This system helps universities digitize their operations, from student admission to graduation, making administrative tasks more efficient and error-free.",
-      "image": "/images/projects/university.jpg",
-      "gallery": [
-        "/images/projects/university/dashboard.jpg",
-        "/images/projects/university/student-portal.jpg",
-        "/images/projects/university/result-processing.jpg",
-        "/images/projects/university/admin-panel.jpg"
-      ],
-      "technologies": ["Laravel", "Vue.js", "MySQL", "REST API"],
-      "category": "E-governance",
-      "client": "Multiple Universities in Bangladesh",
-      "duration": "18 months",
-      "completionDate": "2024-01",
-      "projectUrl": "https://university-demo.example.com",
-      "highlights": [
-        "Automated student registration and course management",
-        "Integrated payment gateway for fee collection",
-        "Real-time result processing and publication",
-        "Digital certificate generation"
-      ],
-      "challenges": [
-        "Handling large-scale concurrent users during result publication",
-        "Implementing complex grading rules for different departments",
-        "Ensuring data security and privacy",
-        "Integration with legacy systems"
-      ],
-      "solutions": [
-        "Implemented Redis caching for better performance",
-        "Created a flexible rule engine for grading",
-        "Used encryption for sensitive data",
-        "Built custom APIs for legacy system integration"
-      ]
-    },
-    {
-      "id": "2",
       "title": "Leaps - Unified Government Services Platform",
       "slug": "leaps-barmm",
       "description": "A centralized platform for streamlining BARMM government services, enhancing efficiency, transparency, and accessibility for citizens and government officials.",
@@ -548,119 +510,7 @@
         "Utilized AWS for cloud scalability and high availability",
         "Built a responsive and multilingual front-end using Nuxt.js"
       ]
-    },
-    {
-      "id": "3",
-      "title": "E-Commerce Marketplace",
-      "slug": "ecommerce-marketplace",
-      "description": "A scalable online marketplace for businesses and consumers to buy and sell products.",
-      "longDescription": "A full-fledged multi-vendor e-commerce platform with real-time inventory tracking, secure payment integration, and an intuitive shopping experience.",
-      "image": "/images/projects/ecommerce.jpg",
-      "technologies": ["Shopify", "Next.js", "MongoDB", "Stripe API"],
-      "category": "E-Commerce",
-      "client": "Various Retail Businesses",
-      "duration": "12 months",
-      "completionDate": "2023-08",
-      "projectUrl": "https://ecommerce-demo.example.com"
-    },
-    {
-      "id": "4",
-      "title": "AI Chatbot for Customer Support",
-      "slug": "ai-chatbot-customer-support",
-      "description": "An AI-powered chatbot for automating customer inquiries and support requests.",
-      "longDescription": "An advanced AI chatbot that understands natural language queries, provides automated responses, and seamlessly hands over conversations to human agents when needed.",
-      "image": "/images/projects/chatbot.jpg",
-      "technologies": ["Python", "TensorFlow", "Dialogflow", "FastAPI"],
-      "category": "Artificial Intelligence",
-      "client": "Customer Service Departments",
-      "duration": "10 months",
-      "completionDate": "2023-12",
-      "projectUrl": "https://chatbot-demo.example.com"
-    },
-    {
-      "id": "5",
-      "title": "Real Estate Property Management",
-      "slug": "real-estate-management",
-      "description": "A digital platform for property listings, tenant management, and rental payments.",
-      "longDescription": "An all-in-one real estate management solution that simplifies property listing, lease agreements, and rent collection for landlords and property managers.",
-      "image": "/images/projects/realestate.jpg",
-      "technologies": ["PHP", "React", "PostgreSQL", "AWS"],
-      "category": "Real Estate",
-      "client": "Property Management Firms",
-      "duration": "15 months",
-      "completionDate": "2023-06",
-      "projectUrl": "https://realestate-demo.example.com"
-    },
-    {
-      "id": "6",
-      "title": "Online Learning Platform",
-      "slug": "online-learning-platform",
-      "description": "A cloud-based learning management system (LMS) for educational institutions and corporate training.",
-      "longDescription": "An innovative e-learning platform featuring interactive video courses, quizzes, and certification programs to enhance the learning experience.",
-      "image": "/images/projects/elearning.jpg",
-      "technologies": ["Django", "Vue.js", "GraphQL", "AWS S3"],
-      "category": "Education",
-      "client": "EdTech Startups",
-      "duration": "20 months",
-      "completionDate": "2024-02",
-      "projectUrl": "https://elearning-demo.example.com"
-    },
-    {
-      "id": "7",
-      "title": "Smart Inventory Management System",
-      "slug": "smart-inventory-management",
-      "description": "A real-time inventory tracking system for warehouses and retail businesses.",
-      "longDescription": "An advanced inventory management system that automates stock tracking, order management, and demand forecasting for retail and warehouse operations.",
-      "image": "/images/projects/inventory.jpg",
-      "technologies": ["Node.js", "React", "PostgreSQL", "GraphQL"],
-      "category": "Logistics",
-      "client": "Retail & Wholesale Businesses",
-      "duration": "14 months",
-      "completionDate": "2023-09",
-      "projectUrl": "https://inventory-demo.example.com"
-    },
-    {
-      "id": "8",
-      "title": "Financial Budgeting App",
-      "slug": "financial-budgeting-app",
-      "description": "A mobile application for personal finance management and budgeting.",
-      "longDescription": "A user-friendly budgeting app that helps users track expenses, set financial goals, and gain insights into their spending habits.",
-      "image": "/images/projects/finance.jpg",
-      "technologies": ["Flutter", "Firebase", "Node.js", "Plaid API"],
-      "category": "Finance",
-      "client": "FinTech Startups",
-      "duration": "8 months",
-      "completionDate": "2023-07",
-      "projectUrl": "https://finance-demo.example.com"
-    },
-    {
-      "id": "9",
-      "title": "Food Delivery Platform",
-      "slug": "food-delivery-platform",
-      "description": "A food delivery service connecting restaurants with customers through an intuitive app.",
-      "longDescription": "A modern food delivery platform that offers real-time order tracking, restaurant management, and secure online payments.",
-      "image": "/images/projects/fooddelivery.jpg",
-      "technologies": ["React Native", "Node.js", "MongoDB", "Stripe API"],
-      "category": "Food & Beverage",
-      "client": "Restaurant Chains",
-      "duration": "16 months",
-      "completionDate": "2023-11",
-      "projectUrl": "https://fooddelivery-demo.example.com"
-    },
-    {
-      "id": "10",
-      "title": "Blockchain Voting System",
-      "slug": "blockchain-voting-system",
-      "description": "A secure and transparent voting system leveraging blockchain technology.",
-      "longDescription": "A blockchain-powered voting platform that ensures election integrity, prevents fraud, and enhances voter confidence.",
-      "image": "/images/projects/voting.jpg",
-      "technologies": ["Ethereum", "Solidity", "React", "IPFS"],
-      "category": "Blockchain",
-      "client": "Government & NGOs",
-      "duration": "18 months",
-      "completionDate": "2024-03",
-      "projectUrl": "https://voting-demo.example.com"
-    }
+    }    
   ],
   "blogPosts": [
     {
