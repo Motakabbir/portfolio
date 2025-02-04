@@ -513,17 +513,41 @@
     },
     {
       "id": "2",
-      "title": "Smart Healthcare System",
-      "slug": "smart-healthcare-system",
-      "description": "An advanced healthcare management system for hospitals and clinics, featuring patient records, appointment scheduling, and telemedicine support.",
-      "longDescription": "A modern healthcare platform designed to streamline hospital operations and improve patient care. The system enables digital patient records, doctor scheduling, remote consultations, and automated billing for enhanced efficiency.",
-      "image": "/images/projects/healthcare.jpg",
-      "technologies": ["React", "Node.js", "MongoDB", "GraphQL"],
-      "category": "Healthcare",
-      "client": "Multiple Hospitals Worldwide",
+      "title": "Leaps - Unified Government Services Platform",
+      "slug": "leaps-barmm",
+      "description": "A centralized platform for streamlining BARMM government services, enhancing efficiency, transparency, and accessibility for citizens and government officials.",
+      "longDescription": "Leaps is a comprehensive digital platform designed to unify and optimize government services within the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM). It facilitates seamless interactions between government agencies and citizens, improving service delivery, transparency, and operational efficiency. From document processing to citizen engagement, Leaps modernizes governance through digital transformation.",
+      "image": "/images/projects/leaps-barmm.jpg",
+      "gallery": [
+        "/images/projects/leaps/dashboard.jpg",
+        "/images/projects/leaps/service-portal.jpg",
+        "/images/projects/leaps/citizen-engagement.jpg",
+        "/images/projects/leaps/admin-panel.jpg"
+      ],
+      "technologies": ["Laravel", "Nuxt.js", "PostgreSQL", "REST API", "AWS"],
+      "category": "E-Governance",
+      "client": "BARMM Government",
       "duration": "24 months",
-      "completionDate": "2023-10",
-      "projectUrl": "https://healthcare-demo.example.com"
+      "completionDate": "2024-06",
+      "projectUrl": "https://leaps.ph/",
+      "highlights": [
+        "Unified portal for multiple government services",
+        "Secure digital transactions and document processing",
+        "Real-time tracking of service requests",
+        "Automated workflows for government agencies"
+      ],
+      "challenges": [
+        "Integrating diverse government databases and legacy systems",
+        "Ensuring platform security and data privacy",
+        "Managing high user traffic during peak service times",
+        "Providing multilingual support for diverse user groups"
+      ],
+      "solutions": [
+        "Developed API-driven architecture using Laravel for seamless integrations",
+        "Implemented advanced encryption and security protocols",
+        "Utilized AWS for cloud scalability and high availability",
+        "Built a responsive and multilingual front-end using Nuxt.js"
+      ]
     },
     {
       "id": "3",
