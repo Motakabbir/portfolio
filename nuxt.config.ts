@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/robots'
   ],
-  
+
   css: [
     '@/assets/css/main.css',
     '@/assets/css/animations.css'
@@ -54,14 +54,6 @@ export default defineNuxtConfig({
     }
   },
 
-  tailwindcss: {
-    cssPath: '@/assets/css/main.css',
-    configPath: 'tailwind.config.js',
-    exposeConfig: false,
-    injectPosition: 0,
-    viewer: true
-  },
-
   nitro: {
     compressPublicAssets: true,
     minify: true,
@@ -71,27 +63,20 @@ export default defineNuxtConfig({
       dir: 'public'
     }],
     prerender: {
-      crawlLinks: true,
+      //crawlLinks: true,
       routes: ['/']
     }
   },
 
-  robots: {
-    UserAgent: '*',
-    Allow: '/',
-    Sitemap: 'https://mmorshed.me/sitemap.xml'
-  },
-
   routeRules: {
     // Enable gzip compression for all routes
-    '/**': { 
+    '/**': {
       headers: {
         'Cache-Control': 'max-age=31536000, public, immutable',
         'X-Content-Type-Options': 'nosniff',
         'X-Frame-Options': 'DENY',
         'X-XSS-Protection': '1; mode=block'
-      },
-      gzip: true
+      }
     }
   },
 

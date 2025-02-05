@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
-    "nuxt-simple-sitemap": "^4.4.1"
+    "nuxt-simple-sitemap": "^4.4.1",
+    "rollup": "^4.34.2"
   }
 }
