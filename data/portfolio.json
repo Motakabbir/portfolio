@@ -10,7 +10,8 @@
       "+880 1771882876",
       "+880 1971882876",
       "+880 1956602631"
-    ],"social": [
+    ],
+    "social": [
     { 
         "name": "LinkedIn",
         "url": "https://linkedin.com/in/motakabbir-morshed",
@@ -96,8 +97,7 @@
         "url": "https://www.fiverr.com/YOUR_FIVERR_USERNAME",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1DBF73'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
     }
-],
-    
+    ],    
     "dateOfBirth": "1990-09-30",
     "nationality": "Bangladeshi",
     "languages": [
@@ -528,68 +528,68 @@
       "technologies": ["PHP", "MySQL", "Payment Gateway", "SMS API", "Content Management System", "Responsive Design"]
     }
   ],
-"education": [
-  {
-    "id": 1,
-    "degree": "BSc in Electronics and Telecommunication Engineering",
-    "institution": "University of Liberal Arts Bangladesh",
-    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=ULAB",
-    "duration": "2009 - 2013",
-    "grade": "GPA: 3.41/4.00",
-    "thesis": "Design and Implementation of an Efficient Communication System Using OFDM",
-    "achievements": [
-      "Dean's Scholarship Award",
-      "Member of the University Robotics Club",
-      "Winner of the Annual Inter-University Robotics Competition (2012)",
-      "Successfully implemented a Wireless Communication Project"
-    ],
-    "relevantCourses": [
-      "Electronics Circuits",
-      "Telecommunication Networks",
-      "Signals and Systems",
-      "Digital Signal Processing",
-      "Microprocessors"
-    ]
-  },
-  {
-    "id": 2,
-    "degree": "Higher Secondary Certificate (HSC) in Science",
-    "institution": "SOS Hermann Gneiner College",
-    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
-    "duration": "2006 - 2008",
-    "grade": "GPA: 3.6/5.00",
-    "achievements": [
-      "Awarded for Highest Marks in Physics and Mathematics",
-      "President of Science Club",
-      "Participated in National Science Fair"
-    ],
-    "relevantCourses": [
-      "Physics",
-      "Mathematics",
-      "Chemistry",
-      "Computer Science"
-    ]
-  },
-  {
-    "id": 3,
-    "degree": "Secondary School Certificate (SSC) in Science",
-    "institution": "SOS Hermann Gneiner College",
-    "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
-    "duration": "2004 - 2006",
-    "grade": "GPA: 4.75/5.00",
-    "achievements": [
-      "Top scorer in Science Subjects",
-      "Winner of the Annual Mathematics Olympiad",
-      "Volunteered for multiple community service projects"
-    ],
-    "relevantCourses": [
-      "Physics",
-      "Mathematics",
-      "Chemistry",
-      "Biology"
-    ]
-  }
-],
+  "education": [
+    {
+      "id": 1,
+      "degree": "BSc in Electronics and Telecommunication Engineering",
+      "institution": "University of Liberal Arts Bangladesh",
+      "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=ULAB",
+      "duration": "2009 - 2013",
+      "grade": "GPA: 3.41/4.00",
+      "thesis": "Design and Implementation of an Efficient Communication System Using OFDM",
+      "achievements": [
+        "Dean's Scholarship Award",
+        "Member of the University Robotics Club",
+        "Winner of the Annual Inter-University Robotics Competition (2012)",
+        "Successfully implemented a Wireless Communication Project"
+      ],
+      "relevantCourses": [
+        "Electronics Circuits",
+        "Telecommunication Networks",
+        "Signals and Systems",
+        "Digital Signal Processing",
+        "Microprocessors"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Higher Secondary Certificate (HSC) in Science",
+      "institution": "SOS Hermann Gneiner College",
+      "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
+      "duration": "2006 - 2008",
+      "grade": "GPA: 3.6/5.00",
+      "achievements": [
+        "Awarded for Highest Marks in Physics and Mathematics",
+        "President of Science Club",
+        "Participated in National Science Fair"
+      ],
+      "relevantCourses": [
+        "Physics",
+        "Mathematics",
+        "Chemistry",
+        "Computer Science"
+      ]
+    },
+    {
+      "id": 3,
+      "degree": "Secondary School Certificate (SSC) in Science",
+      "institution": "SOS Hermann Gneiner College",
+      "institutionLogo": "https://placehold.co/400x400/4f46e5/ffffff?text=SGC",
+      "duration": "2004 - 2006",
+      "grade": "GPA: 4.75/5.00",
+      "achievements": [
+        "Top scorer in Science Subjects",
+        "Winner of the Annual Mathematics Olympiad",
+        "Volunteered for multiple community service projects"
+      ],
+      "relevantCourses": [
+        "Physics",
+        "Mathematics",
+        "Chemistry",
+        "Biology"
+      ]
+    }
+  ],
   "certifications": [
     {
       "name": "Web App Development - .NET",

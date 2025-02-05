@@ -281,110 +281,6 @@ const handleImageError = (event) => {
 
 const data = ref({
   ...portfolioData,
-  personal: {
-    name: "John Doe",
-    title: "Senior Software Engineer",
-    image: "https://placehold.co/400x400/4f46e5/ffffff?text=JD",
-    location: "San Francisco, CA",
-    bio: "Passionate software engineer with 7+ years of experience in building scalable web applications and leading development teams. Specialized in full-stack development with a focus on cloud-native solutions and modern JavaScript frameworks.",
-    quickInfo: [
-      {
-        type: "email",
-        label: "Email",
-        value: "john.doe@example.com"
-      },
-      {
-        type: "phone",
-        label: "Phone",
-        value: "+1 (555) 123-4567"
-      },
-      {
-        type: "languages",
-        label: "Languages",
-        value: "English, Spanish, French"
-      },
-      {
-        type: "experience",
-        label: "Experience",
-        value: "7+ Years"
-      }
-    ]
-  },
-  social: [
-    { 
-      name: "GitHub",
-      url: "https://github.com/johndoe",
-      icon: "github"
-    },
-    { 
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/johndoe",
-      icon: "linkedin"
-    },
-    { 
-      name: "Twitter",
-      url: "https://twitter.com/johndoe",
-      icon: "twitter"
-    }
-  ],
-  experience: [
-    {
-      id: 1,
-      position: "Senior Software Engineer",
-      company: "TechCorp Solutions",
-      companyLogo: "https://placehold.co/400x400/4f46e5/ffffff?text=TC",
-      duration: "Jan 2023 - Present",
-      responsibilities: [
-        "Led a team of 5 developers in developing and maintaining cloud-native applications using microservices architecture",
-        "Implemented CI/CD pipelines that reduced deployment time by 60% and improved code quality",
-        "Architected and developed scalable backend services handling 1M+ daily requests",
-        "Mentored junior developers and conducted technical interviews for hiring"
-      ],
-      technologies: ["Node.js", "React", "AWS", "Docker", "Kubernetes", "MongoDB"]
-    },
-    {
-      id: 2,
-      position: "Full Stack Developer",
-      company: "InnovateTech Inc",
-      companyLogo: "https://placehold.co/400x400/4f46e5/ffffff?text=IT",
-      duration: "Jun 2021 - Dec 2022",
-      responsibilities: [
-        "Developed and maintained multiple web applications using Vue.js and Django",
-        "Optimized database queries resulting in 40% improvement in application performance",
-        "Implemented real-time features using WebSocket technology",
-        "Collaborated with UX designers to implement responsive and accessible interfaces"
-      ],
-      technologies: ["Vue.js", "Django", "PostgreSQL", "Redis", "AWS", "Nginx"]
-    },
-    {
-      id: 3,
-      position: "Software Developer",
-      company: "DataFlow Systems",
-      companyLogo: "https://placehold.co/400x400/4f46e5/ffffff?text=DS",
-      duration: "Aug 2019 - May 2021",
-      responsibilities: [
-        "Built and maintained data processing pipelines handling 100GB+ daily data",
-        "Developed RESTful APIs for internal and external service integration",
-        "Implemented automated testing strategies achieving 90% code coverage",
-        "Participated in agile ceremonies and contributed to sprint planning"
-      ],
-      technologies: ["Python", "FastAPI", "Apache Kafka", "ElasticSearch", "Docker"]
-    },
-    {
-      id: 4,
-      position: "Junior Developer",
-      company: "WebSmart Solutions",
-      companyLogo: "https://placehold.co/400x400/4f46e5/ffffff?text=WS",
-      duration: "Jan 2018 - Jul 2019",
-      responsibilities: [
-        "Developed and maintained client websites using modern web technologies",
-        "Implemented responsive designs and ensured cross-browser compatibility",
-        "Integrated third-party APIs and payment gateways",
-        "Collaborated with the design team to implement pixel-perfect layouts"
-      ],
-      technologies: ["JavaScript", "React", "PHP", "MySQL", "WordPress", "SASS"]
-    }
-  ],
   certifications: [
     {
       id: 1,
@@ -422,23 +318,7 @@ const data = ref({
       credentialId: "GCP-ARCH-345678",
       skills: ["GCP", "Cloud Architecture", "Security", "Infrastructure"]
     }
-  ],
-  education: [
-    {
-      id: 1,
-      degree: "Bachelor of Science in Computer Science and Engineering",
-      institution: "Bangladesh University of Business and Technology (BUBT)",
-      institutionLogo: "https://placehold.co/400x400/4f46e5/ffffff?text=BUBT",
-      duration: "2018 - 2022",
-      grade: "CGPA: 3.75/4.00",
-      thesis: "Design and Development of a Real-Time Object Detection System using Deep Learning",
-      achievements: [
-        "Recipient of the Dean's List Award for outstanding academic performance",
-        "Participated in the 2020 ICPC Dhaka Regional Programming Contest"
-      ],
-      relevantCourses: ["Data Structures and Algorithms", "Computer Networks", "Database Systems", "Artificial Intelligence", "Machine Learning"]
-    }
-  ],
+  ], 
   skills: [
     {
       category: "Programming Languages",
