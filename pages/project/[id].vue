@@ -8,12 +8,12 @@
           <div class="flex gap-4 mb-8">
             <span class="text-gray-600">{{ formatDate(project.date) }}</span>
             <div class="flex gap-4">
-              <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank" 
-                 class="text-primary-500 hover:text-primary-600">
+              <a v-if="project.demoUrl" :href="project.demoUrl" target="_blank"
+                class="text-primary-500 hover:text-primary-600">
                 Live Demo →
               </a>
               <a v-if="project.githubUrl" :href="project.githubUrl" target="_blank"
-                 class="text-primary-500 hover:text-primary-600">
+                class="text-primary-500 hover:text-primary-600">
                 GitHub →
               </a>
             </div>
@@ -21,16 +21,15 @@
         </div>
 
         <!-- Project Image -->
-        <img :src="project.image" :alt="project.title" 
-             class="w-full h-[400px] object-cover rounded-xl mb-12"
-             @error="handleImageError">
+        <img :src="project.image" :alt="project.title" class="w-full h-[400px] object-cover rounded-xl mb-12"
+          @error="handleImageError">
 
         <!-- Technologies -->
         <div class="mb-12">
           <h2 class="text-2xl font-bold mb-4">Technologies Used</h2>
           <div class="flex flex-wrap gap-3">
             <span v-for="tech in project.technologies" :key="tech"
-                  class="px-4 py-2 bg-primary-50 text-primary-700 rounded-full text-sm font-medium">
+              class="px-4 py-2 bg-primary-50 text-primary-700 rounded-full text-sm font-medium">
               {{ tech }}
             </span>
           </div>
@@ -54,7 +53,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import projectsData from '@/data/projects.json'
+import projectsData from '@/data/portfolio.json'
 
 const route = useRoute()
 const project = ref(null)
@@ -64,7 +63,7 @@ onMounted(() => {
 })
 
 const formatDate = (dateStr) => {
-  return new Date(dateStr).toLocaleDateString('en-US', { 
+  return new Date(dateStr).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long'
   })
