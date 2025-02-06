@@ -10,13 +10,11 @@
         <div class="flex flex-col space-y-8">
           <!-- Social Links Grid -->
           <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            <a v-for="social in socials" 
-               :key="social.name"
-               :href="social.url"
-               target="_blank"
-               class="flex flex-col items-center p-4 rounded-xl bg-gray-50 dark:bg-gray-700 hover:bg-primary-50 dark:hover:bg-primary-900/50 transition-colors group">
+            <a v-for="social in socials" :key="social.name" :href="social.url" target="_blank"
+              class="flex flex-col items-center p-4 rounded-xl bg-gray-50 dark:bg-gray-700 hover:bg-primary-50 dark:hover:bg-primary-900/50 transition-colors group">
               <img :src="social.icon" :alt="social.name" class="h-8 mb-2">
-              <span class="text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary-600 dark:group-hover:text-primary-400">
+              <span
+                class="text-sm text-gray-600 dark:text-gray-300 group-hover:text-primary-600 dark:group-hover:text-primary-400">
                 {{ social.name }}
               </span>
             </a>
@@ -25,12 +23,12 @@
           <!-- Freelance Profiles -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto w-full">
             <!-- Upwork Profile -->
-            <a href="https://www.upwork.com/freelancers/~YOUR_UPWORK_ID" 
-               target="_blank"
-               class="flex items-center gap-4 p-4 rounded-xl bg-[#6FDA44] bg-opacity-10 hover:bg-opacity-20 transition-colors">
+            <a href="https://www.upwork.com/freelancers/~01865515acfc0df114?mp_source=share" target="_blank"
+              class="flex items-center gap-4 p-4 rounded-xl bg-[#6FDA44] bg-opacity-10 hover:bg-opacity-20 transition-colors">
               <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#6FDA44]">
                 <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.546-1.405 0-2.543-1.14-2.543-2.546V3.492H0v7.112c0 2.867 2.332 5.203 5.201 5.203 2.867 0 5.2-2.336 5.2-5.203v-1.226c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/>
+                  <path
+                    d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.546-1.405 0-2.543-1.14-2.543-2.546V3.492H0v7.112c0 2.867 2.332 5.203 5.201 5.203 2.867 0 5.2-2.336 5.2-5.203v-1.226c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z" />
                 </svg>
               </div>
               <div>
@@ -40,12 +38,12 @@
             </a>
 
             <!-- Fiverr Profile -->
-            <a href="https://www.fiverr.com/YOUR_FIVERR_USERNAME" 
-               target="_blank"
-               class="flex items-center gap-4 p-4 rounded-xl bg-[#1DBF73] bg-opacity-10 hover:bg-opacity-20 transition-colors">
+            <a href="https://www.fiverr.com/s/Q75Nev6" target="_blank"
+              class="flex items-center gap-4 p-4 rounded-xl bg-[#1DBF73] bg-opacity-10 hover:bg-opacity-20 transition-colors">
               <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#1DBF73]">
                 <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M23 9.5h-3.5v-3h-2v3H14v2h3.5v3h2v-3H23v-2zM4.5 7.5C3.1 7.5 2 6.4 2 5s1.1-2.5 2.5-2.5S7 3.6 7 5 5.9 7.5 4.5 7.5zm0-4C3.7 3.5 3 4.2 3 5s.7 1.5 1.5 1.5S6 5.8 6 5 5.3 3.5 4.5 3.5zm0 5C2 8.5 0 10.5 0 13v3h9v-3c0-2.5-2-4.5-4.5-4.5zm-3 6v-2c0-1.7 1.3-3 3-3s3 1.3 3 3v2H1.5z"/>
+                  <path
+                    d="M23 9.5h-3.5v-3h-2v3H14v2h3.5v3h2v-3H23v-2zM4.5 7.5C3.1 7.5 2 6.4 2 5s1.1-2.5 2.5-2.5S7 3.6 7 5 5.9 7.5 4.5 7.5zm0-4C3.7 3.5 3 4.2 3 5s.7 1.5 1.5 1.5S6 5.8 6 5 5.3 3.5 4.5 3.5zm0 5C2 8.5 0 10.5 0 13v3h9v-3c0-2.5-2-4.5-4.5-4.5zm-3 6v-2c0-1.7 1.3-3 3-3s3 1.3 3 3v2H1.5z" />
                 </svg>
               </div>
               <div>
@@ -106,7 +104,7 @@ a:hover {
 }
 
 /* Global button styles */
-button, 
+button,
 .button {
   @apply inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-lg font-medium;
   @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
@@ -127,12 +125,19 @@ section {
 }
 
 /* Heading styles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @apply font-bold text-gray-900 dark:text-white;
 }
 
 /* Form styles */
-input, textarea, select {
+input,
+textarea,
+select {
   @apply block w-full rounded-lg border-gray-300 shadow-sm;
   @apply focus:ring-primary-500 focus:border-primary-500 focus:ring-2;
   @apply dark:bg-gray-700 dark:border-gray-600 dark:text-white;

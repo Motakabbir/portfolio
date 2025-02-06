@@ -12,92 +12,92 @@
       "+880 1956602631"
     ],
     "social": [
-    { 
+      {
         "name": "LinkedIn",
         "url": "https://linkedin.com/in/motakabbir-morshed",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0A66C2'><path d='M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5V9h3v10zM6.5 7.75A1.75 1.75 0 118.3 6a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-5.6c0-1.36-.5-2.25-1.75-2.25-1.25 0-1.75.89-1.75 2.25V19h-3V9h3v1.5h.05a3.5 3.5 0 013.2-1.75c3.45 0 4 2.25 4 5.25V19z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "GitHub",
         "url": "https://github.com/Motakabbir",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#181717'><path d='M12 .5a11.5 11.5 0 00-3.65 22.42c.58.1.79-.25.79-.55v-1.92c-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.3-1.7-1.3-1.7-1.06-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.04 1.8 2.73 1.28 3.4 1 .1-.78.4-1.28.73-1.57-2.55-.3-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.2-3.1-.12-.3-.52-1.5.12-3.1 0 0 1-.32 3.3 1.2a11.3 11.3 0 016 0c2.3-1.52 3.3-1.2 3.3-1.2.64 1.6.24 2.8.12 3.1.75.8 1.2 1.84 1.2 3.1 0 4.42-2.7 5.4-5.25 5.7.42.36.8 1.08.8 2.18v3.23c0 .3.2.65.8.55A11.5 11.5 0 0012 .5z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Email",
         "url": "mailto:dolardx@gmail.com",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#EA4335'><path d='M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Behance",
         "url": "https://behance.net/dolar_0016533f",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1769FF'><path d='M22 7h-7v-2h7v2zm1.77 6.77a5.5 5.5 0 01-5.5 5.5H8v-5.5h9.27a5.5 5.5 0 015.5 5.5zm-5.5-3.27H8v-2h9.27a3.27 3.27 0 110 6.54H15v-1.73h2.77a1.5 1.5 0 100-3H8V7h11.27a5.5 5.5 0 110 11h-2.77v1.73h2.77a7.23 7.23 0 100-14.46zM2 11h4v2H2v-2zm0-4h4v2H2V7zm0 8h4v2H2v-2z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Discord",
         "url": "https://discord.gg/dolar0016",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#5865F2'><path d='M19.54 4.93A19.5 19.5 0 0014.5 3c-.23.42-.45.86-.6 1.29a18.2 18.2 0 00-5.8 0A12.7 12.7 0 007.5 3a19.5 19.5 0 00-5 1.93C.5 9.17 0 13.5 0 17.92A19.5 19.5 0 005.5 22c.42-.55.8-1.15 1.1-1.8a12.7 12.7 0 01-1.9-.9l.7-1a16.7 16.7 0 0014.4 0l.7 1a12.7 12.7 0 01-1.9.9c.3.65.7 1.25 1.1 1.8a19.5 19.5 0 005.5-4.08c0-4.42-.5-8.75-2.96-12.99zM8 15.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm8 0a2.5 2.5 0 110-5 2.5 2.5 0 010 5z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Facebook",
         "url": "https://facebook.com/morshed.dolar",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1877F2'><path d='M22 12a10 10 0 10-11.56 9.88V14.9H7.9V12h2.54V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v6.98A10 10 0 0022 12z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Instagram",
         "url": "https://instagram.com/dolarmotakabbir",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#E4405F'><path d='M12 2.16c3.2 0 3.58 0 4.85.07a7.2 7.2 0 012.46.5 4.8 4.8 0 011.72 1.16 4.8 4.8 0 011.16 1.72 7.2 7.2 0 01.5 2.46c.07 1.27.07 1.65.07 4.85s0 3.58-.07 4.85a7.2 7.2 0 01-.5 2.46 4.8 4.8 0 01-1.16 1.72 4.8 4.8 0 01-1.72 1.16 7.2 7.2 0 01-2.46.5c-1.27.07-1.65.07-4.85.07s-3.58 0-4.85-.07a7.2 7.2 0 01-2.46-.5 4.8 4.8 0 01-1.72-1.16 4.8 4.8 0 01-1.16-1.72 7.2 7.2 0 01-.5-2.46c-.07-1.27-.07-1.65-.07-4.85s0-3.58.07-4.85a7.2 7.2 0 01.5-2.46 4.8 4.8 0 011.16-1.72 4.8 4.8 0 011.72-1.16 7.2 7.2 0 012.46-.5c1.27-.07 1.65-.07 4.85-.07zm0-2.16c-3.3 0-3.7 0-5 .07a9.3 9.3 0 00-3.2.6 6.9 6.9 0 00-2.4 1.4 6.9 6.9 0 00-1.4 2.4 9.3 9.3 0 00-.6 3.2c-.07 1.3-.07 1.7-.07 5s0 3.7.07 5a9.3 9.3 0 00.6 3.2 6.9 6.9 0 001.4 2.4 6.9 6.9 0 002.4 1.4 9.3 9.3 0 003.2.6c1.3.07 1.7.07 5 .07s3.7 0 5-.07a9.3 9.3 0 003.2-.6 6.9 6.9 0 002.4-1.4 6.9 6.9 0 001.4-2.4 9.3 9.3 0 00.6-3.2c.07-1.3.07-1.7.07-5s0-3.7-.07-5a9.3 9.3 0 00-.6-3.2 6.9 6.9 0 00-1.4-2.4 6.9 6.9 0 00-2.4-1.4 9.3 9.3 0 00-3.2-.6c-1.3-.07-1.7-.07-5-.07zm0 5.34a4.66 4.66 0 100 9.32 4.66 4.66 0 000-9.32zm0 7.7a3.04 3.04 0 110-6.08 3.04 3.04 0 010 6.08zm5.54-8.2a1.1 1.1 0 100-2.2 1.1 1.1 0 000 2.2z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Medium",
         "url": "https://medium.com/@dolardx",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M2.85 5.59a.75.75 0 00-.25-.65L.25 2.4v-.34h6.8l5.25 11.5 4.63-11.5H24v.34l-1.9 1.8a.45.45 0 00-.17.43v13.5a.45.45 0 00.17.43l1.85 1.8v.34h-9.2v-.34l1.9-1.8c.17-.17.17-.2.17-.43V7.5l-5.4 13.7h-.7L4.1 7.5v9.2a1 1 0 00.28.8l2.5 3v.34H0v-.34l2.5-3a1 1 0 00.28-.8V5.59z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Pinterest",
         "url": "https://pinterest.com/dolardx",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#E60023'><path d='M12 0a12 12 0 00-3.8 23.4c-.1-.9-.2-2.3 0-3.3l1.4-5.8s-.4-.8-.4-2c0-1.9 1.1-3.3 2.5-3.3 1.2 0 1.8.9 1.8 2 0 1.2-.8 3-.1 4.6 0 0 .7 1.2 2.7 0 0-2.2.4-4 1.3-5.4-1.8-2-4.4-2.1-5.4-2.1-4.1 0-7 2.7-7 7.4 0 2.6 1 4.6 2.4 5.6-.3.8-.8 2.3-.3 4.6 0 0 1.4.5 4.4-1.7 0 0 2.9 4 7.3 0 4.4-4 4.4-10.3 0-14.3-4.4-4-10.6-4-15 0-4.4 4-4.4 10.3 0 14.3 2.2 2.2 5.1 3.3 8.1 3.3 1.5 0 3-.2 4.4-.6 2.8-1.2 4-4 4.4-5.4.4-1.6.6-3.3.6-5 0-6-4.4-10.8-10-10.8z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Quora",
         "url": "https://quora.com/profile/Motakabbir-Morshed",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#B92B27'><path d='M12 0a12 12 0 100 24 12 12 0 000-24zm5.6 16.8c-.4.6-.9 1.1-1.5 1.5-1.1.7-2.4 1-3.8 1-1.4 0-2.7-.3-3.8-1-1.1-.7-1.9-1.7-2.4-2.9-.5-1.2-.7-2.5-.7-3.9 0-1.4.2-2.7.7-3.9.5-1.2 1.3-2.2 2.4-2.9 1.1-.7 2.4-1 3.8-1 1.4 0 2.7.3 3.8 1 1.1.7 1.9 1.7 2.4 2.9.5 1.2.7 2.5.7 3.9 0 1.4-.2 2.7-.7 3.9-.2.5-.4 1-.7 1.4zM12 6c-1.1 0-2 .3-2.8.8-.8.5-1.4 1.2-1.8 2-.4.8-.6 1.7-.6 2.7 0 1 .2 1.9.6 2.7.4.8 1 1.5 1.8 2 .8.5 1.7.8 2.8.8 1.1 0 2-.3 2.8-.8.8-.5 1.4-1.2 1.8-2 .4-.8.6-1.7.6-2.7 0-1-.2-1.9-.6-2.7-.4-.8-1-1.5-1.8-2-.8-.5-1.7-.8-2.8-.8z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Reddit",
         "url": "https://reddit.com/user/Purple_Diamond_2269",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FF4500'><path d='M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.74c.69 0 1.25.56 1.25 1.25a1.25 1.25 0 01-1.25 1.25 1.25 1.25 0 01-1.25-1.25c0-.69.56-1.25 1.25-1.25zm-2.65 1.47c-1.03 0-1.86.84-1.86 1.86v.03c0 1.03.84 1.86 1.86 1.86 1.03 0 1.86-.84 1.86-1.86v-.03c0-1.03-.84-1.86-1.86-1.86zm4.78 5.92c-.55-.98-1.67-1.64-2.92-1.64l-.03.01c-1.4 0-2.6.83-3.16 2.02-.56-1.19-1.76-2.02-3.16-2.02l-.03-.01c-1.25 0-2.37.66-2.92 1.64-.55.98-.55 2.16 0 3.14.55.98 1.67 1.64 2.92 1.64l.03-.01c1.4 0 2.6-.83 3.16-2.02.56 1.19 1.76 2.02 3.16 2.02l.03.01c1.25 0 2.37-.66 2.92-1.64.55-.98.55-2.16 0-3.14zM12 16.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Stack Overflow",
         "url": "https://stackoverflow.com/users/motakabbir-morshed-dolar",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#F48024'><path d='M18.98 20.98v-6.5h2v8.5H3v-8.5h2v6.5h13.98zM7.5 14.48l8.5 1.7.3-1.6-8.5-1.7-.3 1.6zm1-4l8 3.5.6-1.5-8-3.5-.6 1.5zm2-3.5l7 5.2 1-1.3-7-5.2-1 1.3zM15 4.98l-5.5 6.6 1.3 1.1 5.5-6.6-1.3-1.1zM7.5 18.98v-2h9v2h-9z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Twitter",
         "url": "https://x.com/Motakabbir16279",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M22 5.8a8.5 8.5 0 01-2.4.7 4.2 4.2 0 001.8-2.3 8.5 8.5 0 01-2.7 1 4.2 4.2 0 00-7.2 3.8 12 12 0 01-8.7-4.4 4.2 4.2 0 001.3 5.6 4.2 4.2 0 01-1.9-.5v.1a4.2 4.2 0 003.4 4.1 4.2 4.2 0 01-1.9.1 4.2 4.2 0 003.9 2.9 8.5 8.5 0 01-5.2 1.8 12 12 0 006.5 1.9c7.8 0 12-6.5 12-12.1v-.6A8.5 8.5 0 0022 5.8z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "YouTube",
         "url": "https://youtube.com/@morshed0",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FF0000'><path d='M23.5 6.5a3 3 0 00-2.1-2.1C19.5 4 12 4 12 4s-7.5 0-9.4.4A3 3 0 00.5 6.5C0 8.4 0 12 0 12s0 3.6.5 5.5a3 3 0 002.1 2.1c1.9.4 9.4.4 9.4.4s7.5 0 9.4-.4a3 3 0 002.1-2.1C24 15.6 24 12 24 12s0-3.6-.5-5.5zM9.5 15.5V8.5l6.5 3.5-6.5 3.5z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "CodePen",
         "url": "https://codepen.io/Motakabbir-Morshed",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Upwork",
         "url": "https://www.upwork.com/freelancers/~YOUR_UPWORK_ID",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#6FDA44'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
-    },
-    { 
+      },
+      {
         "name": "Fiverr",
         "url": "https://www.fiverr.com/YOUR_FIVERR_USERNAME",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1DBF73'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
-    }
-    ],    
+      }
+    ],
     "dateOfBirth": "1990-09-30",
     "nationality": "Bangladeshi",
     "languages": [
@@ -135,7 +135,7 @@
         "value": "English, Bangla, Hindi"
       },
       {
-       "type": "experience",
+        "type": "experience",
         "label": "Experience",
         "value": "9+ Years"
       }
@@ -191,12 +191,15 @@
   },
   "contact": {
     "email": {
-      "primary": "motakabbir.morshed@gmail.com",
-      "secondary": "motakabbir.morshed@yahoo.com"
+      "title": "Email Me",
+      "primary": "dolardx@gmail.com",
+      "secondary": "dolar_0016@yahoo.com",
+      "response": "Within 24 hours",
+      "description": "For project inquiries and collaborations"
     },
     "phone": {
-      "primary": "+880 1712-345678",
-      "secondary": "+880 1812-345678"
+      "primary": "+880 1771-882876",
+      "secondary": "+880 1971-882876"
     },
     "address": {
       "street": "Thengamara",
@@ -205,6 +208,41 @@
       "country": "Bangladesh",
       "postalCode": "5800"
     },
+    "location": {
+      "title": "Office Location",
+      "address": {
+        "name": "Samu Palace",
+        "floor": "4th Floor",
+        "suite": "40/2",
+        "street": "Sultanjong",
+        "area": "Rayerbazar",
+        "city": "Dhaka",
+        "state": "Dhaka",
+        "zipCode": "1207"
+      },
+      "hours": "Monday - Friday: 9:00 AM - 6:00 PM PST",
+      "transport": {
+        "bus": "Rayerbazar Baribadh - 2 min walk",
+        "parking": "Underground Parking"
+      }
+    },
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Motakabbir",
+        "username": "@Motakabbir"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/motakabbir-morshed",
+        "username": "Motakabbir"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/motakabbir",
+        "username": "@motakabbir"
+      }
+    ],
     "socialMedia": {
       "github": "https://github.com/Motakabbir",
       "linkedin": "https://www.linkedin.com/in/motakabbir-morshed/",
@@ -220,7 +258,7 @@
     "preferredContact": [
       {
         "method": "Email",
-        "value": "motakabbir.morshed@gmail.com",
+        "value": "dolardx@gmail.com",
         "icon": "📧"
       },
       {
@@ -230,73 +268,265 @@
       },
       {
         "method": "WhatsApp",
-        "value": "+880 1712-345678",
+        "value": "+880 1771-882876",
         "icon": "📱"
       }
     ]
   },
   "techStack": {
     "languages": [
-      { "name": "C#", "badge": "https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=csharp&logoColor=white" },
-      { "name": "CSS3", "badge": "https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white" },
-      { "name": "HTML5", "badge": "https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white" },
-      { "name": "JavaScript", "badge": "https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E" },
-      { "name": "TypeScript", "badge": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white" },
-      { "name": "PHP", "badge": "https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white" },
-      { "name": "Python", "badge": "https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" },
-      { "name": "Java", "badge": "https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white" },
-      { "name": "Kotlin", "badge": "https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white" }
+      {
+        "name": "C#",
+        "badge": "https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=csharp&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/csharp.svg"
+      },
+      {
+        "name": "CSS3",
+        "badge": "https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/css3.svg"
+      },
+      {
+        "name": "HTML5",
+        "badge": "https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/html5.svg"
+      },
+      {
+        "name": "JavaScript",
+        "badge": "https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "badge": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/typescript.svg"
+      },
+      {
+        "name": "PHP",
+        "badge": "https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/php.svg"
+      },
+      {
+        "name": "Python",
+        "badge": "https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/python.svg"
+      },
+      {
+        "name": "Java",
+        "badge": "https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/java.svg"
+      },
+      {
+        "name": "Kotlin",
+        "badge": "https://img.shields.io/badge/kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/kotlin.svg"
+      }
     ],
     "frameworks": [
-      { "name": "Laravel", "badge": "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white" },
-      { "name": "Vue.js", "badge": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D" },
-      { "name": "Nuxt.js", "badge": "https://img.shields.io/badge/Nuxt-002E3B?style=flat-square&logo=nuxt.js&logoColor=#00DC82" },
-      { "name": "React", "badge": "https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" },
-      { "name": "Next.js", "badge": "https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white" },
-      { "name": "Angular", "badge": "https://img.shields.io/badge/angular-%23DD0031.svg?style=flat-square&logo=angular&logoColor=white" },
-      { "name": "Node.js", "badge": "https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white" },
-      { "name": "Express.js", "badge": "https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB" },
-      { "name": "NestJS", "badge": "https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white" },
-      { "name": ".NET", "badge": "https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white" },
-      { "name": "Django", "badge": "https://img.shields.io/badge/django-%23092E20.svg?style=flat-square&logo=django&logoColor=white" },
-      { "name": "Flask", "badge": "https://img.shields.io/badge/flask-%23000.svg?style=flat-square&logo=flask&logoColor=white" },
-      { "name": "Symfony", "badge": "https://img.shields.io/badge/symfony-%23000000.svg?style=flat-square&logo=symfony&logoColor=white" }
+      {
+        "name": "Laravel",
+        "badge": "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat-square&logo=laravel&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/laravel.svg"
+      },
+      {
+        "name": "Vue.js",
+        "badge": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/vuedotjs.svg"
+      },
+      {
+        "name": "Nuxt.js",
+        "badge": "https://img.shields.io/badge/Nuxt-002E3B?style=flat-square&logo=nuxt.js&logoColor=#00DC82",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/nuxtdotjs.svg"
+      },
+      {
+        "name": "React",
+        "badge": "https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/react.svg"
+      },
+      {
+        "name": "Next.js",
+        "badge": "https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/nextdotjs.svg"
+      },
+      {
+        "name": "Angular",
+        "badge": "https://img.shields.io/badge/angular-%23DD0031.svg?style=flat-square&logo=angular&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/angular.svg"
+      },
+      {
+        "name": "Node.js",
+        "badge": "https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/nodedotjs.svg"
+      },
+      {
+        "name": "Express.js",
+        "badge": "https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/express.svg"
+      },
+      {
+        "name": "NestJS",
+        "badge": "https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/nestjs.svg"
+      },
+      {
+        "name": ".NET",
+        "badge": "https://img.shields.io/badge/.NET-5C2D91?style=flat-square&logo=.net&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/dotnet.svg"
+      },
+      {
+        "name": "Django",
+        "badge": "https://img.shields.io/badge/django-%23092E20.svg?style=flat-square&logo=django&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/django.svg"
+      },
+      {
+        "name": "Flask",
+        "badge": "https://img.shields.io/badge/flask-%23000.svg?style=flat-square&logo=flask&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/flask.svg"
+      },
+      {
+        "name": "Symfony",
+        "badge": "https://img.shields.io/badge/symfony-%23000000.svg?style=flat-square&logo=symfony&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/symfony.svg"
+      }
     ],
     "databases": [
-      { "name": "MySQL", "badge": "https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white" },
-      { "name": "PostgreSQL", "badge": "https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white" },
-      { "name": "MongoDB", "badge": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white" },
-      { "name": "Redis", "badge": "https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white" },
-      { "name": "MariaDB", "badge": "https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" },
-      { "name": "SQLite", "badge": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white" }
+      {
+        "name": "MySQL",
+        "badge": "https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/mysql.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "badge": "https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/postgresql.svg"
+      },
+      {
+        "name": "MongoDB",
+        "badge": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/mongodb.svg"
+      },
+      {
+        "name": "Redis",
+        "badge": "https://img.shields.io/badge/redis-%23DD0031.svg?style=flat-square&logo=redis&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/redis.svg"
+      },
+      {
+        "name": "MariaDB",
+        "badge": "https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/mariadb.svg"
+      },
+      {
+        "name": "SQLite",
+        "badge": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/sqlite.svg"
+      }
     ],
     "cloud": [
-      { "name": "AWS", "badge": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white" },
-      { "name": "Azure", "badge": "https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white" },
-      { "name": "Google Cloud", "badge": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white" },
-      { "name": "Cloudflare", "badge": "https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white" }
+      {
+        "name": "AWS",
+        "badge": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/amazonaws.svg"
+      },
+      {
+        "name": "Azure",
+        "badge": "https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/microsoftazure.svg"
+      },
+      {
+        "name": "Google Cloud",
+        "badge": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/googlecloud.svg"
+      },
+      {
+        "name": "Cloudflare",
+        "badge": "https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=Cloudflare&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/cloudflare.svg"
+      }
     ],
     "devops": [
-      { "name": "Docker", "badge": "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white" },
-      { "name": "Kubernetes", "badge": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white" },
-      { "name": "Jenkins", "badge": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white" },
-      { "name": "GitHub Actions", "badge": "https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white" },
-      { "name": "GitLab CI", "badge": "https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white" }
+      {
+        "name": "Docker",
+        "badge": "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/docker.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "badge": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/kubernetes.svg"
+      },
+      {
+        "name": "Jenkins",
+        "badge": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat-square&logo=jenkins&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/jenkins.svg"
+      },
+      {
+        "name": "GitHub Actions",
+        "badge": "https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat-square&logo=githubactions&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/githubactions.svg"
+      },
+      {
+        "name": "GitLab CI",
+        "badge": "https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gitlab.svg"
+      }
     ],
     "tools": [
-      { "name": "Git", "badge": "https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white" },
-      { "name": "GitHub", "badge": "https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white" },
-      { "name": "GitLab", "badge": "https://img.shields.io/badge/gitlab-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white" },
-      { "name": "Jira", "badge": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white" },
-      { "name": "Postman", "badge": "https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" },
-      { "name": "Swagger", "badge": "https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white" }
+      {
+        "name": "Git",
+        "badge": "https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/git.svg"
+      },
+      {
+        "name": "GitHub",
+        "badge": "https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg"
+      },
+      {
+        "name": "GitLab",
+        "badge": "https://img.shields.io/badge/gitlab-%23181717.svg?style=flat-square&logo=gitlab&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/gitlab.svg"
+      },
+      {
+        "name": "Jira",
+        "badge": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/jira.svg"
+      },
+      {
+        "name": "Postman",
+        "badge": "https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/postman.svg"
+      },
+      {
+        "name": "Swagger",
+        "badge": "https://img.shields.io/badge/-Swagger-%23Clojure?style=flat-square&logo=swagger&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/swagger.svg"
+      }
     ],
     "design": [
-      { "name": "Adobe Photoshop", "badge": "https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white" },
-      { "name": "Adobe Illustrator", "badge": "https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat-square&logo=adobe%20illustrator&logoColor=white" },
-      { "name": "Adobe XD", "badge": "https://img.shields.io/badge/Adobe%20XD-470137?style=flat-square&logo=Adobe%20XD&logoColor=#FF61F6" },
-      { "name": "Figma", "badge": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white" },
-      { "name": "Sketch", "badge": "https://img.shields.io/badge/Sketch-FFB387?style=flat-square&logo=sketch&logoColor=black" }
+      {
+        "name": "Adobe Photoshop",
+        "badge": "https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/adobephotoshop.svg"
+      },
+      {
+        "name": "Adobe Illustrator",
+        "badge": "https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=flat-square&logo=adobe%20illustrator&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/adobeillustrator.svg"
+      },
+      {
+        "name": "Adobe XD",
+        "badge": "https://img.shields.io/badge/Adobe%20XD-470137?style=flat-square&logo=Adobe%20XD&logoColor=#FF61F6",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/adobexd.svg"
+      },
+      {
+        "name": "Figma",
+        "badge": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/figma.svg"
+      },
+      {
+        "name": "Sketch",
+        "badge": "https://img.shields.io/badge/Sketch-FFB387?style=flat-square&logo=sketch&logoColor=black",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/sketch.svg"
+      }
     ]
   },
   "blogCategories": [
@@ -350,7 +580,13 @@
         "Database design and optimization",
         "Performance optimization"
       ],
-      "technologies": ["Laravel", "Vue.js", "MySQL", "Redis", "REST API"]
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "MySQL",
+        "Redis",
+        "REST API"
+      ]
     },
     {
       "id": "2",
@@ -365,7 +601,13 @@
         "Customer management",
         "Analytics and reporting"
       ],
-      "technologies": ["Laravel", "Vue.js", "MySQL", "Stripe", "PayPal"]
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "MySQL",
+        "Stripe",
+        "PayPal"
+      ]
     },
     {
       "id": "3",
@@ -380,7 +622,13 @@
         "HR management",
         "Reporting and analytics"
       ],
-      "technologies": ["Laravel", "Vue.js", "PostgreSQL", "Redis", "Docker"]
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "PostgreSQL",
+        "Redis",
+        "Docker"
+      ]
     },
     {
       "id": "4",
@@ -395,7 +643,13 @@
         "Rate limiting and caching",
         "API versioning"
       ],
-      "technologies": ["Laravel", "Node.js", "MongoDB", "Redis", "JWT"]
+      "technologies": [
+        "Laravel",
+        "Node.js",
+        "MongoDB",
+        "Redis",
+        "JWT"
+      ]
     },
     {
       "id": "5",
@@ -410,7 +664,13 @@
         "Database security",
         "Backup and recovery"
       ],
-      "technologies": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "ElasticSearch"]
+      "technologies": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "ElasticSearch"
+      ]
     },
     {
       "id": "6",
@@ -425,29 +685,63 @@
         "Security assessment",
         "Best practices implementation"
       ],
-      "technologies": ["System Design", "Code Review", "Performance Optimization", "Security"]
+      "technologies": [
+        "System Design",
+        "Code Review",
+        "Performance Optimization",
+        "Security"
+      ]
     }
   ],
   "skills": [
     {
       "category": "Backend Development",
-      "items": ["PHP", "Laravel", "MySQL", "API Development", "Database Design"]
+      "items": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "API Development",
+        "Database Design"
+      ]
     },
     {
       "category": "Frontend Development",
-      "items": ["Vue.js", "Nuxt.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"]
+      "items": [
+        "Vue.js",
+        "Nuxt.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS"
+      ]
     },
     {
       "category": "Infrastructure",
-      "items": ["Linux Server", "Mikrotik", "Radius Configuration", "Server Maintenance"]
+      "items": [
+        "Linux Server",
+        "Mikrotik",
+        "Radius Configuration",
+        "Server Maintenance"
+      ]
     },
     {
       "category": "Integration",
-      "items": ["Payment Gateways", "SMS API", "Single Sign-On (SAML)", "Pusher"]
+      "items": [
+        "Payment Gateways",
+        "SMS API",
+        "Single Sign-On (SAML)",
+        "Pusher"
+      ]
     },
     {
       "category": "Solutions",
-      "items": ["E-governance", "University Automation", "E-commerce", "ISP ERP", "Complaint Management"]
+      "items": [
+        "E-governance",
+        "University Automation",
+        "E-commerce",
+        "ISP ERP",
+        "Complaint Management"
+      ]
     }
   ],
   "experience": [
@@ -468,7 +762,18 @@
         "Collaborated with cross-functional teams to identify and resolve technical challenges.",
         "Mentored junior developers, providing guidance on best practices and code reviews."
       ],
-      "technologies": ["Laravel", "Vue.js", "Linux", "DBBL", "SSL", "FOSTER", "Bkash", "Paypal", "SAML", "Pusher"]
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "Linux",
+        "DBBL",
+        "SSL",
+        "FOSTER",
+        "Bkash",
+        "Paypal",
+        "SAML",
+        "Pusher"
+      ]
     },
     {
       "id": 2,
@@ -488,7 +793,16 @@
         "Handled project deployments, ensuring minimal downtime and smooth integration with existing systems.",
         "Provided technical expertise to the team and conducted code reviews to maintain code quality."
       ],
-      "technologies": ["PHP", "Laravel", "Mikrotik", "Radius", "Linux", "Payment Gateway", "Agile", "Project Management"]
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Mikrotik",
+        "Radius",
+        "Linux",
+        "Payment Gateway",
+        "Agile",
+        "Project Management"
+      ]
     },
     {
       "id": 3,
@@ -507,7 +821,15 @@
         "Provided support and troubleshooting for complex issues related to server and network configurations.",
         "Regularly communicated with clients to gather requirements and provide technical solutions."
       ],
-      "technologies": ["PHP", "Laravel", "Linux", "Radius", "SMS API", "SAML", "SSO"]
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "Linux",
+        "Radius",
+        "SMS API",
+        "SAML",
+        "SSO"
+      ]
     },
     {
       "id": 4,
@@ -525,7 +847,14 @@
         "Troubleshot and fixed bugs related to payment gateways and API integrations.",
         "Created detailed documentation for ongoing projects to ensure future maintainability."
       ],
-      "technologies": ["PHP", "MySQL", "Payment Gateway", "SMS API", "Content Management System", "Responsive Design"]
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "Payment Gateway",
+        "SMS API",
+        "Content Management System",
+        "Responsive Design"
+      ]
     }
   ],
   "education": [
@@ -618,7 +947,7 @@
     "bloodGroup": "O+",
     "permanentAddress": "Thengamara, Gokul, Bogura"
   },
-  "projects": [    
+  "projects": [
     {
       "id": "1",
       "title": "Leaps - Unified Government Services Platform",
@@ -632,7 +961,13 @@
         "/images/projects/leaps/citizen-engagement.jpg",
         "/images/projects/leaps/admin-panel.jpg"
       ],
-      "technologies": ["Laravel", "Nuxt.js", "PostgreSQL", "REST API", "AWS"],
+      "technologies": [
+        "Laravel",
+        "Nuxt.js",
+        "PostgreSQL",
+        "REST API",
+        "AWS"
+      ],
       "category": "E-Governance",
       "client": "BARMM Government",
       "duration": "24 months",
@@ -669,7 +1004,12 @@
         "/images/projects/university-service/student-portal.jpg",
         "/images/projects/university-service/admin-panel.jpg"
       ],
-      "technologies": ["Laravel", "Nuxt.js", "MySQL", "REST API"],
+      "technologies": [
+        "Laravel",
+        "Nuxt.js",
+        "MySQL",
+        "REST API"
+      ],
       "category": "E-Governance",
       "client": "Shahjalal University of Science and Technology (SUST), Bangladesh",
       "duration": "20 months",
@@ -693,7 +1033,7 @@
         "Developed REST APIs for seamless system integrations",
         "Designed an intuitive and accessible user interface with Nuxt.js"
       ]
-    }    
+    }
   ],
   "blogPosts": [
     {
@@ -732,7 +1072,7 @@
       "content": "Quantum computing's unique approach to problem-solving...",
       "date": "2024-03-05",
       "readTime": "10 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/quantum-core.jpg",
       "category": {
         "name": "Quantum Computing",
@@ -755,7 +1095,7 @@
       "content": "The fusion of AI with DevOps operations creates...",
       "date": "2024-04-12",
       "readTime": "7 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/ai-devops.jpg",
       "category": {
         "name": "DevOps",
@@ -778,7 +1118,7 @@
       "content": "The combination of blockchain's immutability with...",
       "date": "2024-05-20",
       "readTime": "9 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/blockchain-ai.jpg",
       "category": {
         "name": "Blockchain",
@@ -801,7 +1141,7 @@
       "content": "The rise of edge computing brings AI capabilities...",
       "date": "2024-06-08",
       "readTime": "6 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/iot-edge.jpg",
       "category": {
         "name": "IoT",
@@ -824,7 +1164,7 @@
       "content": "Modern computer vision systems now achieve...",
       "date": "2024-07-14",
       "readTime": "8 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/cv-systems.jpg",
       "category": {
         "name": "Computer Vision",
@@ -847,7 +1187,7 @@
       "content": "The transformer architecture has revolutionized...",
       "date": "2024-08-22",
       "readTime": "9 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/nlp-core.jpg",
       "category": {
         "name": "NLP",
@@ -870,7 +1210,7 @@
       "content": "Modern robotic systems leverage deep reinforcement learning...",
       "date": "2024-09-05",
       "readTime": "7 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/industrial-ai.jpg",
       "category": {
         "name": "Robotics",
@@ -893,7 +1233,7 @@
       "content": "Cloud platforms provide essential tools for...",
       "date": "2024-10-17",
       "readTime": "8 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/cloud-ai.jpg",
       "category": {
         "name": "Cloud Computing",
@@ -916,7 +1256,7 @@
       "content": "As AI systems become more pervasive...",
       "date": "2024-11-25",
       "readTime": "6 min read",
-      "author": {  },
+      "author": {},
       "coverImage": "/images/blog/posts/ai-ethics.jpg",
       "category": {
         "name": "AI Ethics",
@@ -932,9 +1272,9 @@
       }
     }
   ],
-  "stats":{
-    "experience":"10",
-    "projects" : "250",
-    "clients" : "170"
+  "stats": {
+    "experience": "10",
+    "projects": "250",
+    "clients": "170"
   }
 }
