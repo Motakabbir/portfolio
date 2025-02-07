@@ -1223,13 +1223,33 @@
         "/images/projects/university-service/student-portal.jpg",
         "/images/projects/university-service/admin-panel.jpg"
       ],
-      "technologies": [
-        "Laravel",
-        "Nuxt.js",
-        "MySQL",
-        "REST API"
-      ],
-      "category": "E-Governance",
+      "techStack": {
+        "Backend": [
+          {
+            "name": "Laravel",
+            "version": "10.x",
+            "icon": "https://skillicons.dev/icons?i=laravel"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          },
+          {
+            "name": "REST API",
+            "version": "v1",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Nuxt.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg"
+          }
+        ]
+      },
+      "category": "Edication",
       "client": "Shahjalal University of Science and Technology (SUST), Bangladesh",
       "duration": "20 months",
       "completionDate": "2024-02",
@@ -1251,7 +1271,42 @@
         "Used advanced encryption protocols for data security",
         "Developed REST APIs for seamless system integrations",
         "Designed an intuitive and accessible user interface with Nuxt.js"
-      ]
+      ],
+      "stats": [
+        {
+          "label": "Total Users",
+          "value": 3500
+        },
+        {
+          "label": "Active Projects",
+          "value": 50
+        },
+        {
+          "label": "Completed Tasks",
+          "value": 6000
+        },
+        {
+          "label": "Pending Requests",
+          "value": 25
+        }
+      ],
+      "features": {
+        "Security": [
+          "End-to-end encryption",
+          "Multi-factor authentication",
+          "Regular security updates"
+        ],
+        "Performance": [
+          "Optimized load times",
+          "Scalable architecture",
+          "Efficient data caching"
+        ],
+        "User Experience": [
+          "Intuitive interface",
+          "Dark mode support",
+          "Responsive design"
+        ]
+      }
     }
   ],
   "blogPosts": [

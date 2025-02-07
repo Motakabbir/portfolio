@@ -21,9 +21,9 @@
 
         <!-- Loading text -->
         <div class="mt-6 text-center">
-          <h2 class="text-xl font-medium text-gray-900 dark:text-white">
+          <!-- <h2 class="text-xl font-medium text-gray-900 dark:text-white">
             {{ loadingText }}
-          </h2>
+          </h2> -->
           <div class="flex items-center justify-center mt-3 space-x-1.5">
             <div v-for="i in 3" :key="i" class="w-2 h-2 bg-primary-600 dark:bg-primary-400 rounded-full"
               :style="{ animation: 'bounce 1.4s infinite', 'animation-delay': (i - 1) * 0.16 + 's' }">
@@ -67,5 +67,12 @@ const { isLoading, loadingText } = useLoading()
   50% {
     opacity: 0.7;
   }
+}
+
+.fixed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 </style>
