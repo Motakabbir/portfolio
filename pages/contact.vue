@@ -252,8 +252,6 @@ onMounted(async () => {
     await new Promise(resolve => setTimeout(resolve, 500))
   } catch (error) {
     console.error('Error loading portfolio data:', error)
-  } finally {
-    finish()
   }
 })
 </script>

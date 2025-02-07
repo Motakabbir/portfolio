@@ -2,8 +2,9 @@
   <div class="min-h-screen bg-gradient-to-br from-gray-50 to-white">
     <!-- Background Texture -->
     <div class="fixed inset-0 z-0 pointer-events-none opacity-50"
-      style="background-image: url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236366f1' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
+      style="background-image: url('data:image/svg+xml,%3Csvg width=%2760%27 height=%2760%27 viewBox=%270 0 60 60%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cg fill=%27none%27 fill-rule=%27evenodd%27%3E%3Cg fill=%27%236366f1%27 fill-opacity=%270.05%27%3E%3Cpath d=%27M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z%27/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
     </div>
+
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <!-- Profile Section -->
@@ -20,11 +21,14 @@
                 </svg>
               </div>
             </div>
+
           </div>
           <div class="p-6 md:p-8 md:flex-1">
             <div class="flex items-center justify-between mb-4">
-              <h1 class="text-3xl font-bold text-gray-900">{{ portfolio.personal.name }}</h1>
-              <div class="flex space-x-3">
+              <p class="text-2xl font-bold text-gray-900 break-words">
+                {{ portfolio.personal.name }}
+              </p>
+              <div class="flex space-x-3 ">
                 <a v-for="social in portfolio.personal.social" :key="social.name" :href="social.url"
                   :title="social.name" class="text-gray-600 hover:text-primary-600 transition-colors">
                   <span class="sr-only">{{ social.name }}</span>
@@ -96,7 +100,7 @@
                         </svg>
                         {{ cert.duration }}
                       </span>
-                      <span class="flex items-center">
+                      <span class="flex items-center" v-if="cert.credentialId">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" />
@@ -243,50 +247,10 @@
               </div>
             </div>
           </div>
-
-          <!-- Skills -->
-          <!-- <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-              <span class="text-primary-600 dark:text-primary-400 mr-3">⚡</span>
-              Skills
-            </h2>
-            <div class="space-y-6">
-              <div v-for="skillSet in data.skills" :key="skillSet.category">
-                <h3 class="font-semibold text-gray-900 mb-3">{{ skillSet.category }}</h3>
-                <div class="flex flex-wrap gap-2">
-                  <span v-for="skill in skillSet.items" :key="skill"
-                    class="px-3 py-1 bg-primary-200 dark:bg-primary-800 text-primary-600 dark:text-primary-400 rounded-full text-sm hover:bg-primary-300 dark:hover:bg-primary-700 transition-colors">
-                    {{ skill }}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
       <div class="grid grid-cols-1 gap-8 mt-5 mb-5">
-        <!-- Skills -->
-        <!-- <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-            <span class="text-primary-600 dark:text-primary-400 mr-3">⚡</span>
-            Skills
-          </h2>
-          <div class="space-y-8">
-            <div v-for="category in data.skills" :key="category.category">
-              <h2 class="font-bold text-lg">{{ category.category }}</h2>
-              <div class="flex flex-wrap gap-4">
-                <div v-for="skill in category.items" :key="skill" class="flex items-center gap-2">
-                  <img :src="icons[skill]" :alt="skill" class="h-6">
-                  <span>{{ skill }}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <Skills></Skills>
-
-
+        <Skills />
       </div>
     </div>
   </div>
@@ -295,95 +259,144 @@
 <script setup>
 import { ref } from 'vue'
 import portfolioData from '~/data/portfolio.json'
-const handleImageError = (event) => {
-  event.target.src = ref('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2YzZjRmNiIvPjxwYXRoIGQ9Ik0zMjAgMjQwaDgwdjgwaC04MHoiIGZpbGw9IiM5Y2EzYWYiLz48cGF0aCBkPSJNNDAwIDI0MGg4MHY4MGgtODB6IiBmaWxsPSIjZDFkNWRiIi8+PHRleHQgeD0iNDAwIiB5PSIzNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzZiNzI4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SW1hZ2Ugbm90IGF2YWlsYWJsZTwvdGV4dD48L3N2Zz4=')
-}
+
 
 const data = ref({
   ...portfolioData,
   certifications: [
     {
-      id: 1,
-      name: "AWS Certified Solutions Architect - Associate",
-      issuer: "Amazon Web Services (AWS)",
-      organizationLogo: "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Associate_badge.3419559c682629072f1eb968d59dea0741772c0f.png",
-      duration: "Valid: 2023 - 2026",
-      credentialId: "AWS-ASA-00123456",
-      skills: ["Cloud Architecture", "AWS Services", "Security", "Scalability"]
+      "id": 1,
+      "name": "Web App Development - .NET",
+      "issuer": "BITM",
+      "organizationLogo": "https://media.licdn.com/dms/image/v2/C510BAQGPMCBNhEsY5A/company-logo_200_200/company-logo_200_200/0/1631385280244?e=1747267200&v=beta&t=ZGLKMgJ0ao2Rv0hiwMye1qdEOq0IgWNFGxW-XCmSnQk",
+      "duration": "2016 - Never End",
+      "credentialId": "G014723",
+      "skills": [".NET", "Web Application Development"]
     },
     {
-      id: 2,
-      name: "Professional Scrum Master I (PSM I)",
-      issuer: "Scrum.org",
-      organizationLogo: "https://static.scrum.org/web/badges/badge-psmi.svg",
-      duration: "No Expiration",
-      credentialId: "PSM-123456",
-      skills: ["Agile", "Scrum", "Project Management", "Team Leadership"]
+      "id": 2,
+      "name": "Web Design",
+      "issuer": "Creative IT Institute",
+      "organizationLogo": "https://cdn.brandfetch.io/idGg6xx8Nv/w/1000/h/1000/theme/dark/icon.png?c=1bx1741594175099id64Mup7ac6n-vYNYV&t=1728897551947",
+      "duration": "2015 - Never End",
+      "credentialId": "1540609",
+      "skills": ["Web Design", "UI/UX", "HTML", "CSS"]
     },
     {
-      id: 3,
-      name: "Microsoft Certified: Azure Developer Associate",
-      issuer: "Microsoft",
-      organizationLogo: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
-      duration: "Valid: 2024 - 2026",
-      credentialId: "MSFT-DEV-789012",
-      skills: ["Azure", "Cloud Development", ".NET", "Microservices"]
+      "id": 3,
+      "name": "PHP & SQL",
+      "issuer": "Creative IT Institute",
+      "organizationLogo": "https://cdn.brandfetch.io/idGg6xx8Nv/w/1000/h/1000/theme/dark/icon.png?c=1bx1741594175099id64Mup7ac6n-vYNYV&t=1728897551947",
+      "duration": "2015 - Never End",
+      "credentialId": "",
+      "skills": ["PHP", "SQL", "Backend Development"]
     },
     {
-      id: 4,
-      name: "Google Cloud Professional Cloud Architect",
-      issuer: "Google Cloud",
-      organizationLogo: "https://cloud.google.com/certification/images/cloud-architect.png",
-      duration: "Valid: 2024 - 2027",
-      credentialId: "GCP-ARCH-345678",
-      skills: ["GCP", "Cloud Architecture", "Security", "Infrastructure"]
-    }
-  ],
-  skills: [
-    {
-      category: "Programming Languages",
-      items: ["JavaScript", "Python", "Java", "C++", "TypeScript"]
+      "id": 4,
+      "name": "Web Development Certification",
+      "issuer": "Bangladesh Computer Council",
+      "organizationLogo": "https://media.licdn.com/dms/image/v2/C510BAQE9-2FajxK6GA/company-logo_200_200/company-logo_200_200/0/1630566222005/basis_bd_logo?e=1747267200&v=beta&t=iRdRRcYjkVam9CGzF7dZqmBUc3EYdnTGuyg4La6AxL4",
+      "duration": "2017 - Never End",
+      "credentialId": "G014723",
+      "skills": ["Full-Stack Development", "Database Management", "Web Technologies"]
     },
     {
-      category: "Frameworks",
-      items: ["React", "Angular", "Vue.js", "Django", "Flask"]
+      "id": 5,
+      "name": "OWASP API Security Top 10",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/images/66fb5b06-7caf-4b23-a0c3-d262ba57e3c2/image.png",
+      "duration": "Completed: 3/5/24",
+      "credentialId": "",
+      "skills": ["API Security", "OWASP", "Threat Protection"]
     },
     {
-      category: "Databases",
-      items: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "ElasticSearch"]
+      "id": 6,
+      "name": "Securing API Servers",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/images/71296528-e07b-44af-b5cd-7723599793cf/image.png",
+      "duration": "Completed: 4/29/24",
+      "credentialId": "",
+      "skills": ["API Security", "Server Hardening", "Network Security"]
     },
     {
-      category: "Cloud Platforms",
-      items: ["AWS", "Azure", "Google Cloud", "Heroku", "DigitalOcean"]
+      "id": 7,
+      "name": "Gateway Security Best Practices",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/c6ede4da-a848-483d-b90f-a5b43dd5e04b/image.png",
+      "duration": "Completed: 5/2/24",
+      "credentialId": "",
+      "skills": ["API Gateway", "Security Best Practices", "Threat Mitigation"]
     },
     {
-      category: "Agile Methodologies",
-      items: ["Scrum", "Kanban", "Lean", "Extreme Programming"]
+      "id": 8,
+      "name": "API Security Fundamentals",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/4f17161c-0357-416f-8507-04f4517b1c2f/image.png",
+      "duration": "Completed: 5/6/24",
+      "credentialId": "",
+      "skills": ["API Security", "Authentication", "Authorization"]
+    },
+    {
+      "id": 9,
+      "name": "API Security for Connected Cars and Fleets",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/f5ceb8aa-9080-4abb-8fb5-83f2f0c5cbd9/image.png",
+      "duration": "Completed: 5/6/24",
+      "credentialId": "",
+      "skills": ["IoT Security", "API Security", "Automotive Cybersecurity"]
+    },
+    {
+      "id": 10,
+      "name": "API Authentication",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/c8d189b6-bbf0-43e8-b047-02e81f1cdb0f/image.png",
+      "duration": "Completed: 10/1/24",
+      "credentialId": "",
+      "skills": ["API Authentication", "OAuth", "JWT"]
+    },
+    {
+      "id": 11,
+      "name": "API Documentation Best Practices",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/d45a2a64-2af4-4916-a9da-1bc51fc1219b/image.png",
+      "duration": "Completed: 10/6/24",
+      "credentialId": "",
+      "skills": ["API Documentation", "Best Practices", "Technical Writing"]
+    },
+    {
+      "id": 12,
+      "name": "Scrum Fundamentals Certified",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png",
+      "duration": "Completed: Apr 08, 2023",
+      "credentialId": "973180",
+      "skills": ["Scrum", "Agile", "Project Management"],
+      "certificateUrl": "https://www.scrumstudy.com/certification/verify?type=SFC&number=973180"
+    },
+    {
+      "id": 13,
+      "name": "Scrum for Ops and DevOps Fundamentals Certified",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SODFC.png",
+      "duration": "Completed: Mar 20, 2024",
+      "credentialId": "1010394",
+      "skills": ["Scrum", "Ops", "DevOps", "Agile"],
+      "certificateUrl": "https://www.scrumstudy.com/certification/verify?type=SODFC&number=1010394"
+    },
+    {
+      "id": 14,
+      "name": "Six Sigma Yellow Belt",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.6sigmastudy.com/Images/brand-logo/badge-SSYB.png",
+      "duration": "Completed: Oct 01, 2024",
+      "credentialId": "1010394",
+      "skills": ["Six Sigma", "Process Improvement", "Quality Control"],
+      "certificateUrl": "https://www.6sigmastudy.com/certification/verify?type=SSYB&number=896832"
     }
   ]
+
 })
-const icons = {
-  "JavaScript": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-  "Python": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-  "Java": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-  "C++": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
-  "TypeScript": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  "React": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  "Angular": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
-  "Vue.js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-  "Django": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
-  "Flask": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
-  "MySQL": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-  "PostgreSQL": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-  "MongoDB": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-  "Redis": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
-  "ElasticSearch": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg",
-  "AWS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
-  "Azure": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
-  "Google Cloud": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
-  "Heroku": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg",
-  "DigitalOcean": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg",
-};
+
 const portfolio = ref({
   personal: {},
   techStack: {
@@ -399,7 +412,6 @@ const portfolio = ref({
   education: [],
   skills: []
 })
-
 onMounted(async () => {
   try {
     // Load portfolio data
@@ -407,8 +419,6 @@ onMounted(async () => {
     await new Promise(resolve => setTimeout(resolve, 500))
   } catch (error) {
     console.error('Error loading portfolio data:', error)
-  } finally {
-    finish()
   }
 })
 </script>

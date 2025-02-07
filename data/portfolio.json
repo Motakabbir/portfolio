@@ -28,11 +28,6 @@
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#EA4335'><path d='M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/></svg>"
       },
       {
-        "name": "Behance",
-        "url": "https://behance.net/dolar_0016533f",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1769FF'><path d='M22 7h-7v-2h7v2zm1.77 6.77a5.5 5.5 0 01-5.5 5.5H8v-5.5h9.27a5.5 5.5 0 015.5 5.5zm-5.5-3.27H8v-2h9.27a3.27 3.27 0 110 6.54H15v-1.73h2.77a1.5 1.5 0 100-3H8V7h11.27a5.5 5.5 0 110 11h-2.77v1.73h2.77a7.23 7.23 0 100-14.46zM2 11h4v2H2v-2zm0-4h4v2H2V7zm0 8h4v2H2v-2z'/></svg>"
-      },
-      {
         "name": "Discord",
         "url": "https://discord.gg/dolar0016",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#5865F2'><path d='M19.54 4.93A19.5 19.5 0 0014.5 3c-.23.42-.45.86-.6 1.29a18.2 18.2 0 00-5.8 0A12.7 12.7 0 007.5 3a19.5 19.5 0 00-5 1.93C.5 9.17 0 13.5 0 17.92A19.5 19.5 0 005.5 22c.42-.55.8-1.15 1.1-1.8a12.7 12.7 0 01-1.9-.9l.7-1a16.7 16.7 0 0014.4 0l.7 1a12.7 12.7 0 01-1.9.9c.3.65.7 1.25 1.1 1.8a19.5 19.5 0 005.5-4.08c0-4.42-.5-8.75-2.96-12.99zM8 15.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm8 0a2.5 2.5 0 110-5 2.5 2.5 0 010 5z'/></svg>"
@@ -53,21 +48,6 @@
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M2.85 5.59a.75.75 0 00-.25-.65L.25 2.4v-.34h6.8l5.25 11.5 4.63-11.5H24v.34l-1.9 1.8a.45.45 0 00-.17.43v13.5a.45.45 0 00.17.43l1.85 1.8v.34h-9.2v-.34l1.9-1.8c.17-.17.17-.2.17-.43V7.5l-5.4 13.7h-.7L4.1 7.5v9.2a1 1 0 00.28.8l2.5 3v.34H0v-.34l2.5-3a1 1 0 00.28-.8V5.59z'/></svg>"
       },
       {
-        "name": "Pinterest",
-        "url": "https://pinterest.com/dolardx",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#E60023'><path d='M12 0a12 12 0 00-3.8 23.4c-.1-.9-.2-2.3 0-3.3l1.4-5.8s-.4-.8-.4-2c0-1.9 1.1-3.3 2.5-3.3 1.2 0 1.8.9 1.8 2 0 1.2-.8 3-.1 4.6 0 0 .7 1.2 2.7 0 0-2.2.4-4 1.3-5.4-1.8-2-4.4-2.1-5.4-2.1-4.1 0-7 2.7-7 7.4 0 2.6 1 4.6 2.4 5.6-.3.8-.8 2.3-.3 4.6 0 0 1.4.5 4.4-1.7 0 0 2.9 4 7.3 0 4.4-4 4.4-10.3 0-14.3-4.4-4-10.6-4-15 0-4.4 4-4.4 10.3 0 14.3 2.2 2.2 5.1 3.3 8.1 3.3 1.5 0 3-.2 4.4-.6 2.8-1.2 4-4 4.4-5.4.4-1.6.6-3.3.6-5 0-6-4.4-10.8-10-10.8z'/></svg>"
-      },
-      {
-        "name": "Quora",
-        "url": "https://quora.com/profile/Motakabbir-Morshed",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#B92B27'><path d='M12 0a12 12 0 100 24 12 12 0 000-24zm5.6 16.8c-.4.6-.9 1.1-1.5 1.5-1.1.7-2.4 1-3.8 1-1.4 0-2.7-.3-3.8-1-1.1-.7-1.9-1.7-2.4-2.9-.5-1.2-.7-2.5-.7-3.9 0-1.4.2-2.7.7-3.9.5-1.2 1.3-2.2 2.4-2.9 1.1-.7 2.4-1 3.8-1 1.4 0 2.7.3 3.8 1 1.1.7 1.9 1.7 2.4 2.9.5 1.2.7 2.5.7 3.9 0 1.4-.2 2.7-.7 3.9-.2.5-.4 1-.7 1.4zM12 6c-1.1 0-2 .3-2.8.8-.8.5-1.4 1.2-1.8 2-.4.8-.6 1.7-.6 2.7 0 1 .2 1.9.6 2.7.4.8 1 1.5 1.8 2 .8.5 1.7.8 2.8.8 1.1 0 2-.3 2.8-.8.8-.5 1.4-1.2 1.8-2 .4-.8.6-1.7.6-2.7 0-1-.2-1.9-.6-2.7-.4-.8-1-1.5-1.8-2-.8-.5-1.7-.8-2.8-.8z'/></svg>"
-      },
-      {
-        "name": "Reddit",
-        "url": "https://reddit.com/user/Purple_Diamond_2269",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FF4500'><path d='M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm5.01 4.74c.69 0 1.25.56 1.25 1.25a1.25 1.25 0 01-1.25 1.25 1.25 1.25 0 01-1.25-1.25c0-.69.56-1.25 1.25-1.25zm-2.65 1.47c-1.03 0-1.86.84-1.86 1.86v.03c0 1.03.84 1.86 1.86 1.86 1.03 0 1.86-.84 1.86-1.86v-.03c0-1.03-.84-1.86-1.86-1.86zm4.78 5.92c-.55-.98-1.67-1.64-2.92-1.64l-.03.01c-1.4 0-2.6.83-3.16 2.02-.56-1.19-1.76-2.02-3.16-2.02l-.03-.01c-1.25 0-2.37.66-2.92 1.64-.55.98-.55 2.16 0 3.14.55.98 1.67 1.64 2.92 1.64l.03-.01c1.4 0 2.6-.83 3.16-2.02.56 1.19 1.76 2.02 3.16 2.02l.03.01c1.25 0 2.37-.66 2.92-1.64.55-.98.55-2.16 0-3.14zM12 16.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/></svg>"
-      },
-      {
         "name": "Stack Overflow",
         "url": "https://stackoverflow.com/users/motakabbir-morshed-dolar",
         "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#F48024'><path d='M18.98 20.98v-6.5h2v8.5H3v-8.5h2v6.5h13.98zM7.5 14.48l8.5 1.7.3-1.6-8.5-1.7-.3 1.6zm1-4l8 3.5.6-1.5-8-3.5-.6 1.5zm2-3.5l7 5.2 1-1.3-7-5.2-1 1.3zM15 4.98l-5.5 6.6 1.3 1.1 5.5-6.6-1.3-1.1zM7.5 18.98v-2h9v2h-9z'/></svg>"
@@ -85,17 +65,17 @@
       {
         "name": "CodePen",
         "url": "https://codepen.io/Motakabbir-Morshed",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px'viewBox='0 0 50 50'><path d='M 25 4 L 4 17.34375 L 4 32.652344 L 25 46 L 46 32.65625 L 46 17.34375 Z M 25 29.183594 L 19.066406 25.070313 L 25 21.023438 L 30.933594 25.070313 Z M 27 17.605469 L 27 9.949219 L 40.429688 18.484375 L 34.410156 22.65625 Z M 23 17.605469 L 15.589844 22.65625 L 9.570313 18.484375 L 23 9.949219 Z M 12.09375 25.042969 L 8 27.832031 L 8 22.203125 Z M 15.570313 27.453125 L 23 32.605469 L 23 40.050781 L 9.589844 31.527344 Z M 27 32.605469 L 34.429688 27.453125 L 40.410156 31.527344 L 27 40.050781 Z M 37.90625 25.042969 L 42 22.203125 L 42 27.832031 Z'></path></svg>"
       },
       {
         "name": "Upwork",
-        "url": "https://www.upwork.com/freelancers/~YOUR_UPWORK_ID",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#6FDA44'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+        "url": "https://www.upwork.com/freelancers/~01865515acfc0df114",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'><path fill='#6FDA44' d='M1 9a1 1 0 0 0-1 1v14.115c0 6.161 4.683 11.516 10.834 11.865 5.897.334 10.914-3.804 11.963-9.33q.856 1.156 1.734 2.143l-3.529 14.978A1.002 1.002 0 0 0 21.977 45h5.119a.99.99 0 0 0 .97-.764l2.477-10.45.91.526C33.618 35.435 35.815 36 38 36c7.192 0 12.926-6.359 11.875-13.75-.696-4.896-4.46-8.932-9.295-9.973a12.045 12.045 0 0 0-13.387 6.467s-.258.575-.466 1.149c-1.65-2.846-2.62-5.799-3.127-7.938-.185-.78-.463-2.192-.495-2.283A1 1 0 0 0 22.162 9H17a1 1 0 0 0-1 1v14.3c0 2.35-1.713 4.45-4.05 4.679A4.505 4.505 0 0 1 7 24.5V10a1 1 0 0 0-1-1zm37 10c2.757 0 5 2.243 5 5s-2.243 5-5 5c-2.225 0-4.286-1.342-5.73-2.512l.886-3.74A5 5 0 0 1 38 19'/></svg>"
       },
       {
         "name": "Fiverr",
-        "url": "https://www.fiverr.com/YOUR_FIVERR_USERNAME",
-        "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#1DBF73'><path d='M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5 22.5 6.2 22.5 12 17.8 22.5 12 22.5zM9 15.8l-3.8-3.8L9 8.2v7.6zm6 0V8.2l3.8 3.8-3.8 3.8zM12 13.5l-3.8-3.8L12 5.9l3.8 3.8-3.8 3.8z'/></svg>"
+        "url": "https://www.fiverr.com/dolar_morshed",
+        "icon": "<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 50 50' fill='#1DBF73'><path d='M 25 2 C 12.309288 2 2 12.309297 2 25 C 2 37.690703 12.309288 48 25 48 C 37.690712 48 48 37.690703 48 25 C 48 12.309297 37.690712 2 25 2 z M 25 4 C 36.609833 4 46 13.390175 46 25 C 46 36.609825 36.609833 46 25 46 C 13.390167 46 4 36.609825 4 25 C 4 13.390175 13.390167 4 25 4 z M 26.5 11 C 21.579 11 18.409109 14.037 18.037109 19 L 14 19 L 14 25 L 18 25 L 18 36 L 24 36 L 24 25 L 28 25 L 28 36 L 34 36 L 34 19 L 24.066406 19 C 24.360406 17.001 25.579 17 26.5 17 L 29.03125 17 L 29.03125 11 L 26.5 11 z'></path></svg>"
       }
     ],
     "dateOfBirth": "1990-09-30",
@@ -921,24 +901,190 @@
   ],
   "certifications": [
     {
+      "id": 1,
       "name": "Web App Development - .NET",
       "issuer": "BITM",
-      "year": "2016"
+      "organizationLogo": "https://media.licdn.com/dms/image/v2/C510BAQGPMCBNhEsY5A/company-logo_200_200/company-logo_200_200/0/1631385280244?e=1747267200&v=beta&t=ZGLKMgJ0ao2Rv0hiwMye1qdEOq0IgWNFGxW-XCmSnQk",
+      "duration": "2016 - Never End",
+      "credentialId": "G014723",
+      "skills": [
+        ".NET",
+        "Web Application Development"
+      ]
     },
     {
+      "id": 2,
       "name": "Web Design",
       "issuer": "Creative IT Institute",
-      "year": "2015"
+      "organizationLogo": "https://cdn.brandfetch.io/idGg6xx8Nv/w/1000/h/1000/theme/dark/icon.png?c=1bx1741594175099id64Mup7ac6n-vYNYV&t=1728897551947",
+      "duration": "2015 - Never End",
+      "credentialId": "1540609",
+      "skills": [
+        "Web Design",
+        "UI/UX",
+        "HTML",
+        "CSS"
+      ]
     },
     {
+      "id": 3,
       "name": "PHP & SQL",
       "issuer": "Creative IT Institute",
-      "year": "2015"
+      "organizationLogo": "https://cdn.brandfetch.io/idGg6xx8Nv/w/1000/h/1000/theme/dark/icon.png?c=1bx1741594175099id64Mup7ac6n-vYNYV&t=1728897551947",
+      "duration": "2015 - Never End",
+      "credentialId": "",
+      "skills": [
+        "PHP",
+        "SQL",
+        "Backend Development"
+      ]
     },
     {
+      "id": 4,
       "name": "Web Development Certification",
       "issuer": "Bangladesh Computer Council",
-      "year": "2016-2017"
+      "organizationLogo": "https://media.licdn.com/dms/image/v2/C510BAQE9-2FajxK6GA/company-logo_200_200/company-logo_200_200/0/1630566222005/basis_bd_logo?e=1747267200&v=beta&t=iRdRRcYjkVam9CGzF7dZqmBUc3EYdnTGuyg4La6AxL4",
+      "duration": "2017 - Never End",
+      "credentialId": "G014723",
+      "skills": [
+        "Full-Stack Development",
+        "Database Management",
+        "Web Technologies"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "OWASP API Security Top 10",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/images/66fb5b06-7caf-4b23-a0c3-d262ba57e3c2/image.png",
+      "duration": "Completed: 3/5/24",
+      "credentialId": "",
+      "skills": [
+        "API Security",
+        "OWASP",
+        "Threat Protection"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Securing API Servers",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/images/71296528-e07b-44af-b5cd-7723599793cf/image.png",
+      "duration": "Completed: 4/29/24",
+      "credentialId": "",
+      "skills": [
+        "API Security",
+        "Server Hardening",
+        "Network Security"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Gateway Security Best Practices",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/c6ede4da-a848-483d-b90f-a5b43dd5e04b/image.png",
+      "duration": "Completed: 5/2/24",
+      "credentialId": "",
+      "skills": [
+        "API Gateway",
+        "Security Best Practices",
+        "Threat Mitigation"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "API Security Fundamentals",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/4f17161c-0357-416f-8507-04f4517b1c2f/image.png",
+      "duration": "Completed: 5/6/24",
+      "credentialId": "",
+      "skills": [
+        "API Security",
+        "Authentication",
+        "Authorization"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "API Security for Connected Cars and Fleets",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/f5ceb8aa-9080-4abb-8fb5-83f2f0c5cbd9/image.png",
+      "duration": "Completed: 5/6/24",
+      "credentialId": "",
+      "skills": [
+        "IoT Security",
+        "API Security",
+        "Automotive Cybersecurity"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "API Authentication",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/c8d189b6-bbf0-43e8-b047-02e81f1cdb0f/image.png",
+      "duration": "Completed: 10/1/24",
+      "credentialId": "",
+      "skills": [
+        "API Authentication",
+        "OAuth",
+        "JWT"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "API Documentation Best Practices",
+      "issuer": "APIsec University",
+      "organizationLogo": "https://images.credly.com/size/160x160/images/d45a2a64-2af4-4916-a9da-1bc51fc1219b/image.png",
+      "duration": "Completed: 10/6/24",
+      "credentialId": "",
+      "skills": [
+        "API Documentation",
+        "Best Practices",
+        "Technical Writing"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Scrum Fundamentals Certified",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png",
+      "duration": "Completed: Apr 08, 2023",
+      "credentialId": "973180",
+      "skills": [
+        "Scrum",
+        "Agile",
+        "Project Management"
+      ],
+      "certificateUrl": "https://www.scrumstudy.com/certification/verify?type=SFC&number=973180"
+    },
+    {
+      "id": 13,
+      "name": "Scrum for Ops and DevOps Fundamentals Certified",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SODFC.png",
+      "duration": "Completed: Mar 20, 2024",
+      "credentialId": "1010394",
+      "skills": [
+        "Scrum",
+        "Ops",
+        "DevOps",
+        "Agile"
+      ],
+      "certificateUrl": "https://www.scrumstudy.com/certification/verify?type=SODFC&number=1010394"
+    },
+    {
+      "id": 14,
+      "name": "Six Sigma Yellow Belt",
+      "issuer": "SCRUMstudy - Accreditation Body for Scrum and Agile",
+      "organizationLogo": "https://www.6sigmastudy.com/Images/brand-logo/badge-SSYB.png",
+      "duration": "Completed: Oct 01, 2024",
+      "credentialId": "1010394",
+      "skills": [
+        "Six Sigma",
+        "Process Improvement",
+        "Quality Control"
+      ],
+      "certificateUrl": "https://www.6sigmastudy.com/certification/verify?type=SSYB&number=896832"
     }
   ],
   "additionalInfo": {
