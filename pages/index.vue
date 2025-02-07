@@ -262,12 +262,12 @@
 
           <!-- Blog Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div v-for="post in blogPosts" :key="post.id"
+            <div v-for="post in portfolio.blogPosts" :key="post.id"
               class="group relative bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
 
               <!-- Post Image -->
               <div class="relative aspect-[16/10] overflow-hidden">
-                <img :src="post.image" :alt="post.title"
+                <img :src="post.coverImage" :alt="post.title"
                   class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                   @error="handleImageError">
                 <!-- Category Badge -->
@@ -325,7 +325,7 @@
                   </div>
 
                   <!-- Read More Link -->
-                  <router-link :to="'/blog/' + post.slug"
+                  <router-link :to="'/blog/' + post.id"
                     class="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700">
                     Read More
                     <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -379,56 +379,6 @@ const { start, finish } = useLoading()
 // Base64 placeholder image
 const placeholderImage = ref('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2YzZjRmNiIvPjxwYXRoIGQ9Ik0zMjAgMjQwaDgwdjgwaC04MHoiIGZpbGw9IiM5Y2EzYWYiLz48cGF0aCBkPSJNNDAwIDI0MGg4MHY4MGgtODB6IiBmaWxsPSIjZDFkNWRiIi8+PHRleHQgeD0iNDAwIiB5PSIzNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzZiNzI4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SW1hZ2Ugbm90IGF2YWlsYWJsZTwvdGV4dD48L3N2Zz4=')
 
-const blogPosts = ref([
-  {
-    id: 1,
-    title: 'Getting Started with Vue.js 3',
-    excerpt: 'Learn the fundamentals of Vue.js 3 and build your first application with the Composition API.',
-    image: '/images/blog/vue-3.jpg',
-    category: 'Vue.js',
-    date: '2025-01-15',
-    readTime: '5',
-    tags: ['Vue.js', 'JavaScript', 'Web Development'],
-    author: {
-      name: 'John Doe',
-      role: 'Frontend Developer',
-      avatar: '/images/avatars/john.jpg'
-    },
-    slug: 'getting-started-with-vue-js-3'
-  },
-  {
-    id: 2,
-    title: 'Modern CSS Techniques',
-    excerpt: 'Explore modern CSS features like Grid, Flexbox, and Custom Properties to create responsive layouts.',
-    image: '/images/blog/css.jpg',
-    category: 'CSS',
-    date: '2025-01-20',
-    readTime: '4',
-    tags: ['CSS', 'Web Design', 'Responsive'],
-    author: {
-      name: 'Jane Smith',
-      role: 'UI Designer',
-      avatar: '/images/avatars/jane.jpg'
-    },
-    slug: 'modern-css-techniques'
-  },
-  {
-    id: 3,
-    title: 'TypeScript Best Practices',
-    excerpt: 'Learn essential TypeScript patterns and practices for building scalable applications.',
-    image: '/images/blog/typescript.jpg',
-    category: 'TypeScript',
-    date: '2025-01-25',
-    readTime: '6',
-    tags: ['TypeScript', 'JavaScript', 'Programming'],
-    author: {
-      name: 'Mike Johnson',
-      role: 'Software Engineer',
-      avatar: '/images/avatars/mike.jpg'
-    },
-    slug: 'typescript-best-practices'
-  }
-])
 
 onMounted(async () => {
   start('Loading portfolio data...')
