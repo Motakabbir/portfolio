@@ -1311,239 +1311,225 @@
   ],
   "blogPosts": [
     {
-      "id": "1",
-      "slug": "ai-software-architecture",
-      "title": "AI-Driven Architectural Patterns in Modern Systems",
-      "excerpt": "How machine learning is reshaping system design and decision-making processes",
-      "content": "The integration of AI into software architecture enables...",
-      "date": "2024-02-18",
+      "id": 1,
+      "slug": "introduction-to-ai-and-machine-learning",
+      "title": "Introduction to AI and Machine Learning",
+      "content": "# Introduction to AI and Machine Learning\n\nArtificial Intelligence (AI) and Machine Learning (ML) are transforming industries...\n\n## What is AI?\nAI refers to the simulation of human intelligence in machines...\n\n## What is Machine Learning?\nMachine Learning is a subset of AI that focuses on building systems that learn from data...",
+      "excerpt": "Learn the basics of Artificial Intelligence (AI) and Machine Learning (ML) and how they are transforming industries.",
+      "date": "2023-10-01",
       "readTime": "8 min read",
+      "coverImage": "https://picsum.photos/800/400?random=1",
+      "backgroundImages": {
+        "header": "https://picsum.photos/1600/600?random=1"
+      },
+      "category": {
+        "name": "Artificial Intelligence",
+        "color": "bg-purple-100"
+      },
       "author": {
-        "name": "MD Motakabbir Morshed",
-        "avatar": "/images/profile.jpg",
-        "role": "Senior Software Engineer",
-        "bio": "Senior Software Engineer with 9.5 years of experience in web development"
+        "name": "Sarah Johnson",
+        "bio": "Sarah Johnson is an AI researcher with a focus on machine learning and natural language processing.",
+        "avatar": "https://i.pravatar.cc/150?img=1",
+        "twitter": "https://twitter.com/sarahjohnson",
+        "github": "https://github.com/sarahjohnson",
+        "linkedin": "https://www.linkedin.com/in/sarahjohnson/"
       },
-      "coverImage": "/images/blog/posts/ai-architecture.jpg",
-      "category": {
-        "name": "Software Architecture",
-        "slug": "architecture",
-        "color": "bg-blue-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/arch-header.jpg",
-        "section": {
-          "patterns": "/images/blog/sections/arch-patterns.jpg",
-          "optimization": "/images/blog/sections/ai-optimization.jpg"
+      "tableOfContents": [
+        {
+          "title": "What is AI?",
+          "id": "what-is-ai"
+        },
+        {
+          "title": "What is Machine Learning?",
+          "id": "what-is-machine-learning"
         }
-      }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=2",
+          "caption": "AI in action"
+        },
+        {
+          "id": 2,
+          "url": "https://picsum.photos/800/400?random=3",
+          "caption": "Machine Learning algorithms"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-ai",
+          "title": "What is AI?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=2",
+              "caption": "AI in action"
+            },
+            {
+              "url": "https://picsum.photos/800/400?random=3",
+              "caption": "AI brain simulation"
+            }
+          ],
+          "content": "<p>AI refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. It involves tasks like learning, reasoning, problem-solving, perception, and language understanding.</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\nmodel = LinearRegression()"
+          }
+        },
+        {
+          "id": "what-is-machine-learning",
+          "title": "What is Machine Learning?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=4",
+              "caption": "Machine learning model"
+            }
+          ],
+          "content": "<p>Machine Learning is a subset of AI that focuses on building systems that learn from data and improve over time without being explicitly programmed. It involves supervised learning, unsupervised learning, and reinforcement learning.</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from sklearn.model_selection import train_test_split\nX_train, X_test = train_test_split(X, test_size=0.2)"
+          }
+        }
+      ],
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Technology",
+        "Artificial Intelligence"
+      ]
     },
     {
-      "id": "2",
-      "slug": "quantum-algorithms",
-      "title": "Quantum Computing Meets Classical Algorithms",
-      "excerpt": "Breaking down the synergy between quantum principles and traditional computing",
-      "content": "Quantum computing's unique approach to problem-solving...",
-      "date": "2024-03-05",
-      "readTime": "10 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/quantum-core.jpg",
-      "category": {
-        "name": "Quantum Computing",
-        "slug": "quantum",
-        "color": "bg-purple-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/quantum-header.jpg",
-        "section": {
-          "superposition": "/images/blog/sections/qubit-states.jpg",
-          "entanglement": "/images/blog/sections/quantum-entanglement.jpg"
-        }
-      }
-    },
-    {
-      "id": "3",
-      "slug": "devops-aiops",
-      "title": "AI-Ops: Revolutionizing DevOps Practices",
-      "excerpt": "Machine learning applications in CI/CD pipelines and infrastructure management",
-      "content": "The fusion of AI with DevOps operations creates...",
-      "date": "2024-04-12",
-      "readTime": "7 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/ai-devops.jpg",
-      "category": {
-        "name": "DevOps",
-        "slug": "devops",
-        "color": "bg-green-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/devops-header.jpg",
-        "section": {
-          "automation": "/images/blog/sections/ci-cd.jpg",
-          "monitoring": "/images/blog/sections/ai-monitoring.jpg"
-        }
-      }
-    },
-    {
-      "id": "4",
-      "slug": "blockchain-ai",
-      "title": "Decentralized AI: Blockchain Meets Machine Learning",
-      "excerpt": "Exploring trustless AI systems using distributed ledger technology",
-      "content": "The combination of blockchain's immutability with...",
-      "date": "2024-05-20",
-      "readTime": "9 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/blockchain-ai.jpg",
-      "category": {
-        "name": "Blockchain",
-        "slug": "blockchain",
-        "color": "bg-yellow-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/blockchain-header.jpg",
-        "section": {
-          "smart-contracts": "/images/blog/sections/smart-contract.jpg",
-          "dapps": "/images/blog/sections/decentralized-apps.jpg"
-        }
-      }
-    },
-    {
-      "id": "5",
-      "slug": "iot-edge-ai",
-      "title": "Edge AI in IoT Networks",
-      "excerpt": "Implementing machine learning models on constrained devices",
-      "content": "The rise of edge computing brings AI capabilities...",
-      "date": "2024-06-08",
+      "id": 2,
+      "slug": "getting-started-with-docker",
+      "title": "Getting Started with Docker",
+      "content": "# Getting Started with Docker\n\nDocker is a powerful tool for containerizing applications...\n\n## What is Docker?\nDocker is a platform that allows you to package applications into containers...\n\n## Why Use Docker?\nDocker simplifies deployment, ensures consistency across environments, and improves scalability...",
+      "excerpt": "A beginner's guide to Docker, the popular containerization platform for modern software development.",
+      "date": "2023-10-10",
       "readTime": "6 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/iot-edge.jpg",
-      "category": {
-        "name": "IoT",
-        "slug": "iot",
-        "color": "bg-teal-600"
-      },
+      "coverImage": "https://picsum.photos/800/400?random=2",
       "backgroundImages": {
-        "header": "/images/blog/headers/iot-header.jpg",
-        "section": {
-          "sensors": "/images/blog/sections/iot-sensors.jpg",
-          "edge-devices": "/images/blog/sections/edge-computing.jpg"
+        "header": "https://picsum.photos/1600/600?random=2"
+      },
+      "category": {
+        "name": "Artificial Intelligence",
+        "color": "bg-purple-100"
+      },
+      "author": {
+        "name": "Michael Brown",
+        "role": "DevOps Engineer",
+        "avatar": "https://i.pravatar.cc/150?img=2",
+        "bio": "Michael Brown is a DevOps engineer with expertise in containerization and cloud infrastructure."
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Docker?",
+          "id": "what-is-docker"
+        },
+        {
+          "title": "Why Use Docker?",
+          "id": "why-use-docker"
         }
-      }
+      ]
     },
     {
-      "id": "6",
-      "slug": "computer-vision-advancements",
-      "title": "Next-Gen Computer Vision Systems",
-      "excerpt": "Deep learning breakthroughs in image recognition and processing",
-      "content": "Modern computer vision systems now achieve...",
-      "date": "2024-07-14",
-      "readTime": "8 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/cv-systems.jpg",
-      "category": {
-        "name": "Computer Vision",
-        "slug": "vision",
-        "color": "bg-pink-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/vision-header.jpg",
-        "section": {
-          "object-detection": "/images/blog/sections/obj-detection.jpg",
-          "segmentation": "/images/blog/sections/image-segmentation.jpg"
-        }
-      }
-    },
-    {
-      "id": "7",
-      "slug": "nlp-transformers",
-      "title": "Transformer Models in Natural Language Processing",
-      "excerpt": "Evolution of attention mechanisms in language models",
-      "content": "The transformer architecture has revolutionized...",
-      "date": "2024-08-22",
-      "readTime": "9 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/nlp-core.jpg",
-      "category": {
-        "name": "NLP",
-        "slug": "nlp",
-        "color": "bg-indigo-600"
-      },
-      "backgroundImages": {
-        "header": "/images/blog/headers/nlp-header.jpg",
-        "section": {
-          "attention": "/images/blog/sections/attention-mech.jpg",
-          "embeddings": "/images/blog/sections/word-vectors.jpg"
-        }
-      }
-    },
-    {
-      "id": "8",
-      "slug": "robotic-process-automation",
-      "title": "AI in Industrial Robotics",
-      "excerpt": "Machine learning applications in manufacturing automation",
-      "content": "Modern robotic systems leverage deep reinforcement learning...",
-      "date": "2024-09-05",
+      "id": 3,
+      "slug": "building-rest-apis-with-nodejs",
+      "title": "Building REST APIs with Node.js",
+      "content": "# Building REST APIs with Node.js\n\nNode.js is a popular runtime for building scalable and efficient APIs...\n\n## What is a REST API?\nA REST API is an architectural style for designing networked applications...\n\n## Getting Started with Node.js\nTo build a REST API with Node.js, you'll need to install Node.js and set up a basic server...",
+      "excerpt": "Learn how to build scalable and efficient REST APIs using Node.js.",
+      "date": "2023-10-15",
       "readTime": "7 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/industrial-ai.jpg",
-      "category": {
-        "name": "Robotics",
-        "slug": "robotics",
-        "color": "bg-cyan-600"
-      },
+      "coverImage": "https://picsum.photos/800/400?random=3",
       "backgroundImages": {
-        "header": "/images/blog/headers/robotics-header.jpg",
-        "section": {
-          "manipulation": "/images/blog/sections/robot-arm.jpg",
-          "slam": "/images/blog/sections/navigation-mapping.jpg"
+        "header": "https://picsum.photos/1600/600?random=3"
+      },
+      "category": {
+        "name": "Web Development",
+        "color": "bg-green-100"
+      },
+      "author": {
+        "name": "Emily Davis",
+        "role": "Full-Stack Developer",
+        "avatar": "https://i.pravatar.cc/150?img=3",
+        "bio": "Emily Davis is a full-stack developer specializing in JavaScript, Node.js, and modern web technologies."
+      },
+      "tableOfContents": [
+        {
+          "title": "What is a REST API?",
+          "id": "what-is-a-rest-api"
+        },
+        {
+          "title": "Getting Started with Node.js",
+          "id": "getting-started-with-nodejs"
         }
-      }
+      ]
     },
     {
-      "id": "9",
-      "slug": "cloud-ai-integration",
-      "title": "Scalable AI Solutions in Cloud Environments",
-      "excerpt": "Building enterprise-grade ML systems using cloud infrastructure",
-      "content": "Cloud platforms provide essential tools for...",
-      "date": "2024-10-17",
-      "readTime": "8 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/cloud-ai.jpg",
-      "category": {
-        "name": "Cloud Computing",
-        "slug": "cloud",
-        "color": "bg-orange-600"
-      },
+      "id": 4,
+      "slug": "introduction-to-react-hooks",
+      "title": "Introduction to React Hooks",
+      "content": "# Introduction to React Hooks\n\nReact Hooks revolutionized how we write functional components in React...\n\n## What are React Hooks?\nHooks are functions that let you use state and other React features in functional components...\n\n## Commonly Used Hooks\n- `useState`: Manage state in functional components.\n- `useEffect`: Perform side effects like data fetching...",
+      "excerpt": "Discover how React Hooks simplify state management and side effects in functional components.",
+      "date": "2023-10-20",
+      "readTime": "5 min read",
+      "coverImage": "https://picsum.photos/800/400?random=4",
       "backgroundImages": {
-        "header": "/images/blog/headers/cloud-header.jpg",
-        "section": {
-          "kubernetes": "/images/blog/sections/k8s-ml.jpg",
-          "serverless": "/images/blog/sections/lambda-ai.jpg"
+        "header": "https://picsum.photos/1600/600?random=4"
+      },
+      "category": {
+        "name": "React",
+        "color": "bg-blue-100"
+      },
+      "author": {
+        "name": "David Wilson",
+        "role": "Frontend Developer",
+        "avatar": "https://i.pravatar.cc/150?img=4",
+        "bio": "David Wilson is a frontend developer with a passion for building user-friendly interfaces with React."
+      },
+      "tableOfContents": [
+        {
+          "title": "What are React Hooks?",
+          "id": "what-are-react-hooks"
+        },
+        {
+          "title": "Commonly Used Hooks",
+          "id": "commonly-used-hooks"
         }
-      }
+      ]
     },
     {
-      "id": "10",
-      "slug": "ethical-ai",
-      "title": "Ethical Considerations in AI Development",
-      "excerpt": "Addressing bias and fairness in machine learning systems",
-      "content": "As AI systems become more pervasive...",
-      "date": "2024-11-25",
+      "id": 5,
+      "slug": "understanding-git-and-github",
+      "title": "Understanding Git and GitHub",
+      "content": "# Understanding Git and GitHub\n\nGit is a version control system that helps developers track changes in their code...\n\n## What is Git?\nGit is a distributed version control system that allows multiple developers to collaborate...\n\n## What is GitHub?\nGitHub is a platform that hosts Git repositories and provides tools for collaboration...",
+      "excerpt": "A beginner's guide to Git and GitHub, essential tools for version control and collaboration.",
+      "date": "2023-10-25",
       "readTime": "6 min read",
-      "author": {},
-      "coverImage": "/images/blog/posts/ai-ethics.jpg",
-      "category": {
-        "name": "AI Ethics",
-        "slug": "ethics",
-        "color": "bg-gray-600"
-      },
+      "coverImage": "https://picsum.photos/800/400?random=5",
       "backgroundImages": {
-        "header": "/images/blog/headers/ethics-header.jpg",
-        "section": {
-          "bias": "/images/blog/sections/algorithm-bias.jpg",
-          "governance": "/images/blog/sections/ai-regulation.jpg"
+        "header": "https://picsum.photos/1600/600?random=5"
+      },
+      "category": {
+        "name": "Version Control",
+        "color": "bg-yellow-100"
+      },
+      "author": {
+        "name": "Laura Martinez",
+        "role": "Software Engineer",
+        "avatar": "https://i.pravatar.cc/150?img=5",
+        "bio": "Laura Martinez is a software engineer with expertise in version control and collaborative development."
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Git?",
+          "id": "what-is-git"
+        },
+        {
+          "title": "What is GitHub?",
+          "id": "what-is-github"
         }
-      }
+      ]
     }
   ],
   "stats": {

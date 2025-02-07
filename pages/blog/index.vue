@@ -4,9 +4,7 @@
     <section class="relative overflow-hidden bg-gradient-to-br from-primary-600 to-primary-800">
       <!-- Background -->
       <div class="absolute inset-0 opacity-75">
-        <img src="~/public/images/backgrounds/blog-pattern.svg" 
-             alt="Blog Pattern" 
-             class="w-full h-full object-cover">
+        <img src="~/public/images/backgrounds/blog-pattern.svg" alt="Blog Pattern" class="w-full h-full object-cover">
       </div>
 
       <!-- Content -->
@@ -29,10 +27,8 @@
         <div class="lg:grid lg:grid-cols-2">
           <!-- Image -->
           <div class="relative h-64 lg:h-full">
-            <img :src="featuredPost.coverImage" 
-                 :alt="featuredPost.title"
-                 class="absolute inset-0 w-full h-full object-cover"
-                 @error="handleImageError">
+            <img :src="featuredPost.coverImage" :alt="featuredPost.title"
+              class="absolute inset-0 w-full h-full object-cover" @error="handleImageError">
             <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent lg:hidden"></div>
           </div>
 
@@ -46,8 +42,8 @@
               {{ featuredPost.readTime }}
             </div>
 
-            <div v-if="featuredPost.category" 
-                 :class="[featuredPost.category.color || 'bg-primary-100', 'inline-flex items-center px-3 py-1 rounded-full text-sm font-medium mb-4']">
+            <div v-if="featuredPost.category"
+              :class="[featuredPost.category.color || 'bg-primary-100', 'inline-flex items-center px-3 py-1 rounded-full text-sm font-medium mb-4']">
               <HashtagIcon class="h-4 w-4 mr-1" />
               {{ featuredPost.category.name }}
             </div>
@@ -59,23 +55,19 @@
 
             <!-- Author -->
             <div v-if="featuredPost.author" class="flex items-center mb-6">
-              <img v-if="featuredPost.author.avatar" 
-                   :src="featuredPost.author.avatar" 
-                   :alt="featuredPost.author.name"
-                   class="h-10 w-10 rounded-full mr-3"
-                   @error="handleImageError">
+              <img v-if="featuredPost.author.avatar" :src="featuredPost.author.avatar" :alt="featuredPost.author.name"
+                class="h-10 w-10 rounded-full mr-3" @error="handleImageError">
               <UserCircleIcon v-else class="h-10 w-10 text-gray-400 mr-3" />
               <div>
                 <div class="text-sm font-medium text-gray-900">{{ featuredPost.author.name }}</div>
                 <div class="text-sm text-gray-500">{{ featuredPost.author.role }}</div>
               </div>
             </div>
-
-            <router-link :to="'/blog/' + featuredPost.id"
-                        class="inline-flex items-center text-primary-600 hover:text-primary-700">
+            <NuxtLink :to="'/blog/' + featuredPost.id"
+              class="inline-flex items-center text-primary-600 hover:text-primary-700">
               Read More
               <ArrowRightIcon class="h-5 w-5 ml-2" />
-            </router-link>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -86,24 +78,19 @@
       <div class="flex flex-col sm:flex-row gap-4 items-center justify-between">
         <!-- Search -->
         <div class="relative w-full sm:w-96">
-          <input type="text"
-                 v-model="searchQuery"
-                 placeholder="Search posts..."
-                 class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+          <input type="text" v-model="searchQuery" placeholder="Search posts..."
+            class="w-full pl-10 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-transparent">
           <MagnifyingGlassIcon class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
         </div>
 
         <!-- Categories -->
         <div class="flex flex-wrap gap-2">
-          <button v-for="category in categories"
-                  :key="category"
-                  @click="selectedCategory = category"
-                  :class="[
-                    'px-4 py-2 rounded-full text-sm font-medium transition-colors',
-                    selectedCategory === category
-                      ? 'bg-primary-500 text-white'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  ]">
+          <button v-for="category in categories" :key="category" @click="selectedCategory = category" :class="[
+            'px-4 py-2 rounded-full text-sm font-medium transition-colors',
+            selectedCategory === category
+              ? 'bg-primary-500 text-white'
+              : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+          ]">
             {{ category }}
           </button>
         </div>
@@ -120,28 +107,17 @@
         </p>
       </div>
 
-      <TransitionGroup 
-        v-else
-        name="stagger-list"
-        tag="div"
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        appear
-        @before-enter="onBeforeEnter"
-        @enter="onEnter">
-        <article v-for="(post, index) in filteredPosts" 
-                 :key="post.id"
-                 :data-index="index"
-                 class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+      <TransitionGroup v-else name="stagger-list" tag="div" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        appear @before-enter="onBeforeEnter" @enter="onEnter">
+        <article v-for="(post, index) in filteredPosts" :key="post.id" :data-index="index"
+          class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
           <router-link :to="'/blog/' + post.id">
-            <img :src="post.coverImage" 
-                 :alt="post.title"
-                 class="w-full h-48 object-cover"
-                 @error="handleImageError">
-            
+            <img :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" @error="handleImageError">
+
             <div class="p-6">
               <div class="flex flex-wrap gap-2 mb-3">
                 <span v-if="post.category"
-                      :class="[post.category.color || 'bg-primary-100', 'px-3 py-1 text-sm font-medium rounded-full inline-flex items-center']">
+                  :class="[post.category.color || 'bg-primary-100', 'px-3 py-1 text-sm font-medium rounded-full inline-flex items-center']">
                   <HashtagIcon class="h-4 w-4 mr-1" />
                   {{ post.category.name }}
                 </span>
@@ -155,11 +131,8 @@
               <div class="flex items-center justify-between">
                 <!-- Author -->
                 <div v-if="post.author" class="flex items-center">
-                  <img v-if="post.author.avatar" 
-                       :src="post.author.avatar" 
-                       :alt="post.author.name"
-                       class="h-8 w-8 rounded-full mr-2"
-                       @error="handleImageError">
+                  <img v-if="post.author.avatar" :src="post.author.avatar" :alt="post.author.name"
+                    class="h-8 w-8 rounded-full mr-2" @error="handleImageError">
                   <UserCircleIcon v-else class="h-8 w-8 text-gray-400 mr-2" />
                   <div class="text-sm text-gray-600">{{ post.author.name }}</div>
                 </div>
@@ -183,7 +156,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { 
+import {
   CalendarIcon,
   ClockIcon,
   ExclamationCircleIcon,
@@ -217,8 +190,8 @@ const filteredPosts = computed(() => {
   // Filter by search query
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase()
-    filtered = filtered.filter(post => 
-      post.title.toLowerCase().includes(query) || 
+    filtered = filtered.filter(post =>
+      post.title.toLowerCase().includes(query) ||
       post.excerpt.toLowerCase().includes(query)
     )
   }

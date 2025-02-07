@@ -18,16 +18,10 @@ import FooterBottom from '@/components/FooterBottom.vue'
 import portfolioData from '@/data/portfolio.json'
 import ScrollToTop from '@/components/ScrollToTop.vue'
 
-const newsletterEmail = ref('')
+
 const portfolio = ref({
   personal: portfolioData.personal || {},
 })
 
-async function subscribeNewsletter() {
-  if (newsletterEmail.value) {
-    // Implement newsletter subscription logic
-    console.log('Subscribing:', newsletterEmail.value)
-    newsletterEmail.value = ''
-  }
-}
+
 </script>

@@ -79,7 +79,7 @@ const portfolio = ref({
   personal: {},
 })
 const { start, finish } = useLoading()
-
+const newsletterEmail = ref('')
 
 onMounted(async () => {
   try {
@@ -92,4 +92,11 @@ onMounted(async () => {
     finish()
   }
 })
+async function subscribeNewsletter() {
+  if (newsletterEmail.value) {
+    // Implement newsletter subscription logic
+    console.log('Subscribing:', newsletterEmail.value)
+    newsletterEmail.value = ''
+  }
+}
 </script>
