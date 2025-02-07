@@ -272,10 +272,12 @@
                   @error="handleImageError">
                 <!-- Category Badge -->
                 <div class="absolute top-4 left-4">
-                  <span
-                    class="px-3 py-1 text-sm font-medium text-white bg-primary-600/90 backdrop-blur-sm rounded-full">
-                    {{ post.category }}
+                  <span v-if="post.category"
+                    class="bg-primary-100 px-3 py-1 text-sm font-medium rounded-full inline-flex items-center">
+                    <HashtagIcon class="h-4 w-4 mr-1" />
+                    {{ post.category.name }}
                   </span>
+
                 </div>
               </div>
 
@@ -359,11 +361,17 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { CalendarIcon, ClockIcon } from '@heroicons/vue/24/outline'
+import {
+  CalendarIcon, ClockIcon, ExclamationCircleIcon,
+  HashtagIcon,
+  MagnifyingGlassIcon,
+  ArrowRightIcon,
+  DocumentTextIcon,
+  UserCircleIcon
+} from '@heroicons/vue/24/outline'
 import portfolioData from '@/data/portfolio.json'
 import { useLoading } from '@/composables/useLoading'
 import TechStack from '@/components/TechStack.vue'
-
 const portfolio = ref({
   personal: {},
   techStack: {
