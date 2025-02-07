@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50 dark:bg-gray-900">
     <Loader />
     <Navigation />
-    <main>
+    <main class="mt-16">
       <slot />
     </main>
     <FooterBottom />
