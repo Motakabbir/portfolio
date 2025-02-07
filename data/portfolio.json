@@ -1107,13 +1107,51 @@
         "/images/projects/leaps/citizen-engagement.jpg",
         "/images/projects/leaps/admin-panel.jpg"
       ],
-      "technologies": [
-        "Laravel",
-        "Nuxt.js",
-        "PostgreSQL",
-        "REST API",
-        "AWS"
-      ],
+      "techStack": {
+        "Backend": [
+          {
+            "name": "Laravel",
+            "version": "10.x",
+            "icon": "https://skillicons.dev/icons?i=laravel"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          },
+          {
+            "name": "REST API",
+            "version": "v1",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Nuxt.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg"
+          }
+        ],
+        "Cloud & DevOps": [
+          {
+            "name": "AWS",
+            "version": "Latest",
+            "icon": "https://skillicons.dev/icons?i=aws"
+          },
+          {
+            "name": "SNS SMS",
+            "version": "Latest",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732026.png"
+          }
+        ],
+        "Testing": [
+          {
+            "name": "Unit Testing",
+            "version": "PHPUnit 10",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          }
+        ]
+      },
       "category": "E-Governance",
       "client": "BARMM Government",
       "duration": "24 months",
@@ -1136,7 +1174,42 @@
         "Implemented advanced encryption and security protocols",
         "Utilized AWS for cloud scalability and high availability",
         "Built a responsive and multilingual front-end using Nuxt.js"
-      ]
+      ],
+      "stats": [
+        {
+          "label": "Total Users",
+          "value": 1200
+        },
+        {
+          "label": "Active Projects",
+          "value": 75
+        },
+        {
+          "label": "Completed Tasks",
+          "value": 4500
+        },
+        {
+          "label": "Pending Requests",
+          "value": 32
+        }
+      ],
+      "features": {
+        "Security": [
+          "End-to-end encryption",
+          "Multi-factor authentication",
+          "Regular security updates"
+        ],
+        "Performance": [
+          "Optimized load times",
+          "Scalable architecture",
+          "Efficient data caching"
+        ],
+        "User Experience": [
+          "Intuitive interface",
+          "Dark mode support",
+          "Responsive design"
+        ]
+      }
     },
     {
       "id": "2",
