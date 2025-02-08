@@ -372,6 +372,17 @@ import {
 import portfolioData from '@/data/portfolio.json'
 import { useLoading } from '@/composables/useLoading'
 import TechStack from '@/components/TechStack.vue'
+
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Home',
+  meta: [
+    { name: 'description', content: 'Full Stack Developer specializing in Vue.js, Node.js, and modern web technologies' },
+    { name: 'keywords', content: 'Full Stack Developer,PHP, LARAVEL, Nuxt, SEO, Vue, Software, Development' }
+  ]
+});
+
 const portfolio = ref({
   personal: {},
   techStack: {

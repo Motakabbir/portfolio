@@ -2,10 +2,10 @@
   "personal": {
     "name": "Md. Motakabbir Morshed",
     "title": "Senior Software Engineer",
-    "bio": "Senior Software Engineer with 9.5 years of experience in PHP and Vue.js. Expert in developing solutions for e-governance, university automation, e-commerce, and ISP ERP. Proven ability to design, implement, and optimize scalable software while leading cross-functional teams and mentoring junior developers.",
+    "bio": "Senior Software Engineer with 10+ years of Full-Stack development experience. Expert in developing solutions for e-governance, university automation, e-commerce, and ISP ERP. Proven ability to design, implement, and optimize scalable software while leading cross-functional teams and mentoring junior developers.",
     "image": "/images/profile.jpeg",
     "location": "Dhaka, Bangladesh",
-    "address": "40/2 Sultanjong, Hasemkhan Road, Rayer Bazar, Hazaribagh, Dhaka",
+    "address": "Rayer Bazar, Dhaka",
     "phone": [
       "+880 1771882876",
       "+880 1971882876",
@@ -544,6 +544,174 @@
       "color": "bg-red-500",
       "icon": "🔒",
       "background": "/images/blog/categories/security-bg.jpg"
+    },
+    {
+      "name": "Programming Languages",
+      "slug": "programming",
+      "color": "bg-purple-500",
+      "icon": "💻",
+      "background": "/images/blog/categories/programming-bg.jpg"
+    },
+    {
+      "name": "Mobile Development",
+      "slug": "mobile-dev",
+      "color": "bg-yellow-500",
+      "icon": "📱",
+      "background": "/images/blog/categories/mobiledev-bg.jpg"
+    },
+    {
+      "name": "Software Architecture",
+      "slug": "architecture",
+      "color": "bg-gray-500",
+      "icon": "🏛️",
+      "background": "/images/blog/categories/architecture-bg.jpg"
+    },
+    {
+      "name": "Data Science",
+      "slug": "data-science",
+      "color": "bg-orange-500",
+      "icon": "📊",
+      "background": "/images/blog/categories/datascience-bg.jpg"
+    },
+    {
+      "name": "Machine Learning",
+      "slug": "ml",
+      "color": "bg-teal-500",
+      "icon": "🧠",
+      "background": "/images/blog/categories/ml-bg.jpg"
+    },
+    {
+      "name": "Game Development",
+      "slug": "game-dev",
+      "color": "bg-pink-500",
+      "icon": "🎮",
+      "background": "/images/blog/categories/gamedev-bg.jpg"
+    },
+    {
+      "name": "UI/UX Design",
+      "slug": "ui-ux",
+      "color": "bg-cyan-500",
+      "icon": "🎨",
+      "background": "/images/blog/categories/uiux-bg.jpg"
+    },
+    {
+      "name": "Open Source",
+      "slug": "open-source",
+      "color": "bg-lime-500",
+      "icon": "👐",
+      "background": "/images/blog/categories/opensource-bg.jpg"
+    },
+    {
+      "name": "Software Testing",
+      "slug": "testing",
+      "color": "bg-rose-500",
+      "icon": "🧪",
+      "background": "/images/blog/categories/testing-bg.jpg"
+    },
+    {
+      "name": "Blockchain Development",
+      "slug": "blockchain",
+      "color": "bg-emerald-500",
+      "icon": "⛓️",
+      "background": "/images/blog/categories/blockchain-bg.jpg"
+    },
+    {
+      "name": "Backend Development",
+      "slug": "backend",
+      "color": "bg-indigo-600",
+      "icon": "🖥️",
+      "background": "/images/blog/categories/backend-bg.jpg"
+    },
+    {
+      "name": "Frontend Development",
+      "slug": "frontend",
+      "color": "bg-blue-400",
+      "icon": "🎨",
+      "background": "/images/blog/categories/frontend-bg.jpg"
+    },
+    {
+      "name": "Full Stack Development",
+      "slug": "full-stack",
+      "color": "bg-green-600",
+      "icon": "🔀",
+      "background": "/images/blog/categories/fullstack-bg.jpg"
+    },
+    {
+      "name": "IoT (Internet of Things)",
+      "slug": "iot",
+      "color": "bg-yellow-600",
+      "icon": "📡",
+      "background": "/images/blog/categories/iot-bg.jpg"
+    },
+    {
+      "name": "Big Data",
+      "slug": "big-data",
+      "color": "bg-orange-600",
+      "icon": "🗄️",
+      "background": "/images/blog/categories/bigdata-bg.jpg"
+    },
+    {
+      "name": "API Development",
+      "slug": "api",
+      "color": "bg-gray-600",
+      "icon": "🔌",
+      "background": "/images/blog/categories/api-bg.jpg"
+    },
+    {
+      "name": "Quantum Computing",
+      "slug": "quantum",
+      "color": "bg-purple-600",
+      "icon": "⚛️",
+      "background": "/images/blog/categories/quantum-bg.jpg"
+    },
+    {
+      "name": "Low-Code/No-Code Development",
+      "slug": "low-code",
+      "color": "bg-teal-600",
+      "icon": "⚡",
+      "background": "/images/blog/categories/lowcode-bg.jpg"
+    },
+    {
+      "name": "Embedded Systems",
+      "slug": "embedded",
+      "color": "bg-rose-600",
+      "icon": "🛠️",
+      "background": "/images/blog/categories/embedded-bg.jpg"
+    },
+    {
+      "name": "Tech Trends",
+      "slug": "tech-trends",
+      "color": "bg-pink-600",
+      "icon": "🚀",
+      "background": "/images/blog/categories/techtrends-bg.jpg"
+    },
+    {
+      "name": "Agile & Scrum",
+      "slug": "agile-scrum",
+      "color": "bg-cyan-600",
+      "icon": "📈",
+      "background": "/images/blog/categories/agile-bg.jpg"
+    },
+    {
+      "name": "Software Engineering Career",
+      "slug": "career",
+      "color": "bg-lime-600",
+      "icon": "🎓",
+      "background": "/images/blog/categories/career-bg.jpg"
+    },
+    {
+      "name": "AI Ethics",
+      "slug": "ai-ethics",
+      "color": "bg-red-600",
+      "icon": "⚖️",
+      "background": "/images/blog/categories/aiethics-bg.jpg"
+    },
+    {
+      "name": "Tech Entrepreneurship",
+      "slug": "entrepreneurship",
+      "color": "bg-amber-600",
+      "icon": "💡",
+      "background": "/images/blog/categories/entrepreneur-bg.jpg"
     }
   ],
   "services": [

@@ -1,6 +1,6 @@
 <template>
     <button v-if="showButton" @click="scrollToTop"
-        class="fixed bottom-6 right-6 p-4 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition">
+        class="fixed bottom-6 right-6 p-4 bg-primary-600 text-white rounded-full shadow-lg hover:bg-primary-700 transition z-15">
         ↑
     </button>
 </template>

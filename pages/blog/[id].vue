@@ -185,7 +185,7 @@
               <h2 class="text-xl font-bold mb-4">Related Articles</h2>
               <div class="space-y-6">
                 <article v-for="relatedPost in relatedPosts" :key="relatedPost.id" class="group">
-                  <router-link :to="`/blog/${relatedPost.slug}`" class="block space-y-3">
+                  <router-link :to="`/blog/${relatedPost.id}`" class="block space-y-3">
                     <!-- Image -->
                     <div class="aspect-video overflow-hidden rounded-lg">
                       <img :src="relatedPost.coverImage" :alt="relatedPost.title" @error="handleImageError"
@@ -229,11 +229,11 @@
               <h2 class="text-xl font-bold mb-4">Categories</h2>
               <div class="space-y-2">
                 <router-link v-for="category in portfolioData.blogCategories" :key="category.slug"
-                  :to="`/blog/category/${category.slug}`"
+                  :to="`/blog/category/${category.name}`"
                   class="flex items-center justify-between group p-2 rounded-lg hover:bg-gray-50">
                   <span class="text-gray-700 group-hover:text-primary-600">{{ category.name }}</span>
                   <span :class="category.color || 'bg-primary-500'" class="px-2 py-1 text-xs text-white rounded-full">
-                    {{ getCategoryCount(category.slug) }}
+                    {{ getCategoryCount(category.name) }}
                   </span>
                 </router-link>
               </div>
@@ -351,7 +351,7 @@ const openImage = (image) => {
 }
 // Function to get category count
 const getCategoryCount = (categoryName) => {
-  return portfolioData.blogPosts.filter((post) => post.category.name === categoryName).length;
+  return portfolioData.blogPosts.filter((post) => post.category.name == categoryName).length;
 };
 
 // Example computed property to display category counts

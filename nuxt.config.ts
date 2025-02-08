@@ -1,11 +1,43 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import portfolio from './data/portfolio.json';
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: true,
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-simple-sitemap'
   ],
-
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://mmorshed.me' // This replaces 'hostname'
+    }
+  },
+  sitemap: {
+    debug: true, // Enable debug mode to check errors
+    autoLastmod: true, // Automatically update last modified date
+    urls: [
+      ...portfolio.blogPosts.map(blog => ({
+        loc: `/blog/${blog.id}`, // Dynamic URL for blogs
+        lastmod: new Date().toISOString(),
+        priority: 0.9,
+        changefreq: 'weekly'
+      })),
+      ...portfolio.blogCategories.map(blog => ({
+        loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
+        lastmod: new Date().toISOString(),
+        priority: 0.9,
+        changefreq: 'weekly'
+      })),
+      ...portfolio.projects.map(projects => ({
+        loc: `/projects/${projects.id}`, // Dynamic URL
+        lastmod: new Date().toISOString(),  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      }))
+    ]
+  },
   css: [
     '@/assets/css/main.css',
     '@/assets/css/animations.css'
@@ -66,9 +98,7 @@ export default defineNuxtConfig({
       //crawlLinks: true,
       routes: ['/']
     }
-  },
-
-  routeRules: {
+  }, routeRules: {
     // Enable gzip compression for all routes
     '/**': {
       headers: {
