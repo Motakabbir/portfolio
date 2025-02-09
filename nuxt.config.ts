@@ -1,13 +1,11 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import portfolio from './data/portfolio.json';
-
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/robots',
-    'nuxt-simple-sitemap'
+    'nuxt-simple-sitemap',
   ],
   runtimeConfig: {
     public: {
@@ -63,6 +61,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'Full Stack Developer specializing in Vue.js, Node.js, and modern web technologies' },
         { property: 'og:image', content: 'https://mmorshed.me/og-image.jpg' },
         { property: 'og:url', content: 'https://mmorshed.me' },
+        { property: 'google-site-verification', content: 'yGvkXlntQzQg2zLsg2yvbqol0EnMXQ2OKhP4HCtQfa8' },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Motakabbir Morshed | Full Stack Developer' },
