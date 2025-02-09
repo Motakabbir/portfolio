@@ -5,11 +5,20 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-simple-sitemap',
+    'nuxt3-meta-pixel'
   ],
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL // This replaces 'hostname'
-    },
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL, // This replaces 'hostname'
+      gtagId: 'G-GHE9J7PYZZ'
+    }
+  },
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: 'FACEBOOK_PIXEL_ID',
+    autoPageView: true,
+    disabled: false
   },
   sitemap: {
     hostname: process.env.NUXT_PUBLIC_SITE_URL, // Replace with your website URL
@@ -17,21 +26,57 @@ export default defineNuxtConfig({
     autoLastmod: true, // Automatically add last modified date
     xsl: false,
     urls: [
+      {
+        loc: `/`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
+      {
+        loc: `/about`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
+      {
+        loc: `/services`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
+      {
+        loc: `/blog`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
+      {
+        loc: `/contact`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
+      {
+        loc: `/projects`, // Dynamic URL
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      },
       ...portfolio.blogPosts.map(blog => ({
         loc: `/blog/${blog.id}`, // Dynamic URL for blogs
-        lastmod: new Date().toISOString(),
+        lastmod: new Date().toISOString().split('T')[0],
         priority: 0.9,
         changefreq: 'weekly'
       })),
-      ...portfolio.blogCategories.map(blog => ({
-        loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
-        lastmod: new Date().toISOString(),
-        priority: 0.9,
-        changefreq: 'weekly'
-      })),
+      // ...portfolio.blogCategories.map(blog => ({
+      //   loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
+      //   lastmod: new Date().toISOString().split('T')[0],
+      //   priority: 0.9,
+      //   changefreq: 'weekly'
+      // })),
       ...portfolio.projects.map(projects => ({
         loc: `/projects/${projects.id}`, // Dynamic URL
-        lastmod: new Date().toISOString(),  // Use lastmod from JSON
+        lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
         priority: 0.8,
         changefreq: 'weekly'
       }))
@@ -86,26 +131,26 @@ export default defineNuxtConfig({
     }
   },
 
-  // nitro: {
-  //   compressPublicAssets: true,
-  //   minify: true,
-  //   serverAssets: [{
-  //     baseName: 'public',
-  //     dir: 'public'
-  //   }],
-  //   prerender: {
-  //     routes: ['/']
-  //   }
-  // }, routeRules: {
-  //   '/**': {
-  //     headers: {
-  //       'Cache-Control': 'max-age=31536000, public, immutable',
-  //       'X-Content-Type-Options': 'nosniff',
-  //       'X-Frame-Options': 'DENY',
-  //       'X-XSS-Protection': '1; mode=block'
-  //     }
-  //   }
-  // },
+  nitro: {
+    compressPublicAssets: true,
+    minify: true,
+    serverAssets: [{
+      baseName: 'public',
+      dir: 'public'
+    }],
+    prerender: {
+      routes: ['/']
+    }
+  }, routeRules: {
+    '/**': {
+      headers: {
+        'Cache-Control': 'max-age=31536000, public, immutable',
+        'X-Content-Type-Options': 'nosniff',
+        'X-Frame-Options': 'DENY',
+        'X-XSS-Protection': '1; mode=block'
+      }
+    }
+  },
 
   compatibilityDate: '2025-02-03'
 })
