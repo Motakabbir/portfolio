@@ -8,32 +8,34 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      siteUrl: 'https://mmorshed.me' // This replaces 'hostname'
-    }
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL // This replaces 'hostname'
+    },
   },
   sitemap: {
-    // debug: true, // Enable debug mode to check errors
-    //autoLastmod: true, // Automatically update last modified date
-    // urls: [
-    //   ...portfolio.blogPosts.map(blog => ({
-    //     loc: `/blog/${blog.id}`, // Dynamic URL for blogs
-    //     lastmod: new Date().toISOString(),
-    //     priority: 0.9,
-    //     changefreq: 'weekly'
-    //   })),
-    //   ...portfolio.blogCategories.map(blog => ({
-    //     loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
-    //     lastmod: new Date().toISOString(),
-    //     priority: 0.9,
-    //     changefreq: 'weekly'
-    //   })),
-    //   ...portfolio.projects.map(projects => ({
-    //     loc: `/projects/${projects.id}`, // Dynamic URL
-    //     lastmod: new Date().toISOString(),  // Use lastmod from JSON
-    //     priority: 0.8,
-    //     changefreq: 'weekly'
-    //   }))
-    // ]
+    hostname: process.env.NUXT_PUBLIC_SITE_URL, // Replace with your website URL
+    debug: true, // Enable debug mode to check for errors
+    autoLastmod: true, // Automatically add last modified date
+    xsl: false,
+    urls: [
+      ...portfolio.blogPosts.map(blog => ({
+        loc: `/blog/${blog.id}`, // Dynamic URL for blogs
+        lastmod: new Date().toISOString(),
+        priority: 0.9,
+        changefreq: 'weekly'
+      })),
+      ...portfolio.blogCategories.map(blog => ({
+        loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
+        lastmod: new Date().toISOString(),
+        priority: 0.9,
+        changefreq: 'weekly'
+      })),
+      ...portfolio.projects.map(projects => ({
+        loc: `/projects/${projects.id}`, // Dynamic URL
+        lastmod: new Date().toISOString(),  // Use lastmod from JSON
+        priority: 0.8,
+        changefreq: 'weekly'
+      }))
+    ]
   },
   css: [
     '@/assets/css/main.css',
@@ -84,29 +86,26 @@ export default defineNuxtConfig({
     }
   },
 
-  nitro: {
-    compressPublicAssets: true,
-    minify: true,
-    // Optimize server performance
-    serverAssets: [{
-      baseName: 'public',
-      dir: 'public'
-    }],
-    prerender: {
-      //crawlLinks: true,
-      routes: ['/']
-    }
-  }, routeRules: {
-    // Enable gzip compression for all routes
-    '/**': {
-      headers: {
-        'Cache-Control': 'max-age=31536000, public, immutable',
-        'X-Content-Type-Options': 'nosniff',
-        'X-Frame-Options': 'DENY',
-        'X-XSS-Protection': '1; mode=block'
-      }
-    }
-  },
+  // nitro: {
+  //   compressPublicAssets: true,
+  //   minify: true,
+  //   serverAssets: [{
+  //     baseName: 'public',
+  //     dir: 'public'
+  //   }],
+  //   prerender: {
+  //     routes: ['/']
+  //   }
+  // }, routeRules: {
+  //   '/**': {
+  //     headers: {
+  //       'Cache-Control': 'max-age=31536000, public, immutable',
+  //       'X-Content-Type-Options': 'nosniff',
+  //       'X-Frame-Options': 'DENY',
+  //       'X-XSS-Protection': '1; mode=block'
+  //     }
+  //   }
+  // },
 
   compatibilityDate: '2025-02-03'
 })
