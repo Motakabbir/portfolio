@@ -2,6 +2,14 @@
 
 This is a personal portfolio website built using **Nuxt 3**, showcasing projects, skills, and experiences.
 
+## 🌐 Demo
+
+Live Demo: [Portfolio Website](https://mmorshed.me/)
+
+## 🖼️ Screenshots
+
+![Portfolio Screenshot](screenshot.png)
+
 ## 🚀 Features
 
 - ⚡ Built with **Nuxt 3** for better performance & developer experience
