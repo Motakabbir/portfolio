@@ -68,12 +68,12 @@ export default defineNuxtConfig({
         priority: 0.9,
         changefreq: 'weekly'
       })),
-      // ...portfolio.blogCategories.map(blog => ({
-      //   loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
-      //   lastmod: new Date().toISOString().split('T')[0],
-      //   priority: 0.9,
-      //   changefreq: 'weekly'
-      // })),
+      ...portfolio.blogCategories.map(blog => ({
+        loc: `/blog/category/${blog.name}`, // Dynamic URL for blogs
+        lastmod: new Date().toISOString().split('T')[0],
+        priority: 0.9,
+        changefreq: 'weekly'
+      })),
       ...portfolio.projects.map(projects => ({
         loc: `/projects/${projects.id}`, // Dynamic URL
         lastmod: new Date().toISOString().split('T')[0],  // Use lastmod from JSON
