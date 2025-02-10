@@ -259,8 +259,14 @@
 <script setup>
 import { ref } from 'vue'
 import portfolioData from '~/data/portfolio.json'
-
-
+import { useHead } from '#imports';
+useHead({
+  title: 'About',
+  meta: [
+    { name: 'description', content: 'Experienced Full Stack Developer specializing in PHP, Python, and JavaScript. Expertise in Laravel, CodeIgniter, Django, React, Vue, Nuxt, and Next.js. Skilled in GitHub, GitLab, API development, and modern web technologies. Hire a professional for scalable and high-performance web solutions.' },
+    { name: 'keywords', content: 'PHP Developer, Python Developer, JavaScript Developer, Laravel Developer, CodeIgniter Developer, Django Developer, React Developer, Vue.js Developer, Nuxt.js Developer, Next.js Developer, Full Stack Developer, Web Developer, Backend Developer, Frontend Developer, GitHub Expert, GitLab Developer, API Development, Software Engineer, Web Application Development, CI/CD Integration, Git Version Control, Freelance Developer, Remote Developer, Custom Web Development, Hire Web Developer, Modern Web Development' }
+  ]
+});
 const data = ref({
   ...portfolioData,
   certifications: [

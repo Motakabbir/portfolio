@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-white text-gray-800 font-sans">
     <!-- Main Content -->
-    <main class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <!-- Hero Section -->
       <section id="home" class="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden">
         <!-- Background -->
@@ -246,11 +246,12 @@
       <!-- Blog Section -->
       <section id="blog" class="py-20 relative">
         <!-- Background Elements -->
-        <div class="absolute inset-0">
+        <!-- <div class="absolute inset-0">
           <div class="absolute inset-0 bg-gradient-to-br from-gray-50 to-white"></div>
           <div class="absolute right-1/4 top-1/4 w-72 h-72 bg-primary-100 rounded-full blur-3xl opacity-30"></div>
           <div class="absolute left-1/3 bottom-1/3 w-72 h-72 bg-secondary-100 rounded-full blur-3xl opacity-30"></div>
-        </div>
+        </div> -->
+
 
         <!-- Content -->
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -378,8 +379,8 @@ import { useHead } from '#imports';
 useHead({
   title: 'Home',
   meta: [
-    { name: 'description', content: 'Full Stack Developer specializing in Vue.js, Node.js, and modern web technologies' },
-    { name: 'keywords', content: 'Full Stack Developer,PHP, LARAVEL, Nuxt, SEO, Vue, Software, Development' }
+    { name: 'description', content: 'Experienced Full Stack Developer specializing in PHP, Python, and JavaScript. Expertise in Laravel, CodeIgniter, Django, React, Vue, Nuxt, and Next.js. Skilled in GitHub, GitLab, API development, and modern web technologies. Hire a professional for scalable and high-performance web solutions.' },
+    { name: 'keywords', content: 'PHP Developer, Python Developer, JavaScript Developer, Laravel Developer, CodeIgniter Developer, Django Developer, React Developer, Vue.js Developer, Nuxt.js Developer, Next.js Developer, Full Stack Developer, Web Developer, Backend Developer, Frontend Developer, GitHub Expert, GitLab Developer, API Development, Software Engineer, Web Application Development, CI/CD Integration, Git Version Control, Freelance Developer, Remote Developer, Custom Web Development, Hire Web Developer, Modern Web Development' }
   ]
 });
 

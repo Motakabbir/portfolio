@@ -4,9 +4,8 @@
     <section class="relative overflow-hidden">
       <!-- Background -->
       <div class="absolute inset-0">
-        <img src="~/assets/images/backgrounds/projects-pattern.svg" 
-             alt="Projects Pattern" 
-             class="w-full h-full object-cover">
+        <img src="~/assets/images/backgrounds/projects-pattern.svg" alt="Projects Pattern"
+          class="w-full h-full object-cover">
       </div>
 
       <!-- Content -->
@@ -30,25 +29,20 @@
           <div class="flex items-center space-x-4">
             <FunnelIcon class="h-5 w-5 text-gray-400" />
             <div class="flex space-x-2">
-              <button v-for="category in categories" 
-                      :key="category"
-                      @click="selectedCategory = category"
-                      :class="[
-                        selectedCategory === category 
-                          ? 'bg-primary text-white' 
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
-                        'px-4 py-2 rounded-full text-sm font-medium transition-colors'
-                      ]">
+              <button v-for="category in categories" :key="category" @click="selectedCategory = category" :class="[
+                selectedCategory === category
+                  ? 'bg-primary text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200',
+                'px-4 py-2 rounded-full text-sm font-medium transition-colors'
+              ]">
                 {{ category }}
               </button>
             </div>
           </div>
           <div class="mt-4 sm:mt-0">
             <div class="relative">
-              <input type="text" 
-                     v-model="searchQuery"
-                     placeholder="Search projects..." 
-                     class="w-full sm:w-64 pl-10 pr-4 py-2 border rounded-lg focus:ring-primary focus:border-primary">
+              <input type="text" v-model="searchQuery" placeholder="Search projects..."
+                class="w-full sm:w-64 pl-10 pr-4 py-2 border rounded-lg focus:ring-primary focus:border-primary">
               <MagnifyingGlassIcon class="h-5 w-5 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
             </div>
           </div>
@@ -58,29 +52,20 @@
 
     <!-- Projects Grid -->
     <div class="max-w-7xl mx-auto mt-8 px-4 sm:px-6 lg:px-8 pb-16">
-      <TransitionGroup 
-        name="stagger-list"
-        tag="div"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-        :css="false"
-        @before-enter="onBeforeEnter"
-        @enter="onEnter"
-      >
-        <div v-for="(project, index) in filteredProjects" 
-             :key="project.id"
-             :data-index="index"
-             class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 hover-lift">
+      <TransitionGroup name="stagger-list" tag="div" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        :css="false" @before-enter="onBeforeEnter" @enter="onEnter">
+        <div v-for="(project, index) in filteredProjects" :key="project.id" :data-index="index"
+          class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 hover-lift">
           <!-- Project Image -->
           <div class="relative aspect-video overflow-hidden">
-            <img :src="project.image" 
-                 :alt="project.title"
-                 class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <img :src="project.image" :alt="project.title"
+              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="absolute bottom-4 left-4 right-4">
                 <div class="flex flex-wrap gap-2">
-                  <span v-for="tech in project.technologies" 
-                        :key="tech"
-                        class="text-xs bg-white/20 text-white px-2 py-1 rounded-full backdrop-blur-sm">
+                  <span v-for="tech in project.technologies" :key="tech"
+                    class="text-xs bg-white/20 text-white px-2 py-1 rounded-full backdrop-blur-sm">
                     {{ tech }}
                   </span>
                 </div>
@@ -101,25 +86,21 @@
             <p class="text-gray-600 mb-4 line-clamp-2">
               {{ project.description }}
             </p>
-            
+
             <!-- Project Links -->
             <div class="flex items-center justify-between mt-4 pt-4 border-t">
               <div class="flex space-x-4">
-                <a v-if="project.github" 
-                   :href="project.github" 
-                   target="_blank"
-                   class="text-gray-500 hover:text-primary transition-colors">
+                <a v-if="project.github" :href="project.github" target="_blank"
+                  class="text-gray-500 hover:text-primary transition-colors">
                   <CodeBracketIcon class="h-5 w-5" />
                 </a>
-                <a v-if="project.demo" 
-                   :href="project.demo" 
-                   target="_blank"
-                   class="text-gray-500 hover:text-primary transition-colors">
+                <a v-if="project.demo" :href="project.demo" target="_blank"
+                  class="text-gray-500 hover:text-primary transition-colors">
                   <GlobeAltIcon class="h-5 w-5" />
                 </a>
               </div>
-              <NuxtLink :to="'/projects/' + project.id" 
-                        class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
+              <NuxtLink :to="'/projects/' + project.id"
+                class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
                 View Details
                 <ArrowRightIcon class="h-4 w-4 ml-1" />
               </NuxtLink>
@@ -129,8 +110,7 @@
       </TransitionGroup>
 
       <!-- Empty State -->
-      <div v-if="filteredProjects.length === 0" 
-           class="text-center py-16">
+      <div v-if="filteredProjects.length === 0" class="text-center py-16">
         <FolderOpenIcon class="h-12 w-12 text-gray-400 mx-auto mb-4" />
         <h3 class="text-lg font-medium text-gray-900 mb-2">No projects found</h3>
         <p class="text-gray-600">
@@ -143,7 +123,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { 
+import {
   FunnelIcon,
   MagnifyingGlassIcon,
   CodeBracketIcon,
@@ -153,8 +133,15 @@ import {
 } from '@heroicons/vue/24/outline'
 import portfolioData from '@/data/portfolio.json'
 import { useNuxtApp } from '#app'
-
 const nuxtApp = useNuxtApp()
+import { useHead } from '#imports';
+useHead({
+  title: 'Projects',
+  meta: [
+    { name: 'description', content: 'Experienced Full Stack Developer specializing in PHP, Python, and JavaScript. Expertise in Laravel, CodeIgniter, Django, React, Vue, Nuxt, and Next.js. Skilled in GitHub, GitLab, API development, and modern web technologies. Hire a professional for scalable and high-performance web solutions.' },
+    { name: 'keywords', content: 'PHP Developer, Python Developer, JavaScript Developer, Laravel Developer, CodeIgniter Developer, Django Developer, React Developer, Vue.js Developer, Nuxt.js Developer, Next.js Developer, Full Stack Developer, Web Developer, Backend Developer, Frontend Developer, GitHub Expert, GitLab Developer, API Development, Software Engineer, Web Application Development, CI/CD Integration, Git Version Control, Freelance Developer, Remote Developer, Custom Web Development, Hire Web Developer, Modern Web Development' }
+  ]
+});
 
 // Simulate data fetching
 onMounted(async () => {
@@ -184,8 +171,8 @@ const filteredProjects = computed(() => {
   // Filter by search query
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase()
-    filtered = filtered.filter(project => 
-      project.title.toLowerCase().includes(query) || 
+    filtered = filtered.filter(project =>
+      project.title.toLowerCase().includes(query) ||
       project.description.toLowerCase().includes(query)
     )
   }
