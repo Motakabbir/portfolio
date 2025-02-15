@@ -186,7 +186,10 @@ const categories = computed(() => {
 })
 
 // Get blog posts directly from portfolio data
-const allPosts = computed(() => portfolioData.blogPosts || [])
+const allPosts = computed(() =>
+  [...(portfolioData.blogPosts || [])]
+    .sort((a, b) => b.someNumericProperty - a.someNumericProperty)
+)
 const featuredPost = computed(() => allPosts.value[0] || null)
 const regularPosts = computed(() => allPosts.value.slice(1))
 

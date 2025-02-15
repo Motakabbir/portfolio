@@ -1475,6 +1475,344 @@
           "Responsive design"
         ]
       }
+    },
+    {
+      "id": "3",
+      "title": "Readyeshop - E-Commerce Platform",
+      "slug": "readyeshop",
+      "description": "A powerful e-commerce platform enabling entrepreneurs and businesses to launch and manage online stores with ease.",
+      "longDescription": "Readyeshop is a comprehensive e-commerce solution designed to help small and medium-sized businesses create and operate online stores efficiently. With user-friendly tools, seamless integrations, and powerful backend capabilities, it empowers entrepreneurs to sell products, manage inventory, and optimize sales performance. The platform focuses on accessibility, affordability, and scalability, ensuring a smooth experience for both store owners and customers.",
+      "image": "/images/projects/readyeshop.jpg",
+      "gallery": [
+        "/images/projects/readyeshop/dashboard.jpg",
+        "/images/projects/readyeshop/storefront.jpg",
+        "/images/projects/readyeshop/admin-panel.jpg",
+        "/images/projects/readyeshop/analytics.jpg"
+      ],
+      "techStack": {
+        "Backend": [
+          {
+            "name": "Laravel",
+            "version": "10.x",
+            "icon": "https://skillicons.dev/icons?i=laravel"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          },
+          {
+            "name": "REST API",
+            "version": "v1",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Vue.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+          }
+        ],
+        "Cloud & DevOps": [
+          {
+            "name": "AWS",
+            "version": "Latest",
+            "icon": "https://skillicons.dev/icons?i=aws"
+          },
+          {
+            "name": "Cloudflare CDN",
+            "version": "Latest",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732026.png"
+          }
+        ],
+        "Testing": [
+          {
+            "name": "Unit Testing",
+            "version": "PHPUnit 10",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          }
+        ]
+      },
+      "category": "E-Commerce",
+      "client": "Small and Medium Businesses",
+      "duration": "Ongoing",
+      "projectUrl": "https://readyeshop.com/",
+      "highlights": [
+        "Easy-to-use online store builder",
+        "Secure and scalable cloud hosting",
+        "Multiple payment gateway integrations",
+        "Comprehensive inventory and order management"
+      ],
+      "challenges": [
+        "Ensuring platform scalability for high traffic",
+        "Providing seamless payment processing across multiple gateways",
+        "Enhancing security for customer transactions and data",
+        "Optimizing the user experience for both store owners and customers"
+      ],
+      "solutions": [
+        "Built a modular and scalable architecture with Laravel",
+        "Integrated leading payment gateways for seamless transactions",
+        "Implemented strong security measures, including encryption and fraud detection",
+        "Developed an intuitive and mobile-friendly UI using Vue.js"
+      ],
+      "stats": [
+        {
+          "label": "Total Online Stores",
+          "value": 5000
+        },
+        {
+          "label": "Active Products",
+          "value": 200000
+        },
+        {
+          "label": "Orders Processed",
+          "value": 1.5e6
+        },
+        {
+          "label": "Daily Visitors",
+          "value": 25000
+        }
+      ],
+      "features": {
+        "Security": [
+          "SSL encryption for secure transactions",
+          "Regular security updates and monitoring",
+          "Fraud detection and prevention mechanisms"
+        ],
+        "Performance": [
+          "Optimized for fast page load speeds",
+          "Cloud-based infrastructure for scalability",
+          "Efficient caching and database management"
+        ],
+        "User Experience": [
+          "Easy-to-navigate admin dashboard",
+          "Mobile-responsive storefronts",
+          "Customizable themes and branding options"
+        ]
+      },
+      "completionDate": "2024-02"
+    },
+    {
+      "id": "4",
+      "title": "MyBilling - ISP ERP System",
+      "slug": "mybilling-isp",
+      "description": "A comprehensive ERP system designed to streamline ISP operations, from billing to client management, integrating key services like SMS and payment gateways.",
+      "longDescription": "MyBilling is an advanced ERP solution designed for ISPs, offering features such as client management, automated billing, SMS and payment gateway integration, trouble ticketing, and HR management. It supports radius server configurations, BTRC report generation, and offers a secure, web-based interface for both administrators and clients.",
+      "image": "/images/projects/mybilling.jpg",
+      "gallery": [
+        "/images/projects/mybilling/dashboard.jpg",
+        "/images/projects/mybilling/client-portal.jpg",
+        "/images/projects/mybilling/radius-server.jpg",
+        "/images/projects/mybilling/admin-panel.jpg"
+      ],
+      "techStack": {
+        "Backend": [
+          {
+            "name": "PHP",
+            "version": "Latest",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          },
+          {
+            "name": "Radius Server",
+            "version": "Customized",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Vue.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+          }
+        ],
+        "Cloud & DevOps": [
+          {
+            "name": "AWS",
+            "version": "Latest",
+            "icon": "https://skillicons.dev/icons?i=aws"
+          },
+          {
+            "name": "SMS Gateway",
+            "version": "Multiple (Bkash, SSL, Nagad)",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732026.png"
+          }
+        ],
+        "Testing": [
+          {
+            "name": "Unit Testing",
+            "version": "PHPUnit",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          }
+        ]
+      },
+      "category": "ISP ERP System",
+      "client": "Various ISPs",
+      "duration": "Ongoing",
+      "completionDate": "N/A",
+      "projectUrl": "https://mybilling.cloud/",
+      "highlights": [
+        "Automated billing and payment gateway integration",
+        "Multi-client support via web portal",
+        "Radius server management",
+        "BTRC report generation"
+      ],
+      "challenges": [
+        "Integrating multiple payment gateways and SMS providers",
+        "Ensuring high availability and scalability",
+        "Managing diverse client needs with a single platform"
+      ],
+      "solutions": [
+        "Developed a flexible API-driven backend",
+        "Utilized AWS for cloud-based scalability",
+        "Optimized frontend for responsiveness and accessibility"
+      ],
+      "stats": [
+        {
+          "label": "Total Clients",
+          "value": 200
+        },
+        {
+          "label": "Active Users",
+          "value": 5000
+        },
+        {
+          "label": "Transactions Processed",
+          "value": 12000
+        },
+        {
+          "label": "Pending Support Tickets",
+          "value": 20
+        }
+      ],
+      "features": {
+        "Security": [
+          "Two-factor authentication",
+          "Encrypted payment processing",
+          "Regular security updates"
+        ],
+        "Performance": [
+          "Scalable cloud infrastructure",
+          "Optimized transaction speed",
+          "Efficient data caching"
+        ],
+        "User Experience": [
+          "Responsive web interface",
+          "Client self-service portal",
+          "Real-time updates and notifications"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "title": "Complaint Management System",
+      "slug": "cms",
+      "description": "A comprehensive system to manage customer complaints, streamline resolutions, and enhance customer satisfaction.",
+      "longDescription": "The Complaint Management System (CMS) helps businesses assess, analyze, and respond to customer complaints. It offers features such as ticket creation, ticket scheduling, department-wise ticketing, priority setup, SMS & email integration, and detailed reporting for better customer service and issue resolution.",
+      "image": "/images/projects/cms.jpg",
+      "gallery": [
+        "/images/projects/cms/dashboard.jpg",
+        "/images/projects/cms/ticket-entry.jpg",
+        "/images/projects/cms/report.jpg",
+        "/images/projects/cms/ticket-management.jpg"
+      ],
+      "techStack": {
+        "Backend": [
+          {
+            "name": "PHP",
+            "version": "Latest",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Vue.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+          }
+        ],
+        "Cloud & DevOps": [
+          {
+            "name": "AWS",
+            "version": "Latest",
+            "icon": "https://skillicons.dev/icons?i=aws"
+          },
+          {
+            "name": "SMS Gateway",
+            "version": "Multiple (Bkash, SSL, Nagad)",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732026.png"
+          }
+        ],
+        "Testing": [
+          {
+            "name": "Unit Testing",
+            "version": "PHPUnit",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          }
+        ]
+      },
+      "category": "Customer Support",
+      "client": "Various Businesses",
+      "duration": "Ongoing",
+      "completionDate": "N/A",
+      "projectUrl": "https://yourcmslink.com/",
+      "highlights": [
+        "Ticket creation and management",
+        "SMS & Email integration for notifications",
+        "Department-based ticket assignment",
+        "Customizable priority setup"
+      ],
+      "challenges": [
+        "Integrating SMS and email notifications with various gateways",
+        "Ensuring real-time ticket updates",
+        "Handling large volumes of incoming complaints"
+      ],
+      "solutions": [
+        "Developed seamless integrations with multiple SMS and email services",
+        "Implemented real-time ticket updates and alerts",
+        "Optimized system for high traffic and data handling"
+      ],
+      "stats": [
+        {
+          "label": "Total Tickets Processed",
+          "value": 15000
+        },
+        {
+          "label": "Active Clients",
+          "value": 120
+        },
+        {
+          "label": "Average Resolution Time",
+          "value": "3 hours"
+        }
+      ],
+      "features": {
+        "Security": [
+          "End-to-end encryption",
+          "Multi-factor authentication",
+          "Regular security patches"
+        ],
+        "Performance": [
+          "Scalable architecture",
+          "Real-time updates",
+          "Efficient database indexing"
+        ],
+        "User Experience": [
+          "User-friendly dashboard",
+          "Real-time ticket tracking",
+          "Mobile-responsive interface"
+        ]
+      }
     }
   ],
   "blogPosts": [
@@ -1697,6 +2035,630 @@
           "title": "What is GitHub?",
           "id": "what-is-github"
         }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "rise-of-quantum-computing",
+      "title": "The Rise of Quantum Computing",
+      "excerpt": "Discover how quantum computing is revolutionizing industries with its unparalleled processing power.",
+      "date": "2024-02-13",
+      "readTime": "9 min read",
+      "coverImage": "https://picsum.photos/800/400?random=10",
+      "backgroundImages": {
+        "header": "https://picsum.photos/1600/600?random=10"
+      },
+      "category": {
+        "name": "Computing",
+        "color": "bg-blue-100"
+      },
+      "author": {
+        "name": "James Carter",
+        "bio": "James Carter is a technology researcher specializing in quantum computing.",
+        "avatar": "https://i.pravatar.cc/150?img=2",
+        "twitter": "https://twitter.com/jamescarter",
+        "github": "https://github.com/jamescarter",
+        "linkedin": "https://www.linkedin.com/in/jamescarter/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Quantum Computing?",
+          "id": "what-is-quantum-computing"
+        },
+        {
+          "title": "Applications of Quantum Computing",
+          "id": "applications-of-quantum-computing"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=15",
+          "caption": "Quantum computing in action"
+        },
+        {
+          "id": 2,
+          "url": "https://picsum.photos/800/400?random=16",
+          "caption": "Quantum circuits"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-quantum-computing",
+          "title": "What is Quantum Computing?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=17",
+              "caption": "Quantum mechanics in computing"
+            }
+          ],
+          "content": "<p>Quantum computing uses qubits instead of classical bits, allowing for exponential computational power...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from qiskit import QuantumCircuit\nqc = QuantumCircuit(2)\nqc.h(0)\nqc.cx(0, 1)\nqc.measure_all()"
+          }
+        },
+        {
+          "id": "applications-of-quantum-computing",
+          "title": "Applications of Quantum Computing",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=18",
+              "caption": "Quantum computing applications in cryptography"
+            }
+          ],
+          "content": "<p>Quantum computing is being used in cryptography, material science, and optimization problems...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from qiskit import Aer, execute\nbackend = Aer.get_backend('qasm_simulator')\nresult = execute(qc, backend).result()"
+          }
+        }
+      ],
+      "tags": [
+        "Quantum Computing",
+        "Technology",
+        "Computing"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "blockchain-and-web3",
+      "title": "Understanding Blockchain and Web3",
+      "excerpt": "Learn how blockchain technology and Web3 are reshaping the future of the internet.",
+      "date": "2024-02-13",
+      "readTime": "7 min read",
+      "coverImage": "https://picsum.photos/800/400?random=11",
+      "category": {
+        "name": "Blockchain",
+        "color": "bg-green-100"
+      },
+      "author": {
+        "name": "Emily Davis",
+        "bio": "Emily Davis is a blockchain expert focused on decentralized technologies.",
+        "avatar": "https://i.pravatar.cc/150?img=3",
+        "twitter": "https://twitter.com/emilydavis",
+        "github": "https://github.com/emilydavis",
+        "linkedin": "https://www.linkedin.com/in/emilydavis/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Blockchain?",
+          "id": "what-is-blockchain"
+        },
+        {
+          "title": "How Web3 is Changing the Internet",
+          "id": "how-web3-is-changing"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=19",
+          "caption": "Blockchain network visualization"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-blockchain",
+          "title": "What is Blockchain?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=20",
+              "caption": "Decentralized ledger concept"
+            }
+          ],
+          "content": "<p>Blockchain is a decentralized ledger technology that enables secure and transparent transactions...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "import hashlib\ndef hash_block(data):\n    return hashlib.sha256(data.encode()).hexdigest()"
+          }
+        },
+        {
+          "id": "how-web3-is-changing",
+          "title": "How Web3 is Changing the Internet",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=21",
+              "caption": "Web3 decentralized applications"
+            }
+          ],
+          "content": "<p>Web3 enables decentralized applications (dApps) powered by blockchain technology...</p>",
+          "code": {
+            "language": "JavaScript",
+            "snippet": "const Web3 = require('web3');\nconst web3 = new Web3('https://mainnet.infura.io/v3/YOUR-PROJECT-ID');"
+          }
+        }
+      ],
+      "tags": [
+        "Blockchain",
+        "Web3",
+        "Cryptocurrency",
+        "Technology"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "future-of-5g",
+      "title": "The Future of 5G and Beyond",
+      "excerpt": "Explore how 5G technology is enhancing connectivity and paving the way for future innovations.",
+      "date": "2024-02-13",
+      "readTime": "6 min read",
+      "coverImage": "https://picsum.photos/800/400?random=22",
+      "category": {
+        "name": "Telecommunications",
+        "color": "bg-red-100"
+      },
+      "author": {
+        "name": "Robert Lee",
+        "bio": "Robert Lee is a telecom engineer specializing in 5G and next-gen networks.",
+        "avatar": "https://i.pravatar.cc/150?img=4",
+        "twitter": "https://twitter.com/robertlee",
+        "github": "https://github.com/robertlee",
+        "linkedin": "https://www.linkedin.com/in/robertlee/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is 5G?",
+          "id": "what-is-5g"
+        },
+        {
+          "title": "The Impact of 5G on Connectivity",
+          "id": "impact-of-5g"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=23",
+          "caption": "5G Network Visualization"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-5g",
+          "title": "What is 5G?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=24",
+              "caption": "5G Cell Towers"
+            }
+          ],
+          "content": "<p>5G is the fifth-generation wireless technology that provides faster data speeds and lower latency...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "import speedtest\nst = speedtest.Speedtest()\nprint(st.download())"
+          }
+        },
+        {
+          "id": "impact-of-5g",
+          "title": "The Impact of 5G on Connectivity",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=25",
+              "caption": "5G and Smart Cities"
+            }
+          ],
+          "content": "<p>5G is enabling smart cities, autonomous vehicles, and improved IoT connectivity...</p>"
+        }
+      ],
+      "tags": [
+        "5G",
+        "Telecommunications",
+        "Wireless Technology"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "cybersecurity-and-ai",
+      "title": "Cybersecurity in the Age of AI",
+      "excerpt": "AI-powered cybersecurity measures are becoming essential in the fight against digital threats.",
+      "date": "2024-02-13",
+      "readTime": "8 min read",
+      "coverImage": "https://picsum.photos/800/400?random=26",
+      "category": {
+        "name": "Cybersecurity",
+        "color": "bg-yellow-100"
+      },
+      "author": {
+        "name": "Sophia Martinez",
+        "bio": "Sophia Martinez is a cybersecurity expert focused on AI-driven security solutions.",
+        "avatar": "https://i.pravatar.cc/150?img=5",
+        "twitter": "https://twitter.com/sophiamartinez",
+        "github": "https://github.com/sophiamartinez",
+        "linkedin": "https://www.linkedin.com/in/sophiamartinez/"
+      },
+      "tableOfContents": [
+        {
+          "title": "How AI is Transforming Cybersecurity",
+          "id": "ai-in-cybersecurity"
+        },
+        {
+          "title": "Future Challenges in Cybersecurity",
+          "id": "future-challenges"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=27",
+          "caption": "AI in Cybersecurity"
+        }
+      ],
+      "sections": [
+        {
+          "id": "ai-in-cybersecurity",
+          "title": "How AI is Transforming Cybersecurity",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=28",
+              "caption": "AI-driven security systems"
+            }
+          ],
+          "content": "<p>AI is used to detect and prevent cyber threats in real-time using machine learning models...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from sklearn.ensemble import RandomForestClassifier\nmodel = RandomForestClassifier()"
+          }
+        }
+      ],
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Technology"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "ar-vr-evolution",
+      "title": "The Evolution of Augmented Reality (AR) and Virtual Reality (VR)",
+      "excerpt": "AR and VR are changing entertainment, education, and business in innovative ways.",
+      "date": "2024-02-13",
+      "readTime": "10 min read",
+      "coverImage": "https://picsum.photos/800/400?random=29",
+      "category": {
+        "name": "Extended Reality",
+        "color": "bg-purple-100"
+      },
+      "author": {
+        "name": "Daniel White",
+        "bio": "Daniel White is a researcher in immersive technologies, focusing on AR and VR.",
+        "avatar": "https://i.pravatar.cc/150?img=6",
+        "twitter": "https://twitter.com/danielwhite",
+        "github": "https://github.com/danielwhite",
+        "linkedin": "https://www.linkedin.com/in/danielwhite/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Augmented and Virtual Reality?",
+          "id": "what-is-ar-vr"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=30",
+          "caption": "VR headset experience"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-ar-vr",
+          "title": "What is Augmented and Virtual Reality?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=31",
+              "caption": "AR overlays on reality"
+            }
+          ],
+          "content": "<p>AR enhances the real world with digital elements, while VR creates an entirely immersive experience...</p>",
+          "code": {
+            "language": "JavaScript",
+            "snippet": "navigator.getVRDisplays().then(displays => console.log(displays));"
+          }
+        }
+      ],
+      "tags": [
+        "AR",
+        "VR",
+        "Extended Reality",
+        "Technology"
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "robotics-and-automation",
+      "title": "The Role of Robotics in Automation",
+      "excerpt": "How robotics and AI-powered automation are transforming industries and daily life.",
+      "date": "2024-02-13",
+      "readTime": "9 min read",
+      "coverImage": "https://picsum.photos/800/400?random=32",
+      "category": {
+        "name": "Robotics",
+        "color": "bg-orange-100"
+      },
+      "author": {
+        "name": "David Chen",
+        "bio": "David Chen is a robotics engineer specializing in AI-driven automation.",
+        "avatar": "https://i.pravatar.cc/150?img=7",
+        "twitter": "https://twitter.com/davidchen",
+        "github": "https://github.com/davidchen",
+        "linkedin": "https://www.linkedin.com/in/davidchen/"
+      },
+      "tableOfContents": [
+        {
+          "title": "Advancements in Robotics",
+          "id": "advancements-in-robotics"
+        }
+      ],
+      "sections": [
+        {
+          "id": "advancements-in-robotics",
+          "title": "Advancements in Robotics",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=33",
+              "caption": "AI-powered robots"
+            }
+          ],
+          "content": "<p>Robots are becoming more intelligent with advancements in AI and machine learning...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "import tensorflow as tf\nmodel = tf.keras.models.Sequential()"
+          }
+        }
+      ],
+      "tags": [
+        "Robotics",
+        "Automation",
+        "AI"
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "iot-and-smart-devices",
+      "title": "The Growth of IoT and Smart Devices",
+      "excerpt": "Discover how the Internet of Things (IoT) is connecting devices and transforming daily life.",
+      "date": "2024-02-13",
+      "readTime": "7 min read",
+      "coverImage": "https://picsum.photos/800/400?random=34",
+      "category": {
+        "name": "IoT",
+        "color": "bg-teal-100"
+      },
+      "author": {
+        "name": "Jessica Green",
+        "bio": "Jessica Green is an IoT specialist working on smart home and industrial applications.",
+        "avatar": "https://i.pravatar.cc/150?img=8",
+        "twitter": "https://twitter.com/jessicagreen",
+        "github": "https://github.com/jessicagreen",
+        "linkedin": "https://www.linkedin.com/in/jessicagreen/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is IoT?",
+          "id": "what-is-iot"
+        },
+        {
+          "title": "How IoT is Transforming Industries",
+          "id": "iot-transforming-industries"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=35",
+          "caption": "Smart home automation"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-iot",
+          "title": "What is IoT?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=36",
+              "caption": "Connected IoT devices"
+            }
+          ],
+          "content": "<p>The Internet of Things (IoT) connects devices to the internet, enabling automation and remote control...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "import paho.mqtt.client as mqtt\nclient = mqtt.Client()\nclient.connect('broker.hivemq.com', 1883, 60)"
+          }
+        }
+      ],
+      "tags": [
+        "IoT",
+        "Smart Devices",
+        "Automation"
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "edge-computing",
+      "title": "Edge Computing: The Future of Data Processing",
+      "excerpt": "Edge computing is revolutionizing how data is processed closer to the source.",
+      "date": "2024-02-13",
+      "readTime": "8 min read",
+      "coverImage": "https://picsum.photos/800/400?random=37",
+      "category": {
+        "name": "Computing",
+        "color": "bg-blue-100"
+      },
+      "author": {
+        "name": "Michael Scott",
+        "bio": "Michael Scott is a cloud computing expert with a focus on edge and distributed computing.",
+        "avatar": "https://i.pravatar.cc/150?img=9",
+        "twitter": "https://twitter.com/michaelscott",
+        "github": "https://github.com/michaelscott",
+        "linkedin": "https://www.linkedin.com/in/michaelscott/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Edge Computing?",
+          "id": "what-is-edge-computing"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=38",
+          "caption": "Edge computing in action"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-edge-computing",
+          "title": "What is Edge Computing?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=39",
+              "caption": "Distributed data processing"
+            }
+          ],
+          "content": "<p>Edge computing processes data closer to its source instead of relying on a centralized cloud...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from flask import Flask\napp = Flask(__name__)\n@app.route('/')\ndef hello():\n    return 'Edge computing at work!'"
+          }
+        }
+      ],
+      "tags": [
+        "Edge Computing",
+        "Cloud",
+        "Data Processing"
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "ethical-ai",
+      "title": "Ethical AI: Challenges and Considerations",
+      "excerpt": "The rise of AI brings ethical concerns about bias, privacy, and fairness.",
+      "date": "2024-02-13",
+      "readTime": "9 min read",
+      "coverImage": "https://picsum.photos/800/400?random=40",
+      "category": {
+        "name": "AI Ethics",
+        "color": "bg-gray-100"
+      },
+      "author": {
+        "name": "Laura Bennett",
+        "bio": "Laura Bennett is an AI ethics researcher focused on responsible AI development.",
+        "avatar": "https://i.pravatar.cc/150?img=10",
+        "twitter": "https://twitter.com/laurabennett",
+        "github": "https://github.com/laurabennett",
+        "linkedin": "https://www.linkedin.com/in/laurabennett/"
+      },
+      "tableOfContents": [
+        {
+          "title": "Ethical Concerns in AI",
+          "id": "ethical-concerns-ai"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=41",
+          "caption": "AI Ethics and Bias"
+        }
+      ],
+      "sections": [
+        {
+          "id": "ethical-concerns-ai",
+          "title": "Ethical Concerns in AI",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=42",
+              "caption": "AI fairness analysis"
+            }
+          ],
+          "content": "<p>Ethical AI focuses on transparency, accountability, and fairness in AI decision-making...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "from fairlearn.metrics import demographic_parity_difference\nmetric = demographic_parity_difference(y_true, y_pred)"
+          }
+        }
+      ],
+      "tags": [
+        "AI Ethics",
+        "Bias",
+        "Fairness"
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "green-tech",
+      "title": "Green Technology: Innovations for a Sustainable Future",
+      "excerpt": "Explore how green technology is helping to combat climate change and improve sustainability.",
+      "date": "2024-02-13",
+      "readTime": "7 min read",
+      "coverImage": "https://picsum.photos/800/400?random=43",
+      "category": {
+        "name": "Green Tech",
+        "color": "bg-green-200"
+      },
+      "author": {
+        "name": "Oliver Smith",
+        "bio": "Oliver Smith is an environmental scientist focused on sustainable technology.",
+        "avatar": "https://i.pravatar.cc/150?img=11",
+        "twitter": "https://twitter.com/oliversmith",
+        "github": "https://github.com/oliversmith",
+        "linkedin": "https://www.linkedin.com/in/oliversmith/"
+      },
+      "tableOfContents": [
+        {
+          "title": "What is Green Technology?",
+          "id": "what-is-green-tech"
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/800/400?random=44",
+          "caption": "Renewable energy sources"
+        }
+      ],
+      "sections": [
+        {
+          "id": "what-is-green-tech",
+          "title": "What is Green Technology?",
+          "images": [
+            {
+              "url": "https://picsum.photos/800/400?random=45",
+              "caption": "Solar energy systems"
+            }
+          ],
+          "content": "<p>Green technology aims to reduce environmental impact through renewable energy and sustainable solutions...</p>",
+          "code": {
+            "language": "Python",
+            "snippet": "solar_energy = lambda sun_hours, efficiency: sun_hours * efficiency * 1000"
+          }
+        }
+      ],
+      "tags": [
+        "Green Tech",
+        "Renewable Energy",
+        "Sustainability"
       ]
     }
   ],

@@ -260,7 +260,7 @@
 
         <!-- Blog Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div v-for="post in portfolio.blogPosts" :key="post.id"
+          <div v-for="post in allPostsByProperty" :key="post.id"
             class="group relative bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
 
             <!-- Post Image -->
@@ -348,11 +348,8 @@
             </svg>
           </router-link>
         </div>
-
-
       </div>
     </section>
-
   </div>
 </template>
 
@@ -390,6 +387,13 @@ const portfolio = ref({
   projects: [],
   blogPosts: []
 })
+
+const allPostsByProperty = computed(() =>
+  [...(portfolioData.blogPosts || [])]
+    .sort((a, b) => b.id - a.id) // Sorting by ID in descending order
+    .slice(0, 3) // Taking the top 3
+);
+
 const { start, finish } = useLoading()
 
 // Base64 placeholder image

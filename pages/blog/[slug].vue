@@ -1,158 +1,274 @@
 <template>
-  <div v-if="!currentPost" class="min-h-screen bg-gray-50 flex items-center justify-center">
-    <div class="text-center">
-      <ExclamationCircleIcon class="h-12 w-12 text-red-500 mx-auto mb-4" />
-      <h1 class="text-xl font-medium text-gray-900 mb-2">Blog post not found</h1>
-      <p class="text-gray-600 mb-6">The blog post you're looking for doesn't exist.</p>
-      <router-link to="/blog" 
-                class="inline-flex items-center px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors">
-        Back to Blog
-      </router-link>
+  <div class="min-h-screen bg-gray-50">
+    <div v-if="!post" class="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-xl font-medium text-gray-900 mb-2">Blog post not found</h1>
+        <p class="text-gray-600 mb-6">The blog post you're looking for doesn't exist.</p>
+        <router-link to="/blog"
+          class="inline-flex items-center px-4 py-2 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors">
+          Back to Blog
+        </router-link>
+      </div>
     </div>
-  </div>
 
-  <div v-else class="min-h-screen bg-gray-50">
-    <!-- Header Section -->
-    <section class="relative overflow-hidden py-20 lg:py-24">
-      <div v-if="currentPost.backgroundImages?.header" class="absolute inset-0">
-        <img :src="currentPost.backgroundImages.header" 
-             alt="Header Background"
-             class="w-full h-full object-cover opacity-50"
-             @error="handleImageError">
-        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-gray-900/70"></div>
-      </div>
-      <div v-else class="absolute inset-0 bg-gradient-to-br from-primary-500/10 to-primary-600/5"></div>
+    <div v-else class="min-h-screen bg-gradient-to-br from-gray-50 to-white">
+      <!-- Header Section -->
+      <section class="relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 py-24">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+          <img v-if="post.coverImage" :src="post.coverImage" :alt="post.title" @error="handleImageError"
+            class="w-full h-full object-cover opacity-30" />
+          <div class="absolute inset-0 bg-gradient-to-br from-gray-900/90 to-gray-800/90"></div>
+        </div>
 
-      <!-- Content -->
-      <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <!-- Category -->
-          <div v-if="currentPost.category" class="mb-6">
-            <span :class="[currentPost.category.color || 'bg-primary-100', 'inline-flex items-center px-3 py-1 rounded-full text-sm font-medium']">
-              <HashtagIcon class="h-4 w-4 mr-1" />
-              {{ currentPost.category.name }}
-            </span>
-          </div>
-
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6" 
-              :class="currentPost.backgroundImages?.header ? 'text-white' : 'text-gray-900'">
-            {{ currentPost.title }}
-          </h1>
-
-          <!-- Author -->
-          <div v-if="currentPost.author" class="flex items-center justify-center mb-6">
-            <img v-if="currentPost.author.avatar" 
-                 :src="currentPost.author.avatar" 
-                 :alt="currentPost.author.name"
-                 class="h-12 w-12 rounded-full mr-3"
-                 @error="handleImageError">
-            <UserCircleIcon v-else class="h-12 w-12 text-gray-400 mr-3" />
-            <div>
-              <div class="text-lg font-medium" :class="currentPost.backgroundImages?.header ? 'text-white' : 'text-gray-900'">
-                {{ currentPost.author.name }}
+        <!-- Content -->
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <div v-if="post.category" class="flex items-center justify-center gap-2 mb-6">
+              <span class="px-3 py-1 rounded-full text-sm font-medium text-white"
+                :class="post.category.color || 'bg-primary-500'">
+                {{ post.category.name }}
+              </span>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">{{ post.title }}</h1>
+            <div class="flex items-center justify-center space-x-4 text-gray-300">
+              <div class="flex items-center">
+                <CalendarIcon class="w-5 h-5 mr-2" />
+                <span>{{ formatDate(post.date) }}</span>
               </div>
-              <div class="text-sm" :class="currentPost.backgroundImages?.header ? 'text-gray-200' : 'text-gray-600'">
-                {{ currentPost.author.role }}
+              <span>•</span>
+              <div class="flex items-center">
+                <ClockIcon class="w-5 h-5 mr-2" />
+                <span>{{ post.readTime }}</span>
               </div>
             </div>
           </div>
-
-          <!-- Meta -->
-          <div class="flex items-center justify-center space-x-4" 
-               :class="currentPost.backgroundImages?.header ? 'text-gray-200' : 'text-gray-600'">
-            <span class="flex items-center">
-              <CalendarIcon class="h-5 w-5 mr-2" />
-              {{ formatDate(currentPost.date) }}
-            </span>
-            <span class="text-gray-300">•</span>
-            <span class="flex items-center">
-              <ClockIcon class="h-5 w-5 mr-2" />
-              {{ currentPost.readTime }}
-            </span>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Main Content -->
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <!-- Cover Image -->
-      <div class="rounded-xl overflow-hidden mb-12 bg-gray-100">
-        <img v-if="currentPost.coverImage" 
-             :src="currentPost.coverImage" 
-             :alt="currentPost.title"
-             class="w-full h-[400px] object-cover"
-             @error="handleImageError">
-        <div v-else class="w-full h-[400px] flex items-center justify-center text-gray-400">
-          <PhotoIcon class="h-12 w-12" />
-        </div>
-      </div>
+      <!-- Main Content -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <!-- Article Content -->
+          <article class="lg:col-span-8 space-y-8">
+            <!-- Table of Contents -->
+            <div v-if="post.tableOfContents?.length" class="bg-white rounded-xl shadow-sm p-6 mb-8">
+              <h2 class="text-xl font-semibold mb-4">Table of Contents</h2>
+              <nav>
+                <ul class="space-y-2">
+                  <li v-for="item in post.tableOfContents" :key="item.id" class="text-gray-600 hover:text-primary-600">
+                    <a :href="`#${item.id}`" class="block py-1">{{ item.title }}</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
 
-      <!-- Article Content -->
-      <article class="prose prose-lg mx-auto">
-        <div v-if="currentPost.content" 
-             class="markdown-content"
-             v-html="markdownToHtml(currentPost.content)"></div>
-        <div v-else class="text-gray-600">
-          {{ currentPost.excerpt }}
-        </div>
-      </article>
-
-      <!-- Author Bio -->
-      <div v-if="currentPost.author?.bio" class="mt-12 pt-8 border-t">
-        <div class="flex items-center gap-4">
-          <img v-if="currentPost.author.avatar" 
-               :src="currentPost.author.avatar" 
-               :alt="currentPost.author.name"
-               class="w-16 h-16 rounded-full object-cover"
-               @error="handleImageError">
-          <UserCircleIcon v-else class="h-16 w-16 text-gray-400" />
-          <div>
-            <h3 class="font-semibold text-lg">{{ currentPost.author.name }}</h3>
-            <p class="text-gray-600">{{ currentPost.author.bio }}</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Related Posts -->
-      <div v-if="relatedPosts.length > 0" class="mt-16 pt-8 border-t">
-        <h2 class="text-2xl font-bold mb-8">Related Posts</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <router-link v-for="relatedPost in relatedPosts" 
-                   :key="relatedPost.id"
-                   :to="'/blog/' + relatedPost.slug"
-                   class="group">
-            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-              <img :src="relatedPost.coverImage" 
-                   :alt="relatedPost.title"
-                   class="w-full h-48 object-cover"
-                   @error="handleImageError">
-              <div class="p-6">
-                <div v-if="relatedPost.category" class="mb-2">
-                  <span :class="[relatedPost.category.color || 'bg-primary-100', 'inline-flex items-center px-2 py-1 rounded-full text-xs font-medium']">
-                    <HashtagIcon class="h-3 w-3 mr-1" />
-                    {{ relatedPost.category.name }}
-                  </span>
+            <!-- Content Sections -->
+            <div class="bg-white rounded-xl shadow-sm p-8">
+              <!-- Main Content -->
+              <div v-if="post.content" class="prose prose-lg max-w-none mb-8">
+                <!-- Image Gallery -->
+                <div v-if="post.images?.length" class="not-prose grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                  <div v-for="image in post.images" :key="image.id" class="relative aspect-[4/3] group cursor-pointer"
+                    @click="openImage(image)">
+                    <img :src="image.url" :alt="image.caption || ''" @error="handleImageError"
+                      class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-[1.02]" />
+                    <div v-if="image.caption"
+                      class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent rounded-b-lg">
+                      <p class="text-white text-sm">{{ image.caption }}</p>
+                    </div>
+                  </div>
                 </div>
+                <!-- Post Content -->
+                <div v-html="post.content"></div>
+              </div>
 
-                <h3 class="text-lg font-semibold mb-2 group-hover:text-primary-600 transition-colors">
-                  {{ relatedPost.title }}
-                </h3>
-                <p class="text-gray-600 text-sm line-clamp-2">{{ relatedPost.excerpt }}</p>
+              <!-- Sections if available -->
+              <template v-if="post.sections">
+                <div v-for="section in post.sections" :key="section.id" :id="section.id" class="mb-12">
+                  <!-- Section Title -->
+                  <h2 v-if="section.title" class="text-2xl font-bold mb-4">{{ section.title }}</h2>
 
-                <div class="flex items-center justify-between mt-4 text-sm text-gray-500">
-                  <span class="flex items-center">
-                    <CalendarIcon class="h-4 w-4 mr-1" />
-                    {{ formatDate(relatedPost.date) }}
-                  </span>
-                  <span class="flex items-center">
-                    <ClockIcon class="h-4 w-4 mr-1" />
-                    {{ relatedPost.readTime }}
-                  </span>
+                  <!-- Section Images with Superposition -->
+                  <div v-if="section.images?.length" class="relative mb-8">
+                    <div class="aspect-video relative">
+                      <template v-for="(image, index) in section.images" :key="index">
+                        <div :class="[
+                          'absolute inset-0 transition-all duration-300',
+                          index === 0 ? 'z-10' : 'z-20 opacity-0 hover:opacity-100'
+                        ]">
+                          <img :src="image.url" :alt="image.caption || section.title" @error="handleImageError"
+                            class="w-full h-full object-cover rounded-xl" />
+                          <div v-if="image.caption"
+                            class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent rounded-b-xl">
+                            <p class="text-white text-sm">{{ image.caption }}</p>
+                          </div>
+                        </div>
+                      </template>
+                    </div>
+                  </div>
+
+                  <!-- Section Content -->
+                  <div v-if="section.content" class="prose prose-lg max-w-none" v-html="section.content"></div>
+
+                  <!-- Code Snippet -->
+                  <div v-if="section.code" class="relative bg-gray-900 rounded-xl overflow-hidden mt-4">
+                    <div class="flex items-center justify-between px-4 py-2 bg-gray-800">
+                      <span class="text-sm text-gray-400">{{ section.code.language }}</span>
+                      <button @click="copyCode(section.code.snippet)"
+                        class="text-gray-400 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                      </button>
+                    </div>
+                    <pre class="p-4 text-sm text-gray-300 overflow-x-auto"><code>{{ section.code.snippet }}</code></pre>
+                  </div>
+                </div>
+              </template>
+
+              <!-- Share Buttons -->
+              <ShareButtons :url="`https://mmorshed.me/blog/${post.slug}`" :title="post.title" class="mt-8" />
+
+              <!-- Tags -->
+              <div v-if="post.tags?.length" class="mt-8">
+                <div class="flex flex-wrap gap-2">
+                  <router-link v-for="tag in post.tags" :key="tag" :to="`/blog/tag/${tag}`"
+                    class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-gray-100 text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">
+                    #{{ tag }}
+                  </router-link>
                 </div>
               </div>
             </div>
-          </router-link>
+
+            <!-- Author Bio -->
+            <div class="bg-white rounded-xl shadow-sm p-6">
+              <div class="flex items-start gap-6">
+                <img :src="post.author?.avatar || '/images/default-avatar.png'" :alt="post.author?.name || 'Author'"
+                  @error="handleImageError" class="w-16 h-16 rounded-full">
+                <div>
+                  <h3 class="text-lg font-semibold mb-2">{{ post.author?.name || 'Anonymous' }}</h3>
+                  <p class="text-gray-600 mb-4">{{ post.author?.bio || 'No bio available' }}</p>
+                  <div class="flex gap-4">
+                    <a v-if="post.author?.twitter" :href="post.author.twitter" target="_blank" rel="noopener noreferrer"
+                      class="text-gray-500 hover:text-blue-400">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                      </svg>
+                    </a>
+                    <a v-if="post.author?.github" :href="post.author.github" target="_blank" rel="noopener noreferrer"
+                      class="text-gray-500 hover:text-gray-900">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                          d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                      </svg>
+                    </a>
+                    <a v-if="post.author?.linkedin" :href="post.author.linkedin" target="_blank"
+                      rel="noopener noreferrer" class="text-gray-500 hover:text-blue-600">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                          d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Sidebar -->
+          <aside class="lg:col-span-4 space-y-8">
+            <!-- Related Posts -->
+            <div class="bg-white rounded-xl shadow-sm p-6">
+              <h2 class="text-xl font-bold mb-4">Related Articles</h2>
+              <div class="space-y-6">
+                <article v-for="relatedPost in relatedPosts" :key="relatedPost.id" class="group">
+                  <router-link :to="`/blog/${relatedPost.id}`" class="block space-y-3">
+                    <!-- Image -->
+                    <div class="aspect-video overflow-hidden rounded-lg">
+                      <img :src="relatedPost.coverImage" :alt="relatedPost.title" @error="handleImageError"
+                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+
+                    <!-- Content -->
+                    <div>
+                      <span v-if="relatedPost.category" :class="relatedPost.category.color || 'bg-primary-500'"
+                        class="inline-block px-2 py-1 text-xs text-white rounded-full mb-2">
+                        {{ relatedPost.category.name }}
+                      </span>
+                      <h3
+                        class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors line-clamp-2">
+                        {{ relatedPost.title }}
+                      </h3>
+                      <p class="text-sm text-gray-600 mt-1 line-clamp-2">
+                        {{ relatedPost.excerpt }}
+                      </p>
+                      <div class="flex items-center space-x-4 mt-3 text-sm text-gray-500">
+                        <span class="flex items-center">
+                          <CalendarIcon class="w-4 h-4 mr-1" />
+                          {{ formatDate(relatedPost.date) }}
+                        </span>
+                        <span class="flex items-center">
+                          <ClockIcon class="w-4 h-4 mr-1" />
+                          {{ relatedPost.readTime }}
+                        </span>
+                      </div>
+                    </div>
+                  </router-link>
+                </article>
+              </div>
+            </div>
+
+            <!-- Newsletter -->
+            <Newsletter />
+
+            <!-- Categories -->
+            <div class="bg-white rounded-xl shadow-sm p-6">
+              <h2 class="text-xl font-bold mb-4">Categories</h2>
+              <div class="space-y-2">
+                <router-link v-for="category in portfolioData.blogCategories" :key="category.slug"
+                  :to="`/blog/category/${category.name}`"
+                  class="flex items-center justify-between group p-2 rounded-lg hover:bg-gray-50">
+                  <span class="text-gray-700 group-hover:text-primary-600">{{ category.name }}</span>
+                  <span :class="category.color || 'bg-primary-500'" class="px-2 py-1 text-xs text-white rounded-full">
+                    {{ getCategoryCount(category.name) }}
+                  </span>
+                </router-link>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <!-- Next/Prev Navigation -->
+      <div class="bg-white border-t">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div class="flex justify-between items-center">
+            <router-link v-if="prevPost" :to="'/blog/' + prevPost.id"
+              class="group flex items-center text-gray-600 hover:text-primary transition-colors">
+              <svg class="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              <span>Previous Article</span>
+            </router-link>
+            <div v-else class="w-24"></div>
+
+            <router-link to="/blog" class="text-gray-600 hover:text-primary transition-colors">
+              All Articles
+            </router-link>
+
+            <router-link v-if="nextPost" :to="'/blog/' + nextPost.id"
+              class="group flex items-center text-gray-600 hover:text-primary transition-colors">
+              <span>Next Article</span>
+              <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </router-link>
+            <div v-else class="w-24"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -160,61 +276,67 @@
 </template>
 
 <script setup>
-import { computed, watch } from 'vue'
+import { ref, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { 
-  ExclamationCircleIcon,
-  PhotoIcon,
+import {
+  CalendarIcon,
+  ClockIcon,
   UserCircleIcon,
-  HashtagIcon
+  PhotoIcon
 } from '@heroicons/vue/24/outline'
-import portfolioData from '@/data/portfolio.json'
+import ShareButtons from '~/components/ShareButtons.vue'
+import Newsletter from '~/components/Newsletter.vue'
+import portfolioData from '~/data/portfolio.json'
 
 const route = useRoute()
-const router = useRouter()
-
-// Get current post based on slug with proper type checking
-const currentPost = computed(() => {
-  const slug = route.params.slug
-  if (!slug) return null
-  
-  // Add null check for blogPosts array
+const slug = route.params.slug
+const post = computed(() => {
   if (!portfolioData?.blogPosts) return null
-  
-  const post = portfolioData.blogPosts.find(p => p.slug === slug)
+  const post = portfolioData.blogPosts.find(p => p.slug == slug)
   if (!post) return null
-
-  // Ensure all required properties exist with proper defaults
-  return {
-    ...post, // spread post properties first
-    title: post.title || '',
-    slug: post.slug || '',
-    content: post.content || '',
-    excerpt: post.excerpt || '',
-    backgroundImages: post.backgroundImages || {},
-    category: post.category || null,
-    author: post.author || null,
-    readTime: post.readTime || '5 min read',
-    date: post.date || new Date().toISOString().split('T')[0],
-    tableOfContents: post.tableOfContents || []
-  }
+  return post
 })
+
+const prevPost = computed(() => {
+  const currentIndex = portfolioData.blogPosts.findIndex(p => p.slug == slug)
+  return currentIndex > 0 ? portfolioData.blogPosts[currentIndex - 1] : null
+})
+
+const nextPost = computed(() => {
+  const currentIndex = portfolioData.blogPosts.findIndex(p => p.slug == slug)
+  return currentIndex < portfolioData.blogPosts.length - 1 ? portfolioData.blogPosts[currentIndex + 1] : null
+})
+
+
 
 // Get related posts with proper null checking
 const relatedPosts = computed(() => {
-  if (!currentPost.value || !portfolioData?.blogPosts) return []
-  
+  if (!post.value || !portfolioData?.blogPosts) return []
+
   return portfolioData.blogPosts
-    .filter(p => 
-      p.slug !== currentPost.value.slug && 
-      p.category?.name === currentPost.value.category?.name
+    .filter(p =>
+      p.slug !== post.value.slug &&
+      p.category?.name === post.value.category?.name
     )
     .slice(0, 2)
 })
 
-// Format date helper
+const handleImageError = (event) => {
+  event.target.src = '/images/placeholder.svg'
+}
+
+const copyCode = (code) => {
+  navigator.clipboard.writeText(code)
+    .then(() => {
+      // Show success notification
+      console.log('Code copied!')
+    })
+    .catch(err => {
+      console.error('Failed to copy code:', err)
+    })
+}
+
 const formatDate = (date) => {
-  if (!date) return ''
   return new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -222,23 +344,25 @@ const formatDate = (date) => {
   })
 }
 
-// Convert markdown to HTML
-const markdownToHtml = (content) => {
-  if (!content) return ''
-  return content
-}
-
-// Handle image errors
-const handleImageError = (event) => {
-  event.target.src = ref('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI2YzZjRmNiIvPjxwYXRoIGQ9Ik0zMjAgMjQwaDgwdjgwaC04MHoiIGZpbGw9IiM5Y2EzYWYiLz48cGF0aCBkPSJNNDAwIDI0MGg4MHY4MGgtODB6IiBmaWxsPSIjZDFkNWRiIi8+PHRleHQgeD0iNDAwIiB5PSIzNDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzZiNzI4MCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+SW1hZ2Ugbm90IGF2YWlsYWJsZTwvdGV4dD48L3N2Zz4=')
-}
-
-// Watch for changes in currentPost and handle navigation
-watch(() => route.params.slug, (newSlug) => {
-  if (process.client && newSlug && !currentPost.value) {
-    router.replace('/blog')
+const openImage = (image) => {
+  if (image?.url) {
+    window.open(image.url, '_blank')
   }
-})
+}
+// Function to get category count
+const getCategoryCount = (categoryName) => {
+  return portfolioData.blogPosts.filter((post) => post.category.name == categoryName).length;
+};
+
+// Example computed property to display category counts
+const categoryCounts = computed(() => {
+  const counts = {};
+  portfolioData.blogPosts.forEach((post) => {
+    const categoryName = post.category.name;
+    counts[categoryName] = (counts[categoryName] || 0) + 1;
+  });
+  return counts;
+});
 </script>
 
 <style>
@@ -246,29 +370,7 @@ watch(() => route.params.slug, (newSlug) => {
   max-width: none;
 }
 
-.prose img {
-  border-radius: 0.75rem;
-}
-
 .prose pre {
-  background-color: #1a1a1a;
-  color: #e5e5e5;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-}
-
-.prose code {
-  color: #e5e5e5;
-  background-color: #1a1a1a;
-  padding: 0.2em 0.4em;
-  border-radius: 0.25rem;
-  font-size: 0.875em;
-}
-
-.prose pre code {
-  padding: 0;
-  border-radius: 0;
-  background-color: transparent;
+  margin: 0;
 }
 </style>
