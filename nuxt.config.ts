@@ -15,13 +15,13 @@ export default defineNuxtConfig({
       gtagId: 'G-GHE9J7PYZZ'
     }
   },
-  // facebook: {
-  //   /* module options */
-  //   track: 'PageView',
-  //   pixelId: 'FACEBOOK_PIXEL_ID',
-  //   autoPageView: true,
-  //   disabled: false
-  // },
+  facebook: {
+    /* module options */
+    track: 'PageView',
+    pixelId: '207035759648523',
+    autoPageView: true,
+    disabled: false
+  },
   sitemap: {
     hostname: process.env.NUXT_PUBLIC_SITE_URL, // Replace with your website URL
     debug: true, // Enable debug mode to check for errors
