@@ -1,10 +1,12 @@
 import portfolio from './data/portfolio.json';
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  debug: true,
   ssr: true,
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-simple-sitemap',
+    '@nuxt/image-edge',
     'nuxt3-meta-pixel'
   ],
   runtimeConfig: {
@@ -13,13 +15,13 @@ export default defineNuxtConfig({
       gtagId: 'G-GHE9J7PYZZ'
     }
   },
-  facebook: {
-    /* module options */
-    track: 'PageView',
-    pixelId: 'FACEBOOK_PIXEL_ID',
-    autoPageView: true,
-    disabled: false
-  },
+  // facebook: {
+  //   /* module options */
+  //   track: 'PageView',
+  //   pixelId: 'FACEBOOK_PIXEL_ID',
+  //   autoPageView: true,
+  //   disabled: false
+  // },
   sitemap: {
     hostname: process.env.NUXT_PUBLIC_SITE_URL, // Replace with your website URL
     debug: true, // Enable debug mode to check for errors
@@ -98,7 +100,6 @@ export default defineNuxtConfig({
     '@/assets/css/main.css',
     '@/assets/css/animations.css'
   ],
-
   app: {
     head: {
       htmlAttrs: {
@@ -142,7 +143,6 @@ export default defineNuxtConfig({
       mode: 'out-in'
     }
   },
-
   nitro: {
     compressPublicAssets: true,
     minify: true,
@@ -153,7 +153,8 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/']
     }
-  }, routeRules: {
+  },
+  routeRules: {
     '/**': {
       headers: {
         'Cache-Control': 'max-age=31536000, public, immutable',
@@ -163,6 +164,5 @@ export default defineNuxtConfig({
       }
     }
   },
-
   compatibilityDate: '2025-02-03'
 })

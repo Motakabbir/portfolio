@@ -119,9 +119,9 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="testimonial in data.testimonials" :key="testimonial.id"
                class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
-            <div class="flex items-center mb-6">
-              <img :src="testimonial.image" :alt="testimonial.name"
-                   class="w-14 h-14 rounded-full object-cover">
+            <div class="flex items-center mb-6">              
+              <NuxtPicture :src="testimonial.image" :alt="testimonial.name"
+                   class="w-14 h-14 rounded-full object-cover"/>
               <div class="ml-4">
                 <h4 class="font-semibold text-gray-900">{{ testimonial.name }}</h4>
                 <p class="text-gray-600">{{ testimonial.position }}</p>
@@ -159,7 +159,7 @@
 <script setup>
 import { ref } from 'vue'
 import portfolioData from '~/data/portfolio.json'
-
+import NuxtPicture from '@/components/NuxtPicture.vue'
 const data = ref(portfolioData)
 
 const workProcess = [

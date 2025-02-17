@@ -16,8 +16,8 @@
       <section class="relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 py-24">
         <!-- Background Image -->
         <div class="absolute inset-0">
-          <img v-if="post.coverImage" :src="post.coverImage" :alt="post.title" @error="handleImageError"
-            class="w-full h-full object-cover opacity-30" />
+          <NuxtPicture v-if="post.coverImage" :src="post.coverImage" :alt="post.title"
+          class="w-full h-full object-cover opacity-30"/>
           <div class="absolute inset-0 bg-gradient-to-br from-gray-900/90 to-gray-800/90"></div>
         </div>
 
@@ -70,9 +70,8 @@
                 <!-- Image Gallery -->
                 <div v-if="post.images?.length" class="not-prose grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                   <div v-for="image in post.images" :key="image.id" class="relative aspect-[4/3] group cursor-pointer"
-                    @click="openImage(image)">
-                    <img :src="image.url" :alt="image.caption || ''" @error="handleImageError"
-                      class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-[1.02]" />
+                    @click="openImage(image)"> 
+                    <NuxtPicture :src="image.url" :alt="image.caption || ''"                     class="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-[1.02]"/>
                     <div v-if="image.caption"
                       class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent rounded-b-lg">
                       <p class="text-white text-sm">{{ image.caption }}</p>
@@ -97,7 +96,7 @@
                           'absolute inset-0 transition-all duration-300',
                           index === 0 ? 'z-10' : 'z-20 opacity-0 hover:opacity-100'
                         ]">
-                          <img :src="image.url" :alt="image.caption || section.title" @error="handleImageError"
+                          <NuxtPicture :src="image.url" :alt="image.caption || section.title" 
                             class="w-full h-full object-cover rounded-xl" />
                           <div v-if="image.caption"
                             class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent rounded-b-xl">
@@ -144,9 +143,8 @@
 
             <!-- Author Bio -->
             <div class="bg-white rounded-xl shadow-sm p-6">
-              <div class="flex items-start gap-6">
-                <img :src="post.author?.avatar || '/images/default-avatar.png'" :alt="post.author?.name || 'Author'"
-                  @error="handleImageError" class="w-16 h-16 rounded-full">
+              <div class="flex items-start gap-6">                
+                <NuxtPicture :src="post.author?.avatar || '/images/default-avatar.png'" :alt="post.author?.name || 'Author'" class="w-16 h-16 rounded-full" />
                 <div>
                   <h3 class="text-lg font-semibold mb-2">{{ post.author?.name || 'Anonymous' }}</h3>
                   <p class="text-gray-600 mb-4">{{ post.author?.bio || 'No bio available' }}</p>
@@ -187,8 +185,8 @@
                 <article v-for="relatedPost in relatedPosts" :key="relatedPost.id" class="group">
                   <router-link :to="`/blog/${relatedPost.id}`" class="block space-y-3">
                     <!-- Image -->
-                    <div class="aspect-video overflow-hidden rounded-lg">
-                      <img :src="relatedPost.coverImage" :alt="relatedPost.title" @error="handleImageError"
+                    <div class="aspect-video overflow-hidden rounded-lg">                      
+                      <NuxtPicture :src="relatedPost.coverImage" :alt="relatedPost.title" 
                         class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300" />
                     </div>
 
@@ -287,7 +285,7 @@ import {
 import ShareButtons from '~/components/ShareButtons.vue'
 import Newsletter from '~/components/Newsletter.vue'
 import portfolioData from '~/data/portfolio.json'
-
+import NuxtPicture from '@/components/NuxtPicture.vue'
 const route = useRoute()
 const postId = parseInt(route.params.id)
 const post = computed(() => {

@@ -4,16 +4,14 @@
     <div class="fixed inset-0 z-0 pointer-events-none opacity-50"
       style="background-image: url('data:image/svg+xml,%3Csvg width=%2760%27 height=%2760%27 viewBox=%270 0 60 60%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cg fill=%27none%27 fill-rule=%27evenodd%27%3E%3Cg fill=%27%236366f1%27 fill-opacity=%270.05%27%3E%3Cpath d=%27M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z%27/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
     </div>
-
-
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <!-- Profile Section -->
       <div class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden mb-12">
         <div class="md:flex">
           <div class="md:flex-shrink-0 p-6 md:p-8">
-            <div class="relative">
-              <img class="w-48 h-48 rounded-xl object-cover mx-auto md:mx-0 shadow-lg" :src="portfolio.personal.image"
-                :alt="portfolio.personal.name">
+            <div class="relative">              
+                <NuxtPicture :src="portfolio.personal.image"
+                :alt="portfolio.personal.name" class="w-48 h-48 rounded-xl object-cover mx-auto md:mx-0 shadow-lg" />                
               <div class="absolute -bottom-2 -right-2 bg-primary-600 text-white p-2 rounded-lg">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -84,8 +82,7 @@
                 class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all">
                 <div class="flex items-start gap-4">
                   <div class="flex-shrink-0">
-                    <img :src="cert.organizationLogo" :alt="cert.issuer" class="w-12 h-12 object-contain"
-                      @error="handleImageError">
+                      <NuxtPicture :src="cert.organizationLogo" :alt="cert.issuer" class="w-12 h-12 object-contain" />   
                   </div>
                   <div class="flex-1">
                     <h3 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
@@ -135,9 +132,8 @@
               <div v-for="edu in portfolio.education" :key="edu.id"
                 class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all">
                 <div class="flex items-start gap-4">
-                  <div class="flex-shrink-0">
-                    <img :src="edu.institutionLogo" :alt="edu.institution" class="w-12 h-12 object-contain rounded-lg"
-                      @error="handleImageError">
+                  <div class="flex-shrink-0">                   
+                    <NuxtPicture :src="edu.institutionLogo" :alt="edu.institution" class="w-12 h-12 object-contain rounded-lg" />   
                   </div>
                   <div class="flex-1">
                     <div class="flex justify-between items-start">
@@ -206,8 +202,7 @@
                 <div class="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all">
                   <div class="flex items-start gap-4">
                     <div class="flex-shrink-0">
-                      <img :src="exp.companyLogo" :alt="exp.company" class="w-12 h-12 object-contain rounded-lg"
-                        @error="handleImageError">
+                      <NuxtPicture :src="exp.companyLogo" :alt="exp.company" class="w-12 h-12 object-contain rounded-lg" />   
                     </div>
                     <div class="flex-1">
                       <div class="flex justify-between items-start">
@@ -260,6 +255,7 @@
 import { ref } from 'vue'
 import portfolioData from '~/data/portfolio.json'
 import { useHead } from '#imports';
+import NuxtPicture from '@/components/NuxtPicture.vue'
 useHead({
   title: 'About',
   meta: [

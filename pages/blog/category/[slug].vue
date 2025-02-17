@@ -61,9 +61,7 @@
                 <article v-for="(post, index) in filteredPosts" :key="post.id" :data-index="index"
                     class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
                     <router-link :to="'/blog/' + post.id">
-                        <img :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover"
-                            @error="handleImageError">
-
+                        <NuxtPicture :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" />
                         <div class="p-6">
                             <div class="flex flex-wrap gap-2 mb-3">
                                 <span v-if="post.category"
@@ -81,8 +79,8 @@
                             <div class="flex items-center justify-between">
                                 <!-- Author -->
                                 <div v-if="post.author" class="flex items-center">
-                                    <img v-if="post.author.avatar" :src="post.author.avatar" :alt="post.author.name"
-                                        class="h-8 w-8 rounded-full mr-2" @error="handleImageError">
+                                    <NuxtPicture v-if="post.author.avatar" :src="post.author.avatar" :alt="post.author.name"
+                                        class="h-8 w-8 rounded-full mr-2" />
                                     <UserCircleIcon v-else class="h-8 w-8 text-gray-400 mr-2" />
                                     <div class="text-sm text-gray-600">{{ post.author.name }}</div>
                                 </div>
@@ -118,6 +116,7 @@ import {
 } from '@heroicons/vue/24/outline'
 import portfolioData from '@/data/portfolio.json'
 import { useHead } from '#imports';
+import NuxtPicture from '@/components/NuxtPicture.vue'
 const route = useRoute()
 const categoryName = route.params.slug
 

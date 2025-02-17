@@ -57,9 +57,9 @@
         <div v-for="(project, index) in filteredProjects" :key="project.id" :data-index="index"
           class="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 hover-lift">
           <!-- Project Image -->
-          <div class="relative aspect-video overflow-hidden">
-            <img :src="project.image" :alt="project.title"
-              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+          <div class="relative aspect-video overflow-hidden">            
+            <NuxtPicture :src="project.image" :alt="project.title"
+              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"/>
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <div class="absolute bottom-4 left-4 right-4">
@@ -135,6 +135,7 @@ import portfolioData from '@/data/portfolio.json'
 import { useNuxtApp } from '#app'
 const nuxtApp = useNuxtApp()
 import { useHead } from '#imports';
+import NuxtPicture from '@/components/NuxtPicture.vue'
 useHead({
   title: 'Projects',
   meta: [

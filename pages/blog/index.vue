@@ -26,9 +26,9 @@
       <div class="bg-white rounded-xl shadow-lg overflow-hidden">
         <div class="lg:grid lg:grid-cols-2">
           <!-- Image -->
-          <div class="relative h-64 lg:h-full">
-            <img :src="featuredPost.coverImage" :alt="featuredPost.title"
-              class="absolute inset-0 w-full h-full object-cover" @error="handleImageError">
+          <div class="relative h-64 lg:h-full">            
+            <NuxtPicture :src="featuredPost.coverImage" :alt="featuredPost.title"
+              class="absolute inset-0 w-full h-full object-cover" />
             <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent lg:hidden"></div>
           </div>
 
@@ -55,8 +55,8 @@
 
             <!-- Author -->
             <div v-if="featuredPost.author" class="flex items-center mb-6">
-              <img v-if="featuredPost.author.avatar" :src="featuredPost.author.avatar" :alt="featuredPost.author.name"
-                class="h-10 w-10 rounded-full mr-3" @error="handleImageError">
+              <NuxtPicture v-if="featuredPost.author.avatar" :src="featuredPost.author.avatar" :alt="featuredPost.author.name"
+                class="h-10 w-10 rounded-full mr-3" />
               <UserCircleIcon v-else class="h-10 w-10 text-gray-400 mr-3" />
               <div>
                 <div class="text-sm font-medium text-gray-900">{{ featuredPost.author.name }}</div>
@@ -111,9 +111,8 @@
         appear @before-enter="onBeforeEnter" @enter="onEnter">
         <article v-for="(post, index) in filteredPosts" :key="post.id" :data-index="index"
           class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-          <router-link :to="'/blog/' + post.id">
-            <img :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" @error="handleImageError">
-
+          <router-link :to="'/blog/' + post.id">            
+            <NuxtPicture :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" />
             <div class="p-6">
               <div class="flex flex-wrap gap-2 mb-3">
                 <span v-if="post.category"
@@ -131,8 +130,10 @@
               <div class="flex items-center justify-between">
                 <!-- Author -->
                 <div v-if="post.author" class="flex items-center">
-                  <img v-if="post.author.avatar" :src="post.author.avatar" :alt="post.author.name"
-                    class="h-8 w-8 rounded-full mr-2" @error="handleImageError">
+                  
+                  <NuxtPicture v-if="post.author.avatar" :src="post.author.avatar" :alt="post.author.name"
+                    class="h-8 w-8 rounded-full mr-2"/>
+                    
                   <UserCircleIcon v-else class="h-8 w-8 text-gray-400 mr-2" />
                   <div class="text-sm text-gray-600">{{ post.author.name }}</div>
                 </div>
@@ -168,6 +169,7 @@ import {
 } from '@heroicons/vue/24/outline'
 import portfolioData from '@/data/portfolio.json'
 import { useHead } from '#imports';
+import NuxtPicture from '@/components/NuxtPicture.vue'
 useHead({
   title: 'Blog',
   meta: [

@@ -118,11 +118,9 @@
                 <div v-for="(image, index) in project.gallery" :key="index"
                   class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer"
                   @click="openLightbox(index)">
-
                   <!-- Image -->
-                  <img :src="image" :alt="`${project.title} screenshot ${index + 1}`"
-                    class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105">
-
+                  <NuxtPicture :src="image" :alt="`${project.title} screenshot ${index + 1}`"
+                    class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105"/>
                   <!-- Gradient Overlay -->
                   <div class="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-80"></div>
 
@@ -160,7 +158,7 @@
 
                   </button>
 
-                  <img :src="project.gallery[currentImage]" class="max-w-4xl max-h-screen object-contain" />
+                  <NuxtPicture :src="project.gallery[currentImage]" class="max-w-4xl max-h-screen object-contain"/>
 
                   <button @click="nextImage"
                     class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-4xl">
@@ -208,7 +206,7 @@
                   <h4 class="text-sm font-medium text-gray-500 mb-3 capitalize">{{ category }}</h4>
                   <div class="space-y-2">
                     <div v-for="tech in stack" :key="tech.name" class="flex items-center justify-between">
-                      <img class="w-8 h-8 mr-2" :src="tech.icon" :alt="tech.name">
+                      <NuxtPicture class="w-8 h-8 mr-2" :src="tech.icon" :alt="tech.name"/>
                       <span class="text-sm text-gray-500">{{ tech.version }}</span>
                     </div>
                   </div>
@@ -275,7 +273,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import portfolioData from '~/data/portfolio.json'
-
+import NuxtPicture from '@/components/NuxtPicture.vue'
 const route = useRoute()
 const slug = route.params.slug
 
