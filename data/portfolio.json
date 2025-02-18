@@ -1373,6 +1373,123 @@
     },
     {
       "id": "2",
+      "title": "Gambia Government Services Platform",
+      "slug": "gambia-gov-platform",
+      "description": "A centralized platform for streamlining Gambia government services, enhancing efficiency, transparency, and accessibility for citizens and government officials.",
+      "longDescription": "The Gambia Government Services Platform is a comprehensive digital system designed to unify and optimize public services across government agencies. It facilitates seamless interactions between the government and citizens, improving service delivery, transparency, and operational efficiency. From document processing to citizen engagement, the platform modernizes governance through digital transformation.",
+      "image": "/images/projects/gambia-gov.jpg",
+      "gallery": [
+        "/images/projects/gambia/dashboard.jpg",
+        "/images/projects/gambia/service-portal.jpg",
+        "/images/projects/gambia/citizen-engagement.jpg",
+        "/images/projects/gambia/admin-panel.jpg"
+      ],
+      "techStack": {
+        "Backend": [
+          {
+            "name": "Laravel",
+            "version": "10.x",
+            "icon": "https://skillicons.dev/icons?i=laravel"
+          },
+          {
+            "name": "MySQL",
+            "version": "8.0",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+          },
+          {
+            "name": "REST API",
+            "version": "v1",
+            "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+          }
+        ],
+        "Frontend": [
+          {
+            "name": "Nuxt.js",
+            "version": "3.x",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg"
+          }
+        ],
+        "Cloud & DevOps": [
+          {
+            "name": "AWS",
+            "version": "Latest",
+            "icon": "https://skillicons.dev/icons?i=aws"
+          },
+          {
+            "name": "SNS SMS",
+            "version": "Latest",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732026.png"
+          }
+        ],
+        "Testing": [
+          {
+            "name": "Unit Testing",
+            "version": "PHPUnit 10",
+            "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+          }
+        ]
+      },
+      "category": "E-Governance",
+      "client": "Gambia Government",
+      "duration": "24 months",
+      "completionDate": "2024-06",
+      "projectUrl": "https://citizen-dev.gm.orangebd.com/",
+      "highlights": [
+        "Centralized portal for multiple government services",
+        "Secure digital transactions and document processing",
+        "Real-time tracking of service requests",
+        "Automated workflows for government agencies"
+      ],
+      "challenges": [
+        "Integrating diverse government databases and legacy systems",
+        "Ensuring platform security and data privacy",
+        "Managing high user traffic during peak service times",
+        "Providing multilingual support for diverse user groups"
+      ],
+      "solutions": [
+        "Developed API-driven architecture using Laravel for seamless integrations",
+        "Implemented advanced encryption and security protocols",
+        "Utilized AWS for cloud scalability and high availability",
+        "Built a responsive and multilingual front-end using Nuxt.js"
+      ],
+      "stats": [
+        {
+          "label": "Total Users",
+          "value": 1200
+        },
+        {
+          "label": "Active Projects",
+          "value": 75
+        },
+        {
+          "label": "Completed Tasks",
+          "value": 4500
+        },
+        {
+          "label": "Pending Requests",
+          "value": 32
+        }
+      ],
+      "features": {
+        "Security": [
+          "End-to-end encryption",
+          "Multi-factor authentication",
+          "Regular security updates"
+        ],
+        "Performance": [
+          "Optimized load times",
+          "Scalable architecture",
+          "Efficient data caching"
+        ],
+        "User Experience": [
+          "Intuitive interface",
+          "Dark mode support",
+          "Responsive design"
+        ]
+      }
+    },
+    {
+      "id": "3",
       "title": "University Service Automation",
       "slug": "university-service-automation",
       "description": "A digital service automation platform for universities, streamlining student services, academic processes, and administrative tasks.",
@@ -1469,7 +1586,7 @@
       }
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Readyeshop - E-Commerce Platform",
       "slug": "readyeshop",
       "description": "A powerful e-commerce platform enabling entrepreneurs and businesses to launch and manage online stores with ease.",
@@ -1586,7 +1703,7 @@
       "completionDate": "2024-02"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "MyBilling - ISP ERP System",
       "slug": "mybilling-isp",
       "description": "A comprehensive ERP system designed to streamline ISP operations, from billing to client management, integrating key services like SMS and payment gateways.",
@@ -1701,7 +1818,7 @@
       }
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Complaint Management System",
       "slug": "cms",
       "description": "A comprehensive system to manage customer complaints, streamline resolutions, and enhance customer satisfaction.",
