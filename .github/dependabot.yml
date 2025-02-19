@@ -1,0 +1,50 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "04:00"
+      timezone: "UTC"
+    
+    # Labels on pull requests for version updates
+    labels:
+      - "dependencies"
+      - "npm"
+    
+    # Specify target branch to create pull requests against
+    target-branch: "main"
+    
+    # Allow up to 10 open pull requests for npm dependencies
+    open-pull-requests-limit: 10
+    
+    # Group dependencies updates together
+    groups:
+      nuxt:
+        patterns:
+          - "nuxt*"
+          - "@nuxt*"
+      dev-dependencies:
+        patterns:
+          - "*"
+        dependency-type: "development"
+    
+    # Configure version updating strategy
+    versioning-strategy: "auto"
+    
+    # Set pull request settings
+    pull-request-branch-name:
+      separator: "-"
+    
+    # Raise pull requests for version updates
+    # to npm packages with a version compatible to your package.json
+    version-requirement-updates: "off"
+    
+    # Set reviewers for pull requests (optional)
+    # reviewers:
+    #   - "Motakabbir"
+    
+    # Define which dependencies to update
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
