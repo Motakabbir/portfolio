@@ -99,7 +99,7 @@
                   <GlobeAltIcon class="h-5 w-5" />
                 </a>
               </div>
-              <NuxtLink :to="'/projects/' + project.id"
+              <NuxtLink :to="'/projects/slug/' + project.slug"
                 class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
                 View Details
                 <ArrowRightIcon class="h-4 w-4 ml-1" />
