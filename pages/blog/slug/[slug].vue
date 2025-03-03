@@ -128,7 +128,7 @@
               </template>
 
               <!-- Share Buttons -->
-              <ShareButtons :url="`https://mmorshed.me/blog/${post.slug}`" :title="post.title" class="mt-8" />
+              <ShareButtons :url="`https://mmorshed.me/blog/slug/${post.slug}`" :title="post.title" class="mt-8" />
 
               <!-- Tags -->
               <div v-if="post.tags?.length" class="mt-8">
@@ -183,7 +183,7 @@
               <h2 class="text-xl font-bold mb-4">Related Articles</h2>
               <div class="space-y-6">
                 <article v-for="relatedPost in relatedPosts" :key="relatedPost.id" class="group">
-                  <router-link :to="`/blog/${relatedPost.id}`" class="block space-y-3">
+                  <router-link :to="`/blog/slug/${relatedPost.slug}`" class="block space-y-3">
                     <!-- Image -->
                     <div class="aspect-video overflow-hidden rounded-lg">                     
                       <NuxtPicture :src="relatedPost.coverImage" :alt="relatedPost.title" 
@@ -243,7 +243,7 @@
       <div class="bg-white border-t">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div class="flex justify-between items-center">
-            <router-link v-if="prevPost" :to="'/blog/' + prevPost.id"
+            <router-link v-if="prevPost" :to="'/blog/slug/' + prevPost.slug"
               class="group flex items-center text-gray-600 hover:text-primary transition-colors">
               <svg class="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -257,7 +257,7 @@
               All Articles
             </router-link>
 
-            <router-link v-if="nextPost" :to="'/blog/' + nextPost.id"
+            <router-link v-if="nextPost" :to="'/blog/slug/' + nextPost.slug"
               class="group flex items-center text-gray-600 hover:text-primary transition-colors">
               <span>Next Article</span>
               <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none"
@@ -270,6 +270,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 
@@ -318,10 +319,6 @@ const relatedPosts = computed(() => {
     )
     .slice(0, 2)
 })
-
-const handleImageError = (event) => {
-  event.target.src = '/images/placeholder.svg'
-}
 
 const copyCode = (code) => {
   navigator.clipboard.writeText(code)

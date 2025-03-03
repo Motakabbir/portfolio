@@ -63,7 +63,7 @@
                 <div class="text-sm text-gray-500">{{ featuredPost.author.role }}</div>
               </div>
             </div>
-            <NuxtLink :to="'/blog/' + featuredPost.id"
+            <NuxtLink :to="'/blog/slug/' + featuredPost.slug"
               class="inline-flex items-center text-primary-600 hover:text-primary-700">
               Read More
               <ArrowRightIcon class="h-5 w-5 ml-2" />
@@ -106,12 +106,11 @@
           Try adjusting your search or filter to find what you're looking for.
         </p>
       </div>
-
       <TransitionGroup v-else name="stagger-list" tag="div" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         appear @before-enter="onBeforeEnter" @enter="onEnter">
         <article v-for="(post, index) in filteredPosts" :key="post.id" :data-index="index"
           class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-          <router-link :to="'/blog/' + post.id">            
+          <router-link :to="'/blog/slug/' + post.slug">            
             <NuxtPicture :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" />
             <div class="p-6">
               <div class="flex flex-wrap gap-2 mb-3">

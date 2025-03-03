@@ -326,7 +326,7 @@
                   </div>
 
                   <!-- Read More Link -->
-                  <router-link :to="'/blog/' + post.id"
+                  <router-link :to="'/blog/slug/' + post.slug"
                     class="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700">
                     Read More
                     <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

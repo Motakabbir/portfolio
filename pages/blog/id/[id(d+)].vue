@@ -128,7 +128,7 @@
               </template>
 
               <!-- Share Buttons -->
-              <ShareButtons :url="`https://mmorshed.me/blog/${post.slug}`" :title="post.title" class="mt-8" />
+              <ShareButtons :url="`https://mmorshed.me/blog/id/${post.slug}`" :title="post.title" class="mt-8" />
 
               <!-- Tags -->
               <div v-if="post.tags?.length" class="mt-8">
@@ -183,7 +183,7 @@
               <h2 class="text-xl font-bold mb-4">Related Articles</h2>
               <div class="space-y-6">
                 <article v-for="relatedPost in relatedPosts" :key="relatedPost.id" class="group">
-                  <router-link :to="`/blog/${relatedPost.id}`" class="block space-y-3">
+                  <router-link :to="`/blog/id/${relatedPost.id}`" class="block space-y-3">
                     <!-- Image -->
                     <div class="aspect-video overflow-hidden rounded-lg">                      
                       <NuxtPicture :src="relatedPost.coverImage" :alt="relatedPost.title" 
@@ -243,7 +243,7 @@
       <div class="bg-white border-t">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div class="flex justify-between items-center">
-            <router-link v-if="prevPost" :to="'/blog/' + prevPost.id"
+            <router-link v-if="prevPost" :to="'/blog/id/' + prevPost.id"
               class="group flex items-center text-gray-600 hover:text-primary transition-colors">
               <svg class="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -257,7 +257,7 @@
               All Articles
             </router-link>
 
-            <router-link v-if="nextPost" :to="'/blog/' + nextPost.id"
+            <router-link v-if="nextPost" :to="'/blog/id/' + nextPost.id"
               class="group flex items-center text-gray-600 hover:text-primary transition-colors">
               <span>Next Article</span>
               <svg class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none"
@@ -288,12 +288,15 @@ import portfolioData from '~/data/portfolio.json'
 import NuxtPicture from '@/components/NuxtPicture.vue'
 const route = useRoute()
 const postId = parseInt(route.params.id)
+
 const post = computed(() => {
   if (!portfolioData?.blogPosts) return null
   const post = portfolioData.blogPosts.find(p => p.id == postId)
   if (!post) return null
   return post
 })
+
+
 
 const prevPost = computed(() => {
   const currentIndex = portfolioData.blogPosts.findIndex(p => p.id == postId)

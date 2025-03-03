@@ -65,13 +65,13 @@ export default defineNuxtConfig({
         changefreq: 'weekly'
       },
       ...portfolio.blogPosts.map(blog => ({
-        loc: `/blog/${blog.id}`, // Dynamic URL for blogs
+        loc: `/blog/id/${blog.id}`, // Dynamic URL for blogs
         lastmod: new Date().toISOString().split('T')[0],
         priority: 0.9,
         changefreq: 'weekly'
       })),
       ...portfolio.blogPosts.map(blog => ({
-        loc: `/blog/${blog.slug}`, // Dynamic URL for blogs
+        loc: `/blog/slug/${blog.slug}`, // Dynamic URL for blogs
         lastmod: new Date().toISOString().split('T')[0],
         priority: 0.9,
         changefreq: 'weekly'
@@ -163,6 +163,9 @@ export default defineNuxtConfig({
         'X-XSS-Protection': '1; mode=block'
       }
     }
+  },
+  router: {
+    trailingSlash: false, // Ensure no issues with slashes in URLs
   },
   compatibilityDate: '2025-02-03'
 })
