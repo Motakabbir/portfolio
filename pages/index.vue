@@ -177,7 +177,7 @@
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-2">
                     <h3 class="text-xl font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
-                      <NuxtLink :to="'/slug/' + project.slug"
+                      <NuxtLink :to="'projects/slug/' + project.slug"
                         class="inline-flex items-center text-gray-800 hover:text-gray-900 transition-colors">
                         {{ project.title }}
                       </NuxtLink>
